@@ -98,7 +98,7 @@
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "../../../../../LyX/Resources/templates/alf+fede/alf+fede_physics_macros.lyx"
+filename "./Material Adicional/alf+fede/alf+fede_physics_macros.lyx"
 
 \end_inset
 
