@@ -1,0 +1,360 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+KALE
+\end_layout
+
+\begin_layout Standard
+To the best of the authors knowledge, there has not been any study done
+ which compares biodegradability in real and simulated conditions.
+ This paper investigates and compares the biodegradability of polylactide
+ (PLA) bottles under different testing methods of existing standards, standards
+ under development, and a novel method of evaluating biodegradability of
+ biodegradable materials under real composting conditions.
+ usan botellas PLA comerciales en 3 métodos: compost real, CMR y GMR.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Compost real:
+\end_layout
+
+\begin_layout Standard
+simularon un compost 
+\begin_inset Quotes eld
+\end_inset
+
+real
+\begin_inset Quotes erd
+\end_inset
+
+ aunque no tanto porque no se tiene temperaturas de 65°C wtf
+\end_layout
+
+\begin_layout Standard
+The biodegradation study was carried out for 30 days.
+ The dimension of the pile was 6 m in width, 24 m long, and 3 m in height,
+ and it was built on an asphalt pad.
+ The initial temperature, relative humidity, and pH of pile were 65+-5 1C,
+ 63+-5%, and 8.5+-0.5.
+ A wooden box of dimensions 0.6 m 0.3 m 0.1 m was built with a mesh bottom
+ to retain and easily identify the samples and the surrounding compost for
+ further analysis.
+ Initially, compost was added on the bottom mesh, and later the PLA bottle
+ was placed on it and completely covered with compost.
+ The box was placed approximately 1.2 m above the ground and 1 m inside the
+ compost pile where a uniform composting temperature of 65 1C was obtained
+ periodicamente hicieron analisis sobre el peso y fotografiaron
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang spanish
+Cumulative measurement respirometric (CMR) system:
+\end_layout
+
+\begin_layout Standard
+This system was designed to yield the percentage of carbon dioxide from
+ the organic carbon content of the sample.
+ The compost was sieved through a 5 mm sieve and inert materials such as
+ glass, stones, and metal were removed.
+ PLA bottles were cut into 0.01 m x 0.01 m pieces (excluding part of the neck
+ and cap threads) to be used as samples for biodegradability evaluation.
+ Cellulose powder obtained from Sigma-Aldrich (Milwaukee, WI) was used as
+ the known reference material (i.e., positive control) The current system
+ is comprised of nine bioreactors; three blanks, three positive controls
+ (cellulose), and three samples (PLA bottles) placed in a temperature controlled
+ system—an environmentally controlled room manufactured by Lab-Line Instruments
+ Inc.
+\end_layout
+
+\begin_layout Standard
+Initially, pressurized air of 2 psi was passed through 10N sodium hydroxide
+ (NaOH) solution to remove the CO 2 present in the air.
+ Later, the air was passed through deionized water to humidify and maintain
+ uniform moisture level during the experiment of between 50% and 60%.
+ The air was divided and passed through flowmeters for each bioreactor at
+ a flow rate of 60 mL/min.
+ A solution with 200 mL 0.25N NaOH was used for trapping the CO 2 from the
+ bioreactors, and the amount of CO 2 content in solution was calculated
+ through acid–base titration.
+ NaOH solution was changed every time that CO 2 was calculated.
+ Ten milliliter aliquots were removed from the 200 mL trapping NaOH solution
+ and titrated with 0.186N hydrochloric acid (HCl) solution to obtain the
+ value of CO 2 in solution.
+ The CO 2 content in the 10 mL solution was correlated to the 200 mL solution
+ and actual CO 2 amount was determined.
+ The CO 2 trapping reaction was done in a two step reaction as described
+ in ASTM D5338 and mentioned below: NaOH + CO2 ---> NaHCO3 then NaHCO3 +
+ NaOH ---> Na2CO3 + H2O Similarly, during titration CO 2 is removed through
+ the following reactions: Na2CO3 + HCl --> NaHCO3 + NaCl then NaHCO3 + HCl
+ --> NaCl+H2O + CO2
+\end_layout
+
+\begin_layout Standard
+Luego hallaron la evolución del CO2 y mineralizaciones con indicadores de
+ pH y unas ecuaciones
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/carolina/Pictures/a.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sistema CMR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Gravimetric measurement respirometric (GMR) system
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+The GMR system construction is based on draft ISO 14855-2 (recommends using
+ two blanks, two positive reference materials, and two samples to be analyzed
+ for the biodegradation measurement) a 1:10 ratio of compost/sample is used
+ A GMR system according to some of these specifications has been built by
+ Hissan Trading Co.
+ Ltd.
+ (Tokyo, Japan), and is commercialized under the name of microbial oxidative
+ degradation analyzer (MODA) which consists of four bioreactors, one for
+ blank, one for positive control (cellulose), and two for samples.
+ 
+\end_layout
+
+\begin_layout Standard
+Similar to the CMR, in the MODA system pressurized air is passed through
+ a column containing soda lime with CO2 absorption indicator from Sigma-Aldrich
+ to make it CO2 free.
+ Later, the air is bubbled through a flask containing deionized water to
+ maintain the humidity in the compost mixture and in the reaction column
+ constant.
+ The reaction column consists of a column covered with a heating jacket
+ and a thermosensor to maintain the temperature at 58°C.
+ Air is passed through each bioreactor and later through an ammonia eliminator,
+ moisture remover, and finally to a CO 2 trap column.
+ The standard test soil for the MODA system was a mixture of mature compost
+ as previously described for the CMR system (60 g dry weight) and vermiculite
+ (60 g dry weight).
+ Initially the moisture was adjusted up to 90% of its water holding capacity.
+ Vermiculite (18 g dry weight) was also added at the bottom of the reaction
+ column to absorb the water drips from the compost and also provide equal
+ aeration to the compost mixture.
+ The vermiculite and compost mixture were separated by sponge disks and
+ stainless disk net as shown in Fig.
+ 5.
+ The reaction column was closed with a lid having an attached thermosensor
+ which stayed in contact with the compost mixture.
+ The reaction column was covered with a thermal jacket at a temperature
+ of 58°C, which was continuously controlling the compost mixture.
+ In addition to the carbon dioxide, ammonia and water were also generated
+ from the reaction column which was eliminated by passing the output of
+ the reactors through 2N sulfuric acid (H2SO4 ) in the ammonia absorption
+ flask, and the neutralization of ammonia by H 2 SO 4 was monitored by methyl
+ red.
+ Later, the air was passed through moisture removal columns 1 and 2 as shown
+ in Fig.
+ 4.
+ Silica gel (type 3) was used for moisture removal (column 1); when the
+ silica gel was saturated due to moisture it changed color from dark blue
+ to colorless.
+ Moisture removal column 2 consisted of 20% silica gel and 80% of calcium
+ chloride (93% granular, anhydrous) which completely removes moisture from
+ the air.
+ Column 3 was a carbon dioxide absorption column and contains a mixture
+ of soda lime (cica reagent) and sodium hydroxide (1.6–3 mm pellets) at 1:1
+ ratio.
+ This chemical reaction generated water; hence, column 4 containing calcium
+ chloride collected the remaining water from the reaction.
+ The CO 2 generated by biodegradation in the reaction column was measured
+ by the weight gain seen in columns 3 and 4.
+ The MODA system is a closed system; however, the compost mixture was taken
+ out twice a week for manual turning to ensure proper mixing of compost
+ and sample, and also to improve aeration and maintain accurate moisture
+ in the mixture.
+\end_layout
+
+\begin_layout Standard
+RESULTADOS: REAL COMPOSTING CONDITIONS: On the 15th day, the bottle was
+ already in pieces and mostly consisted of parts from cap threads, neck,
+ and bottle (bottle parts having higher thickness).
+ On the 13th day(creo que quiso decir 30), only a few pieces of bottle were
+ bserved and the majority were from cap threads.
+ After that, no bottle residuals could be located through visual inspection.
+ PLA degradation starts by a hydrolysis reaction, que sigue un decaimiento
+ exponencial el peso moelcular
+\end_layout
+
+\begin_layout Standard
+CMR: la biodegradación del cellulose powder and PLA bottles mostró una mineraliz
+ación del 60% en el día 30 y 39 respectivamente.
+ En el día 58 alcanzaron 86% y 84% respectivamente.
+ Ambos siguen funciones kinda logaritmicas, coincidiendo al final en el
+ dia 58.
+ Initial slower mineralization action in PLA is due to the fact that it
+ first undergoes hydrolysis, which is a non-enzymatic reaction decreasing
+ the molecular weight and later low molecular weight oligomers are consumed
+ by microorganisms to evolve carbon dioxide.
+\end_layout
+
+\begin_layout Standard
+GMR: cellulose reached 70% biodegradation value on the 55th day.
+ One of the PLA bottles showed negative biodegradation in the beginning
+ which could be due to few reasons: (a) PLA bottles first undergo hydrolysis
+ which is non-enzymatic reaction; (b) PLA bottles consisted of a bluetone
+ additive and also a label adhesive which may have affected the microbial
+ activity; and (c) the homogeneity of the compost, which makes the compost
+ generate different background of CO 2 .
+ Sin embargo, las botellas PLA alcanzaron más del 70% mineralización al
+ día 52 so we can conclude that PLA bottles are biodegradable according
+ to the ISO 14855-2, but only if all the ISO 14855-2 conditions of number
+ of samples and validity criteria are met (which is not true in this case
+ with the MODA system).
+ On the 25th day, 15 g (dry weight) fresh compost was added to all reaction
+ columns to improve the microbial activity, and an increase in mineralization
+ value can be observed in the graph.
+\end_layout
+
+\begin_layout Standard
+CONCLUSIONES: PLA biodegradation tests were carried out in real composting
+ and simulated composting conditions.
+ Real conditions, which are governed by factors such as temperature, pH,
+ and relative humidity of the compost pile, showed degradation of the PLA
+ bottles and variation in their molecular weight as a result of hydrolysis
+ plus biodegradation.
+ The variation in molecular weight was also seen to be affected by the compostin
+g process/operation and other parameters.
+ When shredded packages are used in real composting conditions, as used
+ in the
+\end_layout
+
+\begin_layout Standard
+CMR or the GMR systems, a faster degradation time could be expected.
+ However, an overall conclusion cannot be exclusively derived based on the
+ sample size, and all the variables in real composting, such as compost
+ raw materials, en- zymes, ambient atmosphere, etc.
+ and their interac- tion with the biodegradable packages, should be explored
+ for better understanding and insight of the biodegradation process.
+ Current standard meth- odologies ASTM D5338 and ISO 14855-1 provide a tradition
+al way of testing plastics in respirometric systems, but they are limited
+ to the plastic material and not to the whole package.
+ The new GMR system similarly has limitations of using a small quantity
+ of compost which might extend the period of biodegradation.
+ In short, current standards mainly answer the question: is a plastic or
+ package biodegradable? But they do not address the final question: will
+ the package successfully biodegrade in a commercial compost facility? Therefore
+, it is important to test the biodegradation of the com- plete package under
+ real composting conditions for its efficient deployment in the existing
+ composting processes as demonstrated in this work.
+\end_layout
+
+\end_body
+\end_document
