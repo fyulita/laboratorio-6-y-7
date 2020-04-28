@@ -193,15 +193,8 @@ Hicimos videollamada con Lucas y Lucía para hablar sobre los papers que
 
  para armar un sistema DMR.
  De ser muy caros o de no haber podemos ver como armar uno de estos equipos
- (leer la tesis de Castro-Aguirre 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Castro-Aguirre"
-literal "false"
-
-\end_inset
-
-) usando espectrómetros de luz infrarroja como los que hay en el DF.
+ (leer la tesis de Castro-Aguirre) usando espectrómetros de luz infrarroja
+ como los que hay en el DF.
  A estos sensores hay que automatizarlos para que midan cada ciertos intervalos
  de tiempo y discutimos la idea de separar los flujos de aire de cada muestra
  con el mismo respirador para ahorrar y de poder automatizar las mediciones
