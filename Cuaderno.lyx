@@ -30,7 +30,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -262,6 +262,350 @@ Varillas largas de vidrio.
 Debemos armar un esquema del equipo para que Lucas se fije que no falten
  partes.
  Él quedó en mandarnos fotos de los equipos y materiales.
+\end_layout
+
+\begin_layout Section*
+CMR
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename esquema.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema experimental
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El esquema experimental sería algo que sigue fuertemente el de Kale.
+\end_layout
+
+\begin_layout Standard
+Con un aireador hacemos que fluya aire, que primero atraviesa un frasco
+ de PE 
+\color red
+(qué tamaño?)
+\color inherit
+ con NaOH para remover el CO2 presente en el aire.
+ Luego el aire atraviesa un frasco con agua para humedecerse (se encuentra
+ por las dudas válvulas, no vaya a ser que se humedezca demasiado, pero
+ creo que es re medible y controlable, se podrían sacar quizás) y se controla
+ en todo momento con un medidor RH.
+ Luego se divide en 3 caminos y cada camino se une a 3 reactores (donde
+ se encuentra el compost) uno para el material a analizar en cuestión, otro
+ para el control positivo (celulosa posiblemente) y otro para 
+\color red
+...
+ (según papers 
+\begin_inset Quotes eld
+\end_inset
+
+blanket
+\begin_inset Quotes erd
+\end_inset
+
+ no sé a qué se refiere)
+\color inherit
+.
+ Y así, tres de estos por estadística.
+ Todos los reactores a su vez se conectan a otro frasco de PE con NaOH para
+ hacer una trampa de CO2.
+ Contienen válvulas para cuando se realice la medición.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+PRECIOS Y LUGARES DONDE COMPRAR:
+\end_layout
+
+\begin_layout Itemize
+Conectores y separadores triples
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Vienen con válvulas, eso está bueno.
+ Ya tienen los precios:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "espacio industria"
+target "https://espacio-industria.com/catalogsearch/result/?q=triple"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "todo gardena"
+target "http://www.todogardena.com.ar/riego-gardena/conectores-manguera-gardena.html?p=2"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+Acá venden mangueras de silicona y conectores.
+ Es el que más me gustó porque venden todo junto,
+\color gray
+ les mandé mail
+\color inherit
+ para corroborar que el diámetro de la manguera coincida justo con los conectore
+s, y para saber los precios:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "goma filtros - acoples"
+target "http://www.gomafiltros.com/productos/acoples_neumaticos/acoples_060_plasticos.php"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "goma filtros - manguera silicona"
+target "http://www.gomafiltros.com/productos/mangueras/gomafiltros/manguera_silicona_peristaltica.php"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Erlenmeyer 500mL con tapa de plástico, para los reactores (no preguntamos
+ pero en mercado libre todos rondan los $500, así que debe estar por ahí)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "ztlab - erlenmeyers con tapa a rosca plástica autoclavable"
+target "https://ztlab.com.ar/producto/erlenmeyers-con-tapa-a-rosca-plastica-autoclavable/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "ztlab -erlenmeyer con tapa plastica"
+target "https://ztlab.com.ar/producto/erlenmeyers-con-tapa-plastica/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Varilla de vidrio 
+\color red
+(longitud?)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "ztlab - varilla"
+target "https://ztlab.com.ar/producto/varillas-de-vidrio-macizas-vidrio-resistente/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Frascos de PE para el NaOH
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\color gray
+Averiguando si ztlab tiene
+\end_layout
+
+\begin_layout Itemize
+un millón de posibilidades (envase, frasco, vaso, etc) Ctrl+F 
+\begin_inset Quotes eld
+\end_inset
+
+polietileno
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "zelian"
+target "https://www.zelian.com.ar/envases-y-botellas-material-general-plastico-instrumental-de-laboratorio--prod--4478--ord--cArtDes-asc-va"
+literal "false"
+
+\end_inset
+
+ 
+\color red
+preguntar tamaño tanto para el primero como las trampas .
+ Preguntar si para este último no conviene usar 
+\begin_inset Quotes eld
+\end_inset
+
+Lavador integral
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+NaOH
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sigma Aldrich.
+ Mucha cantidad y detalles que no entiendo.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\color red
+Faltaría pasacables, pero no sé para qué es eso.
+ Tampoco para qué las varillas
+\end_layout
+
+\begin_layout Section*
+DMR
+\end_layout
+
+\begin_layout Standard
+El esquema experimental sería el mismo que el CMR pero en vez de poner un
+ 
+\color purple
+M CO2
+\color inherit
+ en cada trampa de NaOH se conectarían a mangueras que converjan a una única
+ manguera a la cual se le conecta un sensor NDIR.
+ (previamente se le pone una trampa de agua para quitar el exceso de humidificac
+ión del aire, que puede dañar al sensor)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ALGUNOS NDIR 
+\series default
+\color red
+(todos tienen límite de 50°C pero también el del paper, preguntar si la
+ T alta es de la tierra pero quizás no del gas) 
+\color gray
+pregunté en todos, esperando respuesta
+\end_layout
+
+\begin_layout Itemize
+EL DEL PAPER: 
+\begin_inset CommandInset href
+LatexCommand href
+name "LI-COR"
+target "https://instrumentalia.com.ar/producto/nuevos-li-830-de-co2-y-li-850-de-co2-h2o/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ultramat 6 y Ultramat 23 - Siemens - Dastec 
+\begin_inset CommandInset href
+LatexCommand href
+name "Dastec"
+target "https://www.dastecsrl.com.ar/productos/analizadores-de-gases/analizadores-de-02-ndir-laser-y-h2/infrarrojos-ndir/ultramat-6-analizador-infrarrojo-de-2-gases"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+No tiene mucha pinta este pero bueno 
+\begin_inset CommandInset href
+LatexCommand href
+name "condelelectronica"
+target "http://www.condelelectronica.com.ar/Gases_NDIR.htm"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+parece ser más de ambiente 
+\begin_inset CommandInset href
+LatexCommand href
+name "wika"
+target "https://www.wika.com.ar/a2g_85_es_es.WIKA"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Bibliography
