@@ -30,7 +30,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -332,7 +332,7 @@ blanket
  no sé a qué se refiere)
 \color inherit
 .
- Y así, tres de estos por estadística.
+ Y así, tres de estos, por estadística.
  Todos los reactores a su vez se conectan a otro frasco de PE con NaOH para
  hacer una trampa de CO2.
  Contienen válvulas para cuando se realice la medición.
@@ -345,13 +345,13 @@ PRECIOS Y LUGARES DONDE COMPRAR:
 \end_layout
 
 \begin_layout Itemize
-Conectores y separadores triples
+Mangueras y conectoress
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Vienen con válvulas, eso está bueno.
- Ya tienen los precios:
+ Ya tienen los precios (no venden mangueras de silicona):
 \end_layout
 
 \begin_deeper
@@ -382,13 +382,19 @@ literal "false"
 \end_deeper
 \end_deeper
 \begin_layout Standard
-Acá venden mangueras de silicona y conectores.
- Es el que más me gustó porque venden todo junto,
-\color gray
- les mandé mail
-\color inherit
- para corroborar que el diámetro de la manguera coincida justo con los conectore
-s, y para saber los precios:
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+-Una empresa, MG, me dijo que no existen acoples a mangueras de silicona.
+\end_layout
+
+\begin_layout Standard
+-Empresa Goma Filtros .
+ Esta opción parece como de mejor calidad, por eso la dejo:
 \end_layout
 
 \begin_layout Standard
@@ -415,9 +421,81 @@ literal "false"
 
 \end_layout
 
+\begin_layout Standard
+Comenté que necesito que la manguera y los conectores encastren bien y no
+ me dijo nada al respecto, lo cual me hace dudar lo que me dijo la otra
+ empresa, 
+\begin_inset Quotes eld
+\end_inset
+
+que no existen
+\begin_inset Quotes erd
+\end_inset
+
+, jaja.
+ Se piden a medida, lo cual no puedo pedir precio sin diámetro interno y
+ externo de la manguera de silicona.
+ El problema es que son industriales, fabrican rollos de 150m, de todas
+ maneras el hombre me dijo que puede cortarnos unos 5 metros o lo que sea
+ necesario (le dije 5m pero la verdad no sé cuanto exactamente).
+ 
+\color red
+Así que, preguntar el grosor y la longitud de las mangueras.
+\end_layout
+
+\begin_layout Standard
+-Empresa AccesTech S.A.
+\end_layout
+
+\begin_layout Standard
+Venden mangueras de silicona ( 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.accesstechsa.com.ar/documentos/Mangueras%20Access%20XB.pdf"
+
+\end_inset
+
+ ), los conectores se mandan a hacer según material y grosor 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.accesstechsa.com.ar/catalogo/uso-farmaceutico/86/value-plastics---conectores-fijos"
+
+\end_inset
+
+ , no me convencen que no parecen herméticos
+\end_layout
+
+\begin_layout Standard
+-Empresa Interwest 
+\end_layout
+
+\begin_layout Standard
+Tienen los mismos conectores que Goma Filtros ( 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.interwest.com.ar/product/detail/97"
+
+\end_inset
+
+ ) el hombre me recomendó no usar manguera de silicona porque no encastran
+ bien en los acoples, quizás de 1/2 pulgada sí.
+ 
+\color red
+Recomendó mejor usar goma alimenticia que encastran perfecto y son más baratos
+ que la silicona.
+\end_layout
+
+\begin_layout Standard
+—————————RESUMEN: manguera de silicona NO va bien con acoples, averiguar
+ si se puede utilizar otro————–
+\end_layout
+
 \begin_layout Itemize
-Erlenmeyer 500mL con tapa de plástico, para los reactores (no preguntamos
- pero en mercado libre todos rondan los $500, así que debe estar por ahí)
+Erlenmeyer 500mL con tapa de plástico, para los reactores 
+\color gray
+ya pedí cotización, esperando respuesta 
+\color black
+(en mercado libre anda en $500 así que debe estar aprox eso)
 \end_layout
 
 \begin_deeper
@@ -430,7 +508,7 @@ literal "false"
 
 \end_inset
 
-
+ <– no sé qué es autoclavable
 \end_layout
 
 \begin_layout Itemize
@@ -442,14 +520,14 @@ literal "false"
 
 \end_inset
 
-
+ <– pregunté por este
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Varilla de vidrio 
 \color red
-(longitud?)
+(diámetro?)
 \end_layout
 
 \begin_deeper
@@ -462,7 +540,11 @@ literal "false"
 
 \end_inset
 
-
+ (longitud de 1500mm) 
+\color gray
+ya pedí precio del de diámetro 7mm, el intermedio como para darnos una idea
+ del precio.
+ Esperando respuesta 
 \end_layout
 
 \end_deeper
@@ -474,7 +556,7 @@ Frascos de PE para el NaOH
 \begin_layout Itemize
 
 \color gray
-Averiguando si ztlab tiene
+Averiguando si ztlab tiene, así se podría comprar ahí todo de una
 \end_layout
 
 \begin_layout Itemize
@@ -498,7 +580,7 @@ literal "false"
  
 \color red
 preguntar tamaño tanto para el primero como las trampas .
- Preguntar si para este último no conviene usar 
+ Preguntar si para este último quizás conviene usar 
 \begin_inset Quotes eld
 \end_inset
 
