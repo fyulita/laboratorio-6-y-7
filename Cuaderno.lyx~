@@ -30,7 +30,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 1
+\output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -318,20 +318,8 @@ Con un aireador hacemos que fluya aire, que primero atraviesa un frasco
  en todo momento con un medidor RH.
  Luego se divide en 3 caminos y cada camino se une a 3 reactores (donde
  se encuentra el compost) uno para el material a analizar en cuestión, otro
- para el control positivo (celulosa posiblemente) y otro para 
-\color red
-...
- (según papers 
-\begin_inset Quotes eld
-\end_inset
-
-blanket
-\begin_inset Quotes erd
-\end_inset
-
- no sé a qué se refiere)
-\color inherit
-.
+ para el control positivo (celulosa posiblemente) y otro de control negativo
+ (vacío).
  Y así, tres de estos, por estadística.
  Todos los reactores a su vez se conectan a otro frasco de PE con NaOH para
  hacer una trampa de CO2.
@@ -394,7 +382,7 @@ literal "false"
 
 \begin_layout Standard
 -Empresa Goma Filtros .
- Esta opción parece como de mejor calidad, por eso la dejo:
+ Esta opción parece como la mejor calidad, de las que vi al menos:
 \end_layout
 
 \begin_layout Standard
@@ -444,6 +432,27 @@ Así que, preguntar el grosor y la longitud de las mangueras.
 \end_layout
 
 \begin_layout Standard
+-Empresa Interwest 
+\end_layout
+
+\begin_layout Standard
+Tienen los mismos conectores que Goma Filtros ( 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.interwest.com.ar/product/detail/97"
+
+\end_inset
+
+ ) el hombre me recomendó no usar manguera de silicona porque no encastran
+ bien en los acoples, quizás de 1/2 pulgada sí pero con abrazaderas y no
+ está completamente seguro que funcione.
+ 
+\color red
+Recomendó mejor usar goma alimenticia que encastran perfecto y son más baratos
+ que la silicona.
+\end_layout
+
+\begin_layout Standard
 -Empresa AccesTech S.A.
 \end_layout
 
@@ -462,136 +471,631 @@ target "http://www.accesstechsa.com.ar/catalogo/uso-farmaceutico/86/value-plasti
 
 \end_inset
 
- , no me convencen que no parecen herméticos
+ y me dijo que sí son para silicona!! Lo que no me convence mucho es la
+ calidad, no parece que vayan a cerrar bien.
 \end_layout
 
 \begin_layout Standard
--Empresa Interwest 
+————RESUMEN: manguera de silicona NO va bien con acoples, averiguar si se
+ puede utilizar otro.
+ (Salvo los de Accestech pero no me convence la calidad y/o que cierren
+ bien)
 \end_layout
 
 \begin_layout Standard
-Tienen los mismos conectores que Goma Filtros ( 
+Para tener una noción de precios: MG vende entre $400 y $800 el metro, según
+ diámetros; InterWest dijo que podría salir unos 10 o 12 usd el metro, por
+ eso recomendó usar goma que es más barato y encastra mejor.
+ De los demás no me cotizan hasta no saber las dimensiones————
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frascos de vidrio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-target "http://www.interwest.com.ar/product/detail/97"
+name "Zelian"
+target "https://www.zelian.com.ar/frasco-tipo-schott-con-tapa-autoclavables-121-c-x-500-ml---det--VID-01655"
+literal "false"
 
 \end_inset
 
- ) el hombre me recomendó no usar manguera de silicona porque no encastran
- bien en los acoples, quizás de 1/2 pulgada sí.
- 
-\color red
-Recomendó mejor usar goma alimenticia que encastran perfecto y son más baratos
- que la silicona.
+ : Frasco tipo Schott con tapa, Autoclavables +121°C
 \end_layout
 
-\begin_layout Standard
-—————————RESUMEN: manguera de silicona NO va bien con acoples, averiguar
- si se puede utilizar otro————–
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+USD 5
 \end_layout
 
-\begin_layout Itemize
-Erlenmeyer 500mL con tapa de plástico, para los reactores 
-\color gray
-ya pedí cotización, esperando respuesta 
-\color black
-(en mercado libre anda en $500 así que debe estar aprox eso)
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-name "ztlab - erlenmeyers con tapa a rosca plástica autoclavable"
+name "Zelian"
+target "https://www.zelian.com.ar/botella-para-esterilizacion-de-500-ml-marca-deltalab-modelo-402005---det--VID-02434"
+literal "false"
+
+\end_inset
+
+:Botella para esterilización de 500 ml.
+ Marca Deltalab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+USD 9.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Zelian"
+target "https://www.zelian.com.ar/frasco-cuadrado-con-tapa-a-rosca-x-500-ml-marca-iva-modelo-810105--det--VID-01505"
+literal "false"
+
+\end_inset
+
+ Frasco cuadrado con tapa a rosca x 500 ml.
+ Marca IVA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+USD 12.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+creo que el precio es x10unidades
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "ztlab"
 target "https://ztlab.com.ar/producto/erlenmeyers-con-tapa-a-rosca-plastica-autoclavable/"
 literal "false"
 
 \end_inset
 
- <– no sé qué es autoclavable
+ erlenmeyers con tapa a rosca plástica autoclavable
 \end_layout
 
-\begin_layout Itemize
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-name "ztlab -erlenmeyer con tapa plastica"
+name "ztlab"
 target "https://ztlab.com.ar/producto/erlenmeyers-con-tapa-plastica/"
 literal "false"
 
 \end_inset
 
- <– pregunté por este
+ : erlenmeyer con tapa plastica
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Varilla de vidrio 
-\color red
-(diámetro?)
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
 \begin_inset CommandInset href
 LatexCommand href
-name "ztlab - varilla"
-target "https://ztlab.com.ar/producto/varillas-de-vidrio-macizas-vidrio-resistente/"
+name "Mil envases"
+target "https://www.milenvases.com/productos/liquido-vidrio-cristal-x500cc-tapa-inviolable-x50-unidades/"
 literal "false"
 
 \end_inset
 
- (longitud de 1500mm) 
-\color gray
-ya pedí precio del de diámetro 7mm, el intermedio como para darnos una idea
- del precio.
- Esperando respuesta 
+
+\series default
+: Liquido vidrio cristal x500cc tapa inviolable 
+\series bold
+x50 unidades
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Frascos de PE para el NaOH
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\color gray
-Averiguando si ztlab tiene, así se podría comprar ahí todo de una
-\end_layout
-
-\begin_layout Itemize
-un millón de posibilidades (envase, frasco, vaso, etc) Ctrl+F 
-\begin_inset Quotes eld
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
 
-polietileno
-\begin_inset Quotes erd
+\begin_layout Plain Layout
+$3.209
+\end_layout
+
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
-: 
+\begin_layout Plain Layout
+se ve chica la tapa
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+capaz no sea muy hermético :/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Varilla de vidrio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset CommandInset href
 LatexCommand href
-name "zelian"
-target "https://www.zelian.com.ar/envases-y-botellas-material-general-plastico-instrumental-de-laboratorio--prod--4478--ord--cArtDes-asc-va"
+name "Figmay - Córdoba"
+target "https://figmay.com/tubos-de-vidrio-borosilicato/"
 literal "false"
 
 \end_inset
 
- 
-\color red
-preguntar tamaño tanto para el primero como las trampas .
- Preguntar si para este último quizás conviene usar 
-\begin_inset Quotes eld
-\end_inset
+ , 
+\begin_inset CommandInset href
+LatexCommand href
+name "Figmay: mercado libre"
+target "https://listado.mercadolibre.com.ar/_CustId_240352565"
+literal "false"
 
-Lavador integral
-\begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
-\end_deeper
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lucas dijo que iba a preguntar a sus conocidos cuáles consiguieron
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frascos de PE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Zelian"
+target "https://www.zelian.com.ar/botellas-en-polietileno-de-500-ml-marca-deltalab-modelo-282310--det--PLA-00199"
+literal "false"
+
+\end_inset
+
+ : Botellas en polietileno de 500 ml, Marca Deltalab,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+USD 1.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frasco lavador vidrio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Zelian"
+target "https://www.zelian.com.ar/frasco-lavador-tipo-dreschel-x-500-ml-de-forma-alta-con-placa-porosa-marca-iva-modelo-780402--det--VID-01491https://www.zelian.com.ar/frasco-lavador-tipo-dreschel-x-500-ml-de-forma-alta-con-placa-porosa-marca-iva-modelo-780402--det--VID-01491"
+literal "false"
+
+\end_inset
+
+ : Frasco lavador tipo Dreschel x 500 ml, de forma alta, con placa porosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+USD 216.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frasco lavador PE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Zelian"
+target "https://www.zelian.com.ar/lavador-integral-de-250-ml-en-polietileno-translucido-marca-deltalab-modelo-191633--det--APL-01101"
+literal "false"
+
+\end_inset
+
+ : Lavador integral de 250 ml en polietileno translúcido.
+ Marca Deltalab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+USD 6.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 NaOH
 \end_layout
@@ -639,7 +1143,7 @@ pregunté en todos, esperando respuesta
 \end_layout
 
 \begin_layout Itemize
-EL DEL PAPER: 
+El de Castro-Aguirre : 
 \begin_inset CommandInset href
 LatexCommand href
 name "LI-COR"
@@ -648,7 +1152,7 @@ literal "false"
 
 \end_inset
 
-
+ recordar pedirle cotización de los 2
 \end_layout
 
 \begin_layout Itemize
@@ -678,16 +1182,83 @@ literal "false"
 \end_layout
 
 \begin_layout Itemize
-parece ser más de ambiente 
+WIKA: hay 4 tipos, 2 preparados para conductos de ventilación ( 
 \begin_inset CommandInset href
 LatexCommand href
-name "wika"
-target "https://www.wika.com.ar/a2g_85_es_es.WIKA"
-literal "false"
+target "https://www.wika.com.ar/upload/DS_SP6907_en_co_30261.pdf "
 
 \end_inset
 
+) y 2 para ambientes ( 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.wika.com.ar/upload/DS_SP6912_en_co_72665.pdf "
 
+\end_inset
+
+) .
+ Los precios son 600 usd, o 730 usd con display (+ impuestos)
+\end_layout
+
+\begin_layout Paragraph
+15/05
+\end_layout
+
+\begin_layout Standard
+Videollamada con Lucas en la UNSAM.
+ Mostró que tienen el sistema CMR en versión grande (así llamado por él)
+ todo con frascos de 3L aprox.
+ y la idea es hacer lo mismo en miniatura.
+ Ellos usaron mangueras negras de PE con conectores/bocas/codos también
+ de PE.
+ Explicó por qué es necesario una varilla de vidrio previo al frasco; es
+ porque la manguera de silicona es muy flexible y no queda herméticamente
+ cerrada.
+ Por eso lo ideal es poner antes una varilla de vidrio hueca o un tubo de
+ PE (googlearlos), que a su vez va dentro de un pasachapa y orrin que es
+ para que comprima bien herméticamente (un sello).
+ Es importante que la varilla o el tubo de PE tenga como mucho 3mm de diámetro
+ interno porque sino necesitamos muchísima presión inicial (ellos tienen
+ un equipo comprensor que usan de aireador de unos 8bar).
+ Por otro lado, la temperatura de los frascos se controlaría poniéndolos
+ sobre alguna plataforma con agua.
+\end_layout
+
+\begin_layout Standard
+Luego, de los reactores se conectan con mangueras a un recipiente con NaOH
+ para capturar el CO2, y se mide con titulación.
+ Este NaOH se vio que burbujeaba mucho menos, a causa de una gran caída
+ de presión desde la inicial hasta el final.
+\end_layout
+
+\begin_layout Standard
+Es fundamental pensa en automatizar este sistema.
+ Lo que debemos hacer es, toda la primer parte dejarla igual pero a la salida
+ de las trampas con NaOH llevar todas esas mangueras a una única junto a
+ válvulas automatizadas, de manera que con código o un botón permita el
+ paso de una y de otra para la medición.
+ Si no tenemos esto no podemos usar el sensor NDIR (o sí, pero sería el
+ mismo dolor de cabeza de antes tener que medir uno por uno).
+\end_layout
+
+\begin_layout Standard
+Respecto a los NDIR: el ideal sería el LI-COR (que es el que usó Castro-Aguirre)
+ que hay dos tipos: uno que mide solo CO2 y otro que mide CO2 y H2O.
+ Si elegimos el primero debemos antes hacer una trampa de agua para no arruinar
+ el equipo, si elegimos el segundo medimos directamente; pero debe ser bastante
+ más caro; así que hay que ver si la trampa de agua resulta más barata que
+ el medidor de H2O también.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Por lo tanto, quedamos en que nuestro laburo ahora sea pensar en automatizar
+ el sistema.
+\end_layout
+
+\begin_layout Standard
+IDEA: programadores de riego
 \end_layout
 
 \begin_layout Bibliography
