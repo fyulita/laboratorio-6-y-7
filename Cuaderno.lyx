@@ -275,8 +275,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename esquema.png
+	filename Imagenes/esquema.png
 	scale 40
 
 \end_inset
@@ -490,8 +491,9 @@ Para tener una noción de precios: MG vende entre $400 y $800 el metro, según
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="4">
+<lyxtabular version="3" rows="11" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -519,7 +521,7 @@ literal "false"
 
 \end_inset
 
- : Frasco tipo Schott con tapa, Autoclavables +121°C
+ : Frasco Schott c/tapa, Autoclavables +121°C
 \end_layout
 
 \end_inset
@@ -528,7 +530,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-USD 5
+US$5
 \end_layout
 
 \end_inset
@@ -565,8 +567,7 @@ literal "false"
 
 \end_inset
 
-:Botella para esterilización de 500 ml.
- Marca Deltalab
+:Botella esterilización 500 ml Deltalab
 \end_layout
 
 \end_inset
@@ -575,7 +576,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-USD 9.7
+US$9.7
 \end_layout
 
 \end_inset
@@ -612,8 +613,9 @@ literal "false"
 
 \end_inset
 
- Frasco cuadrado con tapa a rosca x 500 ml.
- Marca IVA
+ Frasco cuadrado c/tapa a rosca 500 ml IVA
+\series bold
+ 10 u.
 \end_layout
 
 \end_inset
@@ -622,7 +624,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-USD 12.5
+US$12.5
 \end_layout
 
 \end_inset
@@ -631,7 +633,7 @@ USD 12.5
 \begin_inset Text
 
 \begin_layout Plain Layout
-creo que el precio es x10unidades
+
 \end_layout
 
 \end_inset
@@ -659,7 +661,7 @@ literal "false"
 
 \end_inset
 
- erlenmeyers con tapa a rosca plástica autoclavable
+ erlenmeyers c/tapa a rosca plástica autoclavable
 \end_layout
 
 \end_inset
@@ -705,7 +707,7 @@ literal "false"
 
 \end_inset
 
- : erlenmeyer con tapa plastica
+ : erlenmeyer c/tapa plástica
 \end_layout
 
 \end_inset
@@ -755,9 +757,9 @@ literal "false"
 
 
 \series default
-: Liquido vidrio cristal x500cc tapa inviolable 
+: Líquido cristal 500cc tapa inviolable 
 \series bold
-x50 unidades
+50 u.
 \end_layout
 
 \end_inset
@@ -775,45 +777,7 @@ $3.209
 \begin_inset Text
 
 \begin_layout Plain Layout
-se ve chica la tapa
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-$30
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-capaz no sea muy hermético :/
+tapa chica?
 \end_layout
 
 \end_inset
@@ -943,45 +907,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-USD 1.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+US$1.4
 \end_layout
 
 \end_inset
@@ -1018,7 +944,7 @@ literal "false"
 
 \end_inset
 
- : Frasco lavador tipo Dreschel x 500 ml, de forma alta, con placa porosa
+: Lavador Dreschel 500 ml, forma alta, c/placa porosa
 \end_layout
 
 \end_inset
@@ -1027,7 +953,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-USD 216.5
+US$216.5
 \end_layout
 
 \end_inset
@@ -1064,8 +990,7 @@ literal "false"
 
 \end_inset
 
- : Lavador integral de 250 ml en polietileno translúcido.
- Marca Deltalab
+: Lavador integral 250 ml polietileno translúcido Deltalab
 \end_layout
 
 \end_inset
@@ -1074,7 +999,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-USD 6.1
+US$6.1
 \end_layout
 
 \end_inset
@@ -1404,8 +1329,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename auto1.png
+	filename Imagenes/auto1.png
 	scale 50
 	rotateOrigin center
 
@@ -1418,7 +1344,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Esquema electrónico para una sola válvula
+Esquema electrónico para una sola válvula.
 \end_layout
 
 \end_inset
@@ -1442,8 +1368,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename auto2.png
+	filename Imagenes/auto2.png
 	scale 40
 
 \end_inset
@@ -1455,7 +1382,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Esquema con 9 válvulas solenoide (marcadas como V)
+Esquema con 9 válvulas solenoide (marcadas como V).
 \end_layout
 
 \end_inset
