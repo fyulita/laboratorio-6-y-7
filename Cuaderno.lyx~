@@ -1110,8 +1110,7 @@ Sigma Aldrich.
 \begin_layout Standard
 
 \color red
-Faltaría pasacables, pero no sé para qué es eso.
- Tampoco para qué las varillas
+Faltaría pasacables o pasachapa
 \end_layout
 
 \begin_layout Section*
@@ -1259,6 +1258,220 @@ Por lo tanto, quedamos en que nuestro laburo ahora sea pensar en automatizar
 
 \begin_layout Standard
 IDEA: programadores de riego
+\end_layout
+
+\begin_layout Section*
+AUTOMATIZAR EL SISTEMA
+\end_layout
+
+\begin_layout Standard
+Para automatizar el sistema lo necesario es:
+\end_layout
+
+\begin_layout Itemize
+Válvulas solenoides -> válvulas que se cierran/abren al ser alimentadas
+ con voltaje.
+ Hay que tener cuidado, en mercado libre hay muuuucho para agua (y caras),
+ el aire es más difícil de controlar así que hay que ver de no tener pérdidas.
+ Algunos que encontramos relativamente económicos; pero habría que probar
+ 1 solo a ver si funciona:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "opción barata"
+target "https://articulo.mercadolibre.com.ar/MLA-824727704-valvula-solenoide-12v-agua-aire-normal-cerrada-itytarg-_JM?quantity=1"
+literal "false"
+
+\end_inset
+
+ (si aparece como publicación pausada darle enter nuevamente, o es casi
+ lo misma que 
+\begin_inset CommandInset href
+LatexCommand href
+name "esta otra"
+target "https://articulo.mercadolibre.com.ar/MLA-733133067-valvula-solenoide-12v-agua-aire-arduino-itytarg-_JM?quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=27b49828-7d48-4af4-9fe3-c171ce1c228d"
+literal "false"
+
+\end_inset
+
+ (~$770)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "opción intermedia"
+target "https://articulo.mercadolibre.com.ar/MLA-781852310-electrovalvula-solenoide-22-neumatica-conectores-completa-_JM?quantity=1#position=14&type=item&tracking_id=714cbe0a-3929-434a-897b-6711cc1b8a86"
+literal "false"
+
+\end_inset
+
+ (~$1500)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "impagable, pero se ve buena"
+target "https://articulo.mercadolibre.com.ar/MLA-754249654-valvula-solenoide-gas-12-thermoval-compatible-nacional-_JM?quantity=1#position=1&type=item&tracking_id=e2721f65-7c1d-402a-83d6-776d24d01532"
+literal "false"
+
+\end_inset
+
+ (~ $3500)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Arduino, donde vamos a codearlo para que se abren/cierren las válvulas en
+ determinados horios (o cada cierta cantidad de tiempo) 
+\begin_inset CommandInset href
+LatexCommand href
+name "Mega"
+target "https://articulo.mercadolibre.com.ar/MLA-630931603-arduino-mega-2560-r3-cable-usb-_JM?quantity=1#position=1&type=item&tracking_id=b69c4fc2-6853-446d-8d9c-a5809bc6f063"
+literal "false"
+
+\end_inset
+
+ (~$1500) o 
+\begin_inset CommandInset href
+LatexCommand href
+name "UNO"
+target "https://articulo.mercadolibre.com.ar/MLA-824322735-arduino-uno-r3-compatible-atmel-atmega328-ch340g-domotica-_JM?quantity=1#position=12&type=item&tracking_id=2e574a3a-9565-446d-987b-b79c7a039d82"
+literal "false"
+
+\end_inset
+
+ (~$750) [redefinir si los output AC pueden usarse como DC]
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Necesitará una fuente de alimentación (5V) que puede ser el USB de la computador
+a (o sea, una compu prendida durante todo el experimento), una buena batería
+ o un enchufe+transformador
+\end_layout
+
+\begin_layout Itemize
+Relays, uno para cada válvula 
+\begin_inset CommandInset href
+LatexCommand href
+name "1"
+target "https://articulo.mercadolibre.com.ar/MLA-647246948-modulo-rele-de-1-canal-5v-10a-arduino-pic-avr-todomicro-_JM?quantity=1#position=1&type=item&tracking_id=f99c61f3-efc0-4cf1-8f27-42eb58a7355a1"
+literal "false"
+
+\end_inset
+
+ (~$130 c/u) - 
+\begin_inset CommandInset href
+LatexCommand href
+name "módulo de 8"
+target "https://articulo.mercadolibre.com.ar/MLA-665557520-modulo-relay-rele-de-8-canales-5v-10a-arduino-pic-todomicro-_JM?quantity=1#position=11&type=item&tracking_id=f99c61f3-efc0-4cf1-8f27-42eb58a7355a"
+literal "false"
+
+\end_inset
+
+ (~ $850)
+\end_layout
+
+\begin_layout Itemize
+Cablecitos machos y hembras (son re baratos)
+\end_layout
+
+\begin_layout Itemize
+Si se quieren agregar cosas, como botones por ejemplo, se necesita un protoboard
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esquema con una sóla válvula:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename auto1.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema electrónico para una sola válvula
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Y sumando todas las demás válvulas, quedaría algo así:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename auto2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema con 9 válvulas solenoide (marcadas como V)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lo más caro de todo son las válvulas.
+ Sino podemos ver de hacerlas, el funcionamiento es simple, pero no confiamos
+ en nuestras habilidades, ya que esto tiene que quedar bien bien bien hermético.
 \end_layout
 
 \begin_layout Bibliography
