@@ -33,6 +33,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement h
 \paperfontsize default
 \spacing single
 \use_hyperref true
@@ -120,7 +121,7 @@ C.
 \end_layout
 
 \begin_layout Section
-Primer Cuatrimestre
+2020
 \end_layout
 
 \begin_layout Paragraph
@@ -488,13 +489,6 @@ Para tener una noción de precios: MG vende entre $400 y $800 el metro, según
  diámetros; InterWest dijo que podría salir unos 10 o 12 usd el metro, por
  eso recomendó usar goma que es más barato y encastra mejor.
  De los demás no me cotizan hasta no saber las dimensiones————
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1130,7 +1124,7 @@ target "https://www.wika.com.ar/upload/DS_SP6912_en_co_72665.pdf "
 \end_layout
 
 \begin_layout Paragraph
-15/05
+15/05/20
 \end_layout
 
 \begin_layout Standard
@@ -1412,7 +1406,7 @@ literal "false"
 \end_inset
 
  por ejemplo hacen una), el funcionamiento es simple, pero no confiamos
- en nuestras habilidades, ya que esto tiene que quedar bien bien bien hermético.
+ en nuestras habilidades, ya que esto tiene que quedar bien bien bien hermético
 \end_layout
 
 \begin_layout Bibliography
@@ -1453,6 +1447,369 @@ E.
 \emph on
 Insights on the aerobic biodegradation of polymers by analysis of evolved
  carbon dioxide in simulated composting conditions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+2021
+\end_layout
+
+\begin_layout Paragraph
+Lunes 22/03/21
+\end_layout
+
+\begin_layout Standard
+Quedamos en realizar el laboratorio 6 de manera presencial.
+ La idea será ir lo menos posible.
+ Primero actualizar el presupuesto, hablar con proveedores, adquirir los
+ elementos y una vez que tengamos todo ir al laboratorio a ensamblar.
+\end_layout
+
+\begin_layout Standard
+Hoy lunes 22 de marzo tuvimos una primer reunión en el laboratorio para
+ que Lucas nos muestre algunas partes del experimento, para poder tomar
+ medidas y tener mejor noción para buscar productos.
+ La idea es buscar los productos y según el presupuesto total que lleva
+ ver si hacer sistema de 3 reactores, 4 o los que se puedan.
+ El esquema para un sistema sería:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Imagenes/esquema_de_uno.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema experimental para un sistema
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego veríamos, según lo que de el presupuesto, qué cantidad armar de estos.
+\end_layout
+
+\begin_layout Standard
+Lucía nos comentó cómo hacer el proceso de compra.
+ Debemos pedir facturas (B o C) a nombre de la UBA y debe tener contenida
+ una leyenda que es el código del subsidio.
+ Luego, le pasamos la factura, ella la sube y hace la transferencia, y luego
+ de unos días podemos ir a buscar los productos.
+ Nos comentó que el subsidio no permite comprar equipos, que en el caso
+ del aireador y del sensor CO2 pidamos que la factura diga otra cosa por
+ el mismo monto; así con esa pequeña mentira podemos comprarlo.
+ Además, ninguna compra debe ser superior a $19.999 en un mismo lugar, sino
+ no la pasa el subsidio.
+\end_layout
+
+\begin_layout Paragraph
+Martes 23/03/21
+\end_layout
+
+\begin_layout Standard
+Tuvimos la primer reunión (virtual) con Silvia Ledesma y todos los estudiantes
+ que cursan labo 6.
+ Nos contó cómo se va a trabajar durante el cuatrimestre.
+ Le comentamos nuestra situación de poder realizar el laboratorio de forma
+ presencial y nos ha permitido.
+ Le pasamos el plan de trabajo.
+\end_layout
+
+\begin_layout Standard
+Buscamos los elementos del equipo, pedimos cotización y lo fuimos cargando
+ en una plantilla de excel en drive compartido entre los 4.
+ Llevó varios días encontrar las cosas, consultar, esperar a que respondan,
+ ver si conviene o no tal producto, seguir buscando, etc.
+\end_layout
+
+\begin_layout Paragraph
+Jueves 01/04/21
+\end_layout
+
+\begin_layout Standard
+Ya hablamos con los proveedores de casi todos los elementos, pero nos dimos
+ cuenta que debemos ir al laboratorio antes de comprar uno último.
+ Para calentar los frascos usaremos sunchos, que son resistencias que rodean
+ al frasco, como muestra la figura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/ed317409-7491-40fe-9933-a3f82de10385.jpeg
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sistema de calentamiento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El problema es que no sabemos cuánto voltaje debemos alimentarlo para la
+ temperatura deseada (cerca de los 55°C).
+ Podríamos usar un variac, pero son manuales y la idea es tener todo automatizad
+o.
+ Así que usaremos potenciómetros y lo controlaremos con el arduino para
+ hacer un PID.
+ El problema es que se venden por rangos (0-26V, 0-35V, 25-83V, etc) y no
+ conocemos el rango que vamos a utilizar.
+ Así que debemos ir al laboratorio a medirlo.
+ Al darnos cuenta de esto les pedimos a Lucas y Lucía hacer una videollamada,
+ les comentamos la situación y estuvieron de acuerdo.
+ Les mostramos todos los precios cómo venían y nos pidieron que usemos termocupl
+as largas, frascos más largos, etc así que actualizamos eso para el lunes
+ (ya que es feriado, semana santa).
+ En la videollamada también discutimos qué sensor de CO2 usar, la idea es
+ usar uno con arduino.
+ Encontramos de opciones:
+\end_layout
+
+\begin_layout Itemize
+SENSOR GAS MQ-135, que mide amoníaco, nitrógeno, benzeno, CO2 y humo.
+ Sale cerca de $300.
+ Nos parece genial el precio, pero raro que mida tantas cosas, así que no
+ nos parece confiable.
+ Se nos hace que debe detectar si hay o no, pero no debe dar una cantidad
+\end_layout
+
+\begin_layout Itemize
+SENSOR GAS CO2 MG-811 a $10.000 .
+ Este sí genera buena confianza, es un sensor específico para eso, además
+ mide 2cmx2cm así que es excelente para las dimensiones de nuestro trabajo.
+ La forma en la que trabaja es que cambia su resistencia según el CO2 analizado.
+ El problema es que es muy caro.
+\end_layout
+
+\begin_layout Itemize
+SENSOR DE CO2 Mh-z16 a $6400.
+ Funciona como NDIR, por infrarrojo, lo cual es más confiable.
+ Tiene buen precio.
+ El problema es que es grande (es un tubito de 10cm de largo y unos 3cm
+ de diámetro) entonces su medición debe ser ambiental, no local, entonces
+ debemos armarle un envase propio para que acumule y mida allí CO2.
+\end_layout
+
+\begin_layout Standard
+Finalmente, los precios de los elementos necesarios fueron
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Imagenes/precios.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Precios de los elementos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Y comparamos si conviene armar 3 sistemas o 4 sistemas.
+ Esta comparación la hicimos teniendo en cuenta que tenemos una compra de
+ base indivisible (aireador+arduino+cablecitos) por $4353 y luego cada sistema
+ (frasco+suncho+termocupla, etc) sale $7411.
+ Sumándole a cualquiera de los casos los $6400 del sensor.
+\end_layout
+
+\begin_layout Standard
+Comparándolos, nos confirmaron que el presupuesto da para 4 sistemas de
+ reactores.
+ Así, entonces, el esquema experimental completo sería (sin la parte eléctrica
+ para no hacer un enrollo):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Imagenes/esquema_completo.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema mecánico de 4 sistemas, sin la parte termo-eléctrico.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mientras que la parte termo - eléctrica sería:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Imagenes/esquema_calentamiento.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema termo - eléctrico.
+ Se muestra para dos sistemas, para los otros dos es análogo compartiendo
+ el mismo arduino.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Semana del 05/04
+\end_layout
+
+\begin_layout Standard
+Durante toda la semana estuvimos pidiéndoles a los proveedores facturas
+ y los datos para realizar la transferencia.
+ Llevó toda la semana ya que fueron unos 8 proveedores y algunos tardaban
+ bastante en contestar, no pasaban todos los datos, etc.
+\end_layout
+
+\begin_layout Standard
+Los datos que les teníamos que pedir era CBU, Titular (nombre del titular),
+ CUIL o CUIT (aclarar cuál), Banco, Sucursal, Nº de Cuenta, Tipo de cuenta,
+ Mail.
+ Y la mayoría no enviaba la sucursal e incluso uno ni la sabían, esto demoró
+ bastante la comunicación.
+\end_layout
+
+\begin_layout Standard
+Las facturas se las pasamos a Lucía y luego ella los carga en el sistema
+ junto a los datos bancarios.
+ Al día siguiente o en los siguientes días el subsidio lo revisaba y aprobaba,
+ y ellos realizaban la transferencia.
+ Esto era así en las facturas que fueran superiores a $3000.
+ Las que eran menores había que juntarlas hasta que lleguen a $3000, y tuvimos
+ el problema de que las únicas tres facturas menores, juntas llegaban a
+ $2950 y tuvimos que buscar algo más de $50 para poder llegar a los $3000.
+ Le queríamos pedir un envase pero el proveedor nos dijo que solo por uno
+ no nos hacía factura...
+ así que buscamos alguna otra cosa que le sirva al laboratorio.
+ Terminamos comprando pipetas pasteur.
 \end_layout
 
 \end_body
