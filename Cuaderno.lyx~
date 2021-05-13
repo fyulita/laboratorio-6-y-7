@@ -33,7 +33,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement h
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref true
@@ -1487,6 +1487,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Imagenes/esquema_de_uno.png
 	scale 40
@@ -1511,6 +1512,10 @@ Esquema experimental para un sistema
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Azul: manguera/tubo donde pasa el aire, rojo: termocupla, negro:cables.
 \end_layout
 
 \begin_layout Standard
@@ -1657,6 +1662,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Imagenes/precios.png
 	scale 40
@@ -1709,9 +1715,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Imagenes/esquema_completo.png
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1746,9 +1753,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Imagenes/esquema_calentamiento.png
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -1800,8 +1808,8 @@ Los datos que les teníamos que pedir era CBU, Titular (nombre del titular),
 \begin_layout Standard
 Las facturas se las pasamos a Lucía y luego ella los carga en el sistema
  junto a los datos bancarios.
- Al día siguiente o en los siguientes días el subsidio lo revisaba y aprobaba,
- y ellos realizaban la transferencia.
+ En los siguientes días el subsidio lo revisaba y aprobaba, y ellos realizaban
+ la transferencia.
  Esto era así en las facturas que fueran superiores a $3000.
  Las que eran menores había que juntarlas hasta que lleguen a $3000, y tuvimos
  el problema de que las únicas tres facturas menores, juntas llegaban a
@@ -1810,6 +1818,265 @@ Las facturas se las pasamos a Lucía y luego ella los carga en el sistema
  no nos hacía factura...
  así que buscamos alguna otra cosa que le sirva al laboratorio.
  Terminamos comprando pipetas pasteur.
+\end_layout
+
+\begin_layout Paragraph*
+Semana del 20/04
+\end_layout
+
+\begin_layout Standard
+Una vez que el subsidio hizo las transferencias fuimos a buscar los materiales,
+ nos distribuimos según cercanía.
+ Fede fue a buscar los pintados en violeta y Caro los pintados en azul
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/mapa.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mapa de la mercadería que retiramos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Imagenes/compras.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Compras realizadas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Viernes 07/05
+\end_layout
+
+\begin_layout Standard
+Fuimos al laboratorio a llevar toda la mercadería.
+ Usamos un variac conectado a un suncho para ver cuánto voltaje sería necesario
+ para que, en su interior, se tenga una temperatura de 52°C.
+ Observamos que con 50V llega y supera los 50°C.
+ Por lo tanto, para la realización del PID pensamos movernos entre 50V y
+ 75V.
+ Para ello, necesitaremos una fuente variable digital o un potenciómetro
+ digital, para poder controlarla con arduino.
+\end_layout
+
+\begin_layout Paragraph*
+Miércoles 12/05
+\end_layout
+
+\begin_layout Standard
+Hablamos con Matías, el técnico de laboratorio, y nos recomendó hacer un
+ PID pero simplemente con on/off, sin fuente variable.
+ Nos contó que los controladores PID que ellos tienen en el labo no tienen
+ fuentes variables, son on/off pero con la programación de un PID, enviando
+ muchos pulsos que aparentan fuentes variables.
+ Por lo tanto, nos queda conseguir relays para realizar el PID.
+\end_layout
+
+\begin_layout Standard
+Además, medimos la resistencia del suncho (R=142.6
+\begin_inset Formula $\Omega$
+\end_inset
+
+, Potencia=350W) y llevamos tierra (compost orgánico) para analizar cuánta
+ inercia tenemos.
+ La tierra la mojamos con agua y la escurrimos para sacar el exceso, para
+ que resulte humeda.
+ Tomamos un frasco de vidrio, un suncho y 3 termocuplas cuyas ubicaciones
+ fueron una externa pegada a la resistencia (Llamada T
+\begin_inset Formula $_{suncho})$
+\end_inset
+
+, la siguiente a la mitad del centro (llamada T
+\begin_inset Formula $_{costado}$
+\end_inset
+
+) y la otra en el centro (llamada T
+\begin_inset Formula $_{centro}$
+\end_inset
+
+).
+ Alimentamos al suncho con un variac a 60V y tomamos mediciones de las 3
+ temperaturas, cada un minuto.
+ Los resultados fueron:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/calentamiento.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Calentamiento a potencia constante.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(el gap se debe a una interrupción)
+\end_layout
+
+\begin_layout Standard
+Observamos que se mantiene casi constante una diferencia de 40°C entre la
+ temperatura del suncho y la del centro, dando como una primera impresión
+ mucha inercia térmica, lo cual era esperado dado que la tierra es básicamente
+ aislante (a veces se lo utiliza con ese fin).
+ Además, se puede observar que el tiempo de respuesta al centro es alrededor
+ de 15 minutos.
+ Manteniendo a 60V constantemente, luego de dos horas el suncho ha llegado
+ casi a los 90°C y el centro ha llegado a los 52°C, que es la temperatura
+ deseada.
+ Ninguna de las dos temperaturas se estabilizaron, no hemos medido cuándo
+ se estabilizará la temperatura, pero creemos que tardaría mucho más.
+\end_layout
+
+\begin_layout Standard
+El suncho es nuestro parámetro de control, y será el que utilizaremos para
+ el PID.
+ Dada este gráfico, podemos observar que a 60V mantiene un rango lineal
+ luego de los 65°C.
+ Si hacemos un PID con 60V con el objetivo de que la temperatura fuera cerca
+ de 55°C, estaríamos moviéndonos en el rango exponencial de la curva, lo
+ cual estaría apagándose y prendiéndose de manera muy frecuente.
+ Creemos que, sería más conveniente movernos en un rango lineal.
+ Por dicha razón, deberíamos entonces tener un voltaje de 50V o incluso
+ menos (a diferencia de 60V) para así tener un rango lineal cerca de los
+ 55°C.
+\end_layout
+
+\begin_layout Standard
+Probamos, por curiosidad, fittear la medición con la función error
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $T(x,t)=2\frac{F_{0}}{K}\left[\sqrt{\frac{\kappa t}{\pi}}e^{\frac{x^{2}}{4\kappa t}}-erf(\frac{\kappa}{2\sqrt{\kappa t}})\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dejando como parámetros libres 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ , llamando A a la amplitud y sumándole un B.
+ Con todo eso no funcionó, así que lo ploteamos con solo la parte de erf()
+ y lo hizo excelente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/calentamiento_fit.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Calentamiento de la tierra, fitteado con la función error.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
