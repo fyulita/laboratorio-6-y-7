@@ -3,7 +3,7 @@
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /systemlyxdir/templates/alf+fede/
+\origin unavailable
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
@@ -388,7 +388,7 @@ Special and useful functions
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\DIRACDELTA}[1]{\delta_{D}\PARENTHESES{#1}}
+\newcommand{\DIRACDELTA}{\delta_{D}}
 \end_inset
 
 
@@ -412,7 +412,7 @@ Special and useful functions
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\HEAVISIDETHETA}[1]{\Theta_{H}\PARENTHESES{#1}}
+\newcommand{\HEAVISIDETHETA}{\Theta_{H}}
 \end_inset
 
 
@@ -623,6 +623,22 @@ Derivatives
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\EVALUATEDAT}[3]{\left.#1\right|_{#2}^{#3}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\LEFTDERIVATIVE}{\overleftarrow{\partial}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\LRDERIVATIVE}{\overset{\leftrightarrow}{\partial}}
 \end_inset
 
 

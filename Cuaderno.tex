@@ -1,0 +1,659 @@
+%% LyX 2.3.6.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[spanish]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2cm,rmargin=2cm}
+\usepackage{xcolor}
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{amstext}
+\usepackage{graphicx}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{alf+fede_preamble}
+\usepackage[babel]{csquotes}
+\spanishdecimal{.}
+
+\makeatother
+
+\begin{document}
+\include{\string"Material Adicional/alf+fede/alf+fede_physics_macros\string"}
+\title{Cuaderno de Laboratorio VI y VII}
+\author{C. Iacovone y F. Yulita}
+\date{2020}
+\maketitle
+
+\section{2020}
+
+\paragraph{11/03}
+
+Hablamos con Lucía Fama (co-directora) sobre la investigación y quedó
+en mandarnos material para leer por mail. Nos mandó el plan de investigación
+de Lucas Guz (director) y dos papers escritos por ambos\emph{: Influence
+of extrusion process conditions on starch film morphology} e \emph{Influence
+of process (extrusion thermo-compression, casting) and lentil protein
+content on physicochemical properties of starch films.}
+
+\paragraph{25/03}
+
+Hicimos videollamada y discutimos sobre los pdf's que nos mandaron.
+Le mandamos un mail a Lucas y a Lucía pidiéndoles el resumen del trabajo
+que vamos a hacer para entregarle a Silvia.
+
+\paragraph{26/03}
+
+Recibimos más papers y otro material para leer de parte de Lucas.
+
+\paragraph{20/04}
+
+Lucas nos mandó papers para leer y nos pidió averiguar sobre materiales,
+en particular sobre aereadores de pecera, tubos de plástico, conectores
+que se puedan hacer herméticos, frascos que se van a usar de reactores,
+sensores de humedad y sensores de temperatura. Recomendó prestarle
+más atención al paper de Kale \cite{Kale} ya que es el que más se
+parece a lo que vamos a hacer.
+
+\paragraph{28/04}
+
+Hicimos videollamada con Lucas y Lucía para hablar sobre los papers
+que nos dieron, aclarar dudas y discutir los materiales, técnicas
+y equipos que vamos a usar. Nos pidieron que averigüemos sobre sensores
+de $\text{CO}_{2}$ para armar un sistema DMR. De ser muy caros o
+de no haber podemos ver como armar uno de estos equipos (leer la tesis
+de Castro-Aguirre \cite{Castro-Aguirre}) usando espectrómetros de
+luz infrarroja como los que hay en el DF. A estos sensores hay que
+automatizarlos para que midan cada ciertos intervalos de tiempo y
+discutimos la idea de separar los flujos de aire de cada muestra con
+el mismo respirador para ahorrar y de poder automatizar las mediciones
+de flujo de cada uno usando un sistema válvulas. Acordamos también
+en averiguar presupuestos sobre los siguientes materiales:
+\begin{itemize}
+\item Hidróxido de sodio (NaOH).
+\item 10 frascos de $0.5\text{ l}$ a $1\text{ l}$ para las muestras. Deben
+tener la tapa de plástico con cierre hermético y mejor si son de vidrio
+(ver \href{https://en.wikipedia.org/wiki/Erlenmeyer_flask}{matraz de Erlenmeyer}).
+\item Frasco de polietileno para el NaOH.
+\item Frascos para agua con tapas de plástico.
+\item Mangueras de silicona o tubos transparentes de polietileno. De elegir
+el último debemos averiguar sobre separadores triples y codos que
+se ajusten.
+\item Pasacables.
+\item Varillas largas de vidrio.
+\end{itemize}
+Debemos armar un esquema del equipo para que Lucas se fije que no
+falten partes. Él quedó en mandarnos fotos de los equipos y materiales.
+
+\section*{CMR}
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.4]{Imagenes/esquema}
+\par\end{centering}
+\caption{Esquema experimental}
+\end{figure}
+
+El esquema experimental sería algo que sigue fuertemente el de Kale.
+
+Con un aireador hacemos que fluya aire, que primero atraviesa un frasco
+de PE \textcolor{red}{(qué tamaño?)} con NaOH para remover el CO2
+presente en el aire. Luego el aire atraviesa un frasco con agua para
+humedecerse (se encuentra por las dudas válvulas, no vaya a ser que
+se humedezca demasiado, pero creo que es re medible y controlable,
+se podrían sacar quizás) y se controla en todo momento con un medidor
+RH. Luego se divide en 3 caminos y cada camino se une a 3 reactores
+(donde se encuentra el compost) uno para el material a analizar en
+cuestión, otro para el control positivo (celulosa posiblemente) y
+otro de control negativo (vacío). Y así, tres de estos, por estadística.
+Todos los reactores a su vez se conectan a otro frasco de PE con NaOH
+para hacer una trampa de CO2. Contienen válvulas para cuando se realice
+la medición.
+
+\textbf{PRECIOS Y LUGARES DONDE COMPRAR:}
+\begin{itemize}
+\item Mangueras y conectoress
+\begin{itemize}
+\item Vienen con válvulas, eso está bueno. Ya tienen los precios (no venden
+mangueras de silicona):
+
+\href{https://espacio-industria.com/catalogsearch/result/?q=triple}{espacio industria}
+
+\href{http://www.todogardena.com.ar/riego-gardena/conectores-manguera-gardena.html?p=2}{todo gardena}
+\end{itemize}
+\end{itemize}
+%
+-Una empresa, MG, me dijo que no existen acoples a mangueras de silicona.
+
+-Empresa Goma Filtros . Esta opción parece como la mejor calidad,
+de las que vi al menos:
+
+\href{http://www.gomafiltros.com/productos/acoples_neumaticos/acoples_060_plasticos.php}{goma filtros - acoples}
+
+\href{http://www.gomafiltros.com/productos/mangueras/gomafiltros/manguera_silicona_peristaltica.php}{goma filtros - manguera silicona}
+
+Comenté que necesito que la manguera y los conectores encastren bien
+y no me dijo nada al respecto, lo cual me hace dudar lo que me dijo
+la otra empresa, ``que no existen'', jaja. Se piden a medida, lo
+cual no puedo pedir precio sin diámetro interno y externo de la manguera
+de silicona. El problema es que son industriales, fabrican rollos
+de 150m, de todas maneras el hombre me dijo que puede cortarnos unos
+5 metros o lo que sea necesario (le dije 5m pero la verdad no sé cuanto
+exactamente). \textcolor{red}{Así que, preguntar el grosor y la longitud
+de las mangueras.}
+
+-Empresa Interwest 
+
+Tienen los mismos conectores que Goma Filtros ( \href{http://www.interwest.com.ar/product/detail/97}{http://www.interwest.com.ar/product/detail/97}
+) el hombre me recomendó no usar manguera de silicona porque no encastran
+bien en los acoples, quizás de 1/2 pulgada sí pero con abrazaderas
+y no está completamente seguro que funcione. \textcolor{red}{Recomendó
+mejor usar goma alimenticia que encastran perfecto y son más baratos
+que la silicona.}
+
+-Empresa AccesTech S.A.
+
+Venden mangueras de silicona ( \href{http://www.accesstechsa.com.ar/documentos/Mangueras\%20Access\%20XB.pdf}{http://www.accesstechsa.com.ar/documentos/Mangueras\%20Access\%20XB.pdf}
+), los conectores se mandan a hacer según material y grosor \href{http://www.accesstechsa.com.ar/catalogo/uso-farmaceutico/86/value-plastics---conectores-fijos}{http://www.accesstechsa.com.ar/catalogo/uso-farmaceutico/86/value-plastics---conectores-fijos}
+y me dijo que sí son para silicona!! Lo que no me convence mucho es
+la calidad, no parece que vayan a cerrar bien.
+
+------------RESUMEN: manguera de silicona NO va bien con acoples,
+averiguar si se puede utilizar otro. (Salvo los de Accestech pero
+no me convence la calidad y/o que cierren bien)
+
+Para tener una noción de precios: MG vende entre \$400 y \$800 el
+metro, según diámetros; InterWest dijo que podría salir unos 10 o
+12 usd el metro, por eso recomendó usar goma que es más barato y encastra
+mejor. De los demás no me cotizan hasta no saber las dimensiones------------
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Frascos de vidrio & \href{https://www.zelian.com.ar/frasco-tipo-schott-con-tapa-autoclavables-121-c-x-500-ml---det--VID-01655}{Zelian}
+: Frasco Schott c/tapa, Autoclavables +121°C & US\$5 & \tabularnewline
+\hline 
+\hline 
+ & \href{https://www.zelian.com.ar/botella-para-esterilizacion-de-500-ml-marca-deltalab-modelo-402005---det--VID-02434}{Zelian}:Botella
+esterilización 500 ml Deltalab & US\$9.7 & \tabularnewline
+\hline 
+ & \href{https://www.zelian.com.ar/frasco-cuadrado-con-tapa-a-rosca-x-500-ml-marca-iva-modelo-810105--det--VID-01505}{Zelian}
+Frasco cuadrado c/tapa a rosca 500 ml IVA\textbf{ 10 u.} & US\$12.5 & \tabularnewline
+\hline 
+ & \textbf{\href{https://www.milenvases.com/productos/liquido-vidrio-cristal-x500cc-tapa-inviolable-x50-unidades/}{Mil envases}}:
+Líquido cristal 500cc tapa inviolable \textbf{50 u.} & \$3.209 & tapa chica\tabularnewline
+\hline 
+Varilla de vidrio & \href{https://figmay.com/tubos-de-vidrio-borosilicato/}{Figmay - Córdoba}  & \href{https://listado.mercadolibre.com.ar/_CustId_240352565}{precios} & \tabularnewline
+\hline 
+ & Lucas comentó que iba a preguntar a sus conocidos dónde las compraron &  & \tabularnewline
+\hline 
+Frascos de PE & \href{https://www.zelian.com.ar/botellas-en-polietileno-de-500-ml-marca-deltalab-modelo-282310--det--PLA-00199}{Zelian}
+: Botellas en polietileno de 500 ml, Marca Deltalab, & US\$1.4 & \tabularnewline
+\hline 
+Frasco lavador vidrio & \href{https://www.zelian.com.ar/frasco-lavador-tipo-dreschel-x-500-ml-de-forma-alta-con-placa-porosa-marca-iva-modelo-780402--det--VID-01491https://www.zelian.com.ar/frasco-lavador-tipo-dreschel-x-500-ml-de-forma-alta-con-placa-porosa-marca-iva-modelo-780402--det--VID-01491}{Zelian}:
+Lavador Dreschel 500 ml, forma alta, c/placa porosa & US\$216.5 & \tabularnewline
+\hline 
+Frasco lavador PE & \href{https://www.zelian.com.ar/lavador-integral-de-250-ml-en-polietileno-translucido-marca-deltalab-modelo-191633--det--APL-01101}{Zelian}:
+Lavador integral 250 ml polietileno translúcido Deltalab & US\$6.1 & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{center}
+
+\begin{itemize}
+\item NaOH
+\begin{itemize}
+\item Sigma Aldrich. Mucha cantidad y detalles que no entiendo.
+\end{itemize}
+\end{itemize}
+Esos frascos no tienen tapas muy anchas, lamentablemente. Buscando
+con tapa de plástica ancha, los que encontramos son frascos grandes
+(\href{https://articulo.mercadolibre.com.ar/MLA-656935825-mayorista-12-frascos-vidrio-1500cc-ctapa-plastica-rozca-_JM?quantity=1\#position=20&type=item&tracking_id=b1e5eeb5-573b-4429-af1f-748735694265}{1.5L})
+o sino de plástico (mil envases: \href{https://articulo.mercadolibre.com.ar/MLA-698322247-tarro-de-polietileno-con-tapa-a-rosca-de-1600cc-_JM?quantity=1&variation=37025401211\#position=2&type=item&tracking_id=20fd38a7-8ea8-4d63-b063-9f4695419a9e}{1.6L de PE}
+no tienen otra medida; \href{https://articulo.mercadolibre.com.ar/MLA-672507814-tarro-plastico-pvc-500cc-con-tapa-12-unidades-_JM?quantity=1&variation=34062127181\#position=48&type=item&tracking_id=2116d5a7-9969-453b-9a94-bbad3ac61fd5}{PVC 0.5L}
+) (mil envases tiene más cosas en mercado libre que en su página web).
+Los de vidrio de 0.5L con tapa ancha suelen tener tapa de metal, lo
+cual no nos sirve.\\
+
+Sobre los pasachapa: no encontramos de los que nos mostró Lucas, de
+plástico. Al menos en internet todo lo que aparece son tipo conectores
+metálicos, algunos ejemplos \href{http://intor.com.ar/catalogo/87-rectos-pasa-chapa}{aquí}
+o \href{https://www.industriasnelson.com.ar/producto/union-pasachapa-14mm-82aup14/}{aquí otro},
+todos de este estilo; metálicos. Y sino también así \href{https://articulo.mercadolibre.com.ar/MLA-675032677-cupla-inserto-latyn-pert-h-25-x-34-_JM\#position=1&type=item&tracking_id=27f25c60-ce81-4f2b-b43b-1e328a8d0f26}{este otro}
+más parecido a lo que nos mostró Lucas pero con nombre de cupla (metálico
+por dentro, con rosca)\\
+\\
+
+Creemos que debemos priorizar la búsqueda de los pasachapa y las varillas
+de vidrio o tubos PE previo a los frascos (que parece lo más difícil
+de conseguir). Una vez tenido eso definido seguiremos buscando conectores
+y mangueras acuerdo a esos tamaños para que encastren bien.
+
+\section*{DMR}
+
+El esquema experimental sería el mismo que el CMR pero en vez de poner
+un \textcolor{purple}{M CO2} en cada trampa de NaOH se conectarían
+a mangueras que converjan a una única manguera a la cual se le conecta
+un sensor NDIR. (previamente se le pone una trampa de agua para quitar
+el exceso de humidificación del aire, que puede dañar al sensor)
+
+\textbf{ALGUNOS NDIR }\textcolor{red}{(todos tienen límite de 50°C
+pero también el del paper, preguntar si la T alta es de la tierra
+pero quizás no del gas) }\textcolor{gray}{pregunté en todos, esperando
+respuesta}
+\begin{itemize}
+\item El de Castro-Aguirre : \href{https://instrumentalia.com.ar/producto/nuevos-li-830-de-co2-y-li-850-de-co2-h2o/}{LI-COR}
+recordar pedirle cotización de los 2
+\item Ultramat 6 y Ultramat 23 - Siemens - Dastec \href{https://www.dastecsrl.com.ar/productos/analizadores-de-gases/analizadores-de-02-ndir-laser-y-h2/infrarrojos-ndir/ultramat-6-analizador-infrarrojo-de-2-gases}{Dastec}
+\item No tiene mucha pinta este pero bueno \href{http://www.condelelectronica.com.ar/Gases_NDIR.htm}{condelelectronica}
+\item WIKA: hay 4 tipos, 2 preparados para conductos de ventilación ( \href{https://www.wika.com.ar/upload/DS_SP6907_en_co_30261.pdf\%20}{https://www.wika.com.ar/upload/DS\_SP6907\_en\_co\_30261.pdf })
+y 2 para ambientes ( \href{https://www.wika.com.ar/upload/DS_SP6912_en_co_72665.pdf\%20}{https://www.wika.com.ar/upload/DS\_SP6912\_en\_co\_72665.pdf })
+. Los precios son 600 usd, o 730 usd con display (+ impuestos)
+\end{itemize}
+
+\paragraph{15/05/20}
+
+Videollamada con Lucas en la UNSAM. Mostró que tienen el sistema CMR
+en versión grande (así llamado por él) todo con frascos de 3L aprox.
+y la idea es hacer lo mismo en miniatura. Ellos usaron mangueras negras
+de PE con conectores/bocas/codos también de PE. Explicó por qué es
+necesario una varilla de vidrio previo al frasco; es porque la manguera
+de silicona es muy flexible y no queda herméticamente cerrada. Por
+eso lo ideal es poner antes una varilla de vidrio hueca o un tubo
+de PE (googlearlos), que a su vez va dentro de un pasachapa y orrin
+que es para que comprima bien herméticamente (un sello). Es importante
+que la varilla o el tubo de PE tenga como mucho 3mm de diámetro interno
+porque sino necesitamos muchísima presión inicial (ellos tienen un
+equipo comprensor que usan de aireador de unos 8bar). Por otro lado,
+la temperatura de los frascos se controlaría poniéndolos sobre alguna
+plataforma con agua.
+
+Luego, de los reactores se conectan con mangueras a un recipiente
+con NaOH para capturar el CO2, y se mide con titulación. Este NaOH
+se vio que burbujeaba mucho menos, a causa de una gran caída de presión
+desde la inicial hasta el final.
+
+Es fundamental pensa en automatizar este sistema. Lo que debemos hacer
+es, toda la primer parte dejarla igual pero a la salida de las trampas
+con NaOH llevar todas esas mangueras a una única junto a válvulas
+automatizadas, de manera que con código o un botón permita el paso
+de una y de otra para la medición. Si no tenemos esto no podemos usar
+el sensor NDIR (o sí, pero sería el mismo dolor de cabeza de antes
+tener que medir uno por uno).
+
+Respecto a los NDIR: el ideal sería el LI-COR (que es el que usó Castro-Aguirre)
+que hay dos tipos: uno que mide solo CO2 y otro que mide CO2 y H2O.
+Si elegimos el primero debemos antes hacer una trampa de agua para
+no arruinar el equipo, si elegimos el segundo medimos directamente;
+pero debe ser bastante más caro; así que hay que ver si la trampa
+de agua resulta más barata que el medidor de H2O también.
+
+\textbf{Por lo tanto, quedamos en que nuestro laburo ahora sea pensar
+en automatizar el sistema.}
+
+IDEA: programadores de riego
+
+\section*{AUTOMATIZAR EL SISTEMA}
+
+Para automatizar el sistema lo necesario es:
+\begin{itemize}
+\item Válvulas solenoides -> válvulas que se cierran/abren al ser alimentadas
+con voltaje. Hay que tener cuidado, en mercado libre hay muuuucho
+para agua (y caras), el aire es más difícil de controlar así que hay
+que ver de no tener pérdidas. Algunos que encontramos relativamente
+económicos; pero habría que probar 1 solo a ver si funciona:
+\begin{itemize}
+\item \href{https://articulo.mercadolibre.com.ar/MLA-824727704-valvula-solenoide-12v-agua-aire-normal-cerrada-itytarg-_JM?quantity=1}{opción barata}
+(si aparece como publicación pausada darle enter nuevamente, o es
+casi lo misma que \href{https://articulo.mercadolibre.com.ar/MLA-733133067-valvula-solenoide-12v-agua-aire-arduino-itytarg-_JM?quantity=1\#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=27b49828-7d48-4af4-9fe3-c171ce1c228d}{esta otra}
+(\textasciitilde\$770)
+\item \href{https://articulo.mercadolibre.com.ar/MLA-781852310-electrovalvula-solenoide-22-neumatica-conectores-completa-_JM?quantity=1\#position=14&type=item&tracking_id=714cbe0a-3929-434a-897b-6711cc1b8a86}{opción intermedia}
+(\textasciitilde\$1500)
+\item \href{https://articulo.mercadolibre.com.ar/MLA-754249654-valvula-solenoide-gas-12-thermoval-compatible-nacional-_JM?quantity=1\#position=1&type=item&tracking_id=e2721f65-7c1d-402a-83d6-776d24d01532}{impagable, pero se ve buena}
+(\textasciitilde{} \$3500)
+\end{itemize}
+\item Arduino, donde vamos a codearlo para que se abren/cierren las válvulas
+en determinados horios (o cada cierta cantidad de tiempo) \href{https://articulo.mercadolibre.com.ar/MLA-630931603-arduino-mega-2560-r3-cable-usb-_JM?quantity=1\#position=1&type=item&tracking_id=b69c4fc2-6853-446d-8d9c-a5809bc6f063}{Mega}
+(\textasciitilde\$1500) o \href{https://articulo.mercadolibre.com.ar/MLA-824322735-arduino-uno-r3-compatible-atmel-atmega328-ch340g-domotica-_JM?quantity=1\#position=12&type=item&tracking_id=2e574a3a-9565-446d-987b-b79c7a039d82}{UNO}
+(\textasciitilde\$750) {[}redefinir si los output AC pueden usarse
+como DC{]}
+\begin{itemize}
+\item Necesitará una fuente de alimentación (5V) que puede ser el USB de
+la computadora (o sea, una compu prendida durante todo el experimento),
+una buena batería o un enchufe+transformador
+\item Relays, uno para cada válvula \href{https://articulo.mercadolibre.com.ar/MLA-647246948-modulo-rele-de-1-canal-5v-10a-arduino-pic-avr-todomicro-_JM?quantity=1\#position=1&type=item&tracking_id=f99c61f3-efc0-4cf1-8f27-42eb58a7355a1}{1}
+(\textasciitilde\$130 c/u) - \href{https://articulo.mercadolibre.com.ar/MLA-665557520-modulo-relay-rele-de-8-canales-5v-10a-arduino-pic-todomicro-_JM?quantity=1\#position=11&type=item&tracking_id=f99c61f3-efc0-4cf1-8f27-42eb58a7355a}{módulo de 8}
+(\textasciitilde{} \$850)
+\item Cablecitos machos y hembras (son re baratos)
+\item Si se quieren agregar cosas, como botones por ejemplo, se necesita
+un protoboard
+\end{itemize}
+\end{itemize}
+%
+Esquema con una sóla válvula:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.5]{Imagenes/auto1}
+\par\end{centering}
+\caption{Esquema electrónico para una sola válvula.}
+\end{figure}
+
+Y sumando todas las demás válvulas, quedaría algo así:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.4]{Imagenes/auto2}
+\par\end{centering}
+\caption{Esquema con 9 válvulas solenoide (marcadas como V).}
+\end{figure}
+
+Lo más caro de todo son las válvulas. Sino podemos ver de hacerlas
+(\href{https://www.youtube.com/watch?v=vjViLbLmwGc}{aquí} por ejemplo
+hacen una), el funcionamiento es simple, pero no confiamos en nuestras
+habilidades, ya que esto tiene que quedar bien bien bien hermético
+\begin{thebibliography}{1}
+\bibitem{Kale}G. Kale, R. Auras, S. P. Singh, R. Narayan - \emph{Biodegradability
+of polylactic bottles in real and simulated composting conditions}.
+
+\bibitem{Castro-Aguirre}E. Castro-Aguirre, R. Auras, S. Selke, M.
+Rubino, T. Marsh - \emph{Insights on the aerobic biodegradation of
+polymers by analysis of evolved carbon dioxide in simulated composting
+conditions.}
+\end{thebibliography}
+%
+
+\section{2021}
+
+\paragraph{Lunes 22/03/21}
+
+Quedamos en realizar el laboratorio 6 de manera presencial. La idea
+será ir lo menos posible. Primero actualizar el presupuesto, hablar
+con proveedores, adquirir los elementos y una vez que tengamos todo
+ir al laboratorio a ensamblar.
+
+Hoy lunes 22 de marzo tuvimos una primer reunión en el laboratorio
+para que Lucas nos muestre algunas partes del experimento, para poder
+tomar medidas y tener mejor noción para buscar productos. La idea
+es buscar los productos y según el presupuesto total que lleva ver
+si hacer sistema de 3 reactores, 4 o los que se puedan. El esquema
+para un sistema sería:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.4]{Imagenes/esquema_de_uno}
+\par\end{centering}
+\caption{Esquema experimental para un sistema}
+\end{figure}
+
+Azul: manguera/tubo donde pasa el aire, rojo: termocupla, negro:cables.
+
+Luego veríamos, según lo que de el presupuesto, qué cantidad armar
+de estos.
+
+Lucía nos comentó cómo hacer el proceso de compra. Debemos pedir facturas
+(B o C) a nombre de la UBA y debe tener contenida una leyenda que
+es el código del subsidio. Luego, le pasamos la factura, ella la sube
+y hace la transferencia, y luego de unos días podemos ir a buscar
+los productos. Nos comentó que el subsidio no permite comprar equipos,
+que en el caso del aireador y del sensor CO2 pidamos que la factura
+diga otra cosa por el mismo monto; así con esa pequeña mentira podemos
+comprarlo. Además, ninguna compra debe ser superior a \$19.999 en
+un mismo lugar, sino no la pasa el subsidio.
+
+\paragraph{Martes 23/03/21}
+
+Tuvimos la primer reunión (virtual) con Silvia Ledesma y todos los
+estudiantes que cursan labo 6. Nos contó cómo se va a trabajar durante
+el cuatrimestre. Le comentamos nuestra situación de poder realizar
+el laboratorio de forma presencial y nos ha permitido. Le pasamos
+el plan de trabajo.
+
+Buscamos los elementos del equipo, pedimos cotización y lo fuimos
+cargando en una plantilla de excel en drive compartido entre los 4.
+Llevó varios días encontrar las cosas, consultar, esperar a que respondan,
+ver si conviene o no tal producto, seguir buscando, etc.
+
+\paragraph{Jueves 01/04/21}
+
+Ya hablamos con los proveedores de casi todos los elementos, pero
+nos dimos cuenta que debemos ir al laboratorio antes de comprar uno
+último. Para calentar los frascos usaremos sunchos, que son resistencias
+que rodean al frasco, como muestra la figura.
+
+\begin{figure}[h]
+\begin{centering}
+\includegraphics[scale=0.25]{Imagenes/ed317409-7491-40fe-9933-a3f82de10385.jpeg}
+\par\end{centering}
+\caption{Sistema de calentamiento}
+
+\end{figure}
+
+El problema es que no sabemos cuánto voltaje debemos alimentarlo para
+la temperatura deseada (cerca de los 55°C). Podríamos usar un variac,
+pero son manuales y la idea es tener todo automatizado. Así que usaremos
+potenciómetros y lo controlaremos con el arduino para hacer un PID.
+El problema es que se venden por rangos (0-26V, 0-35V, 25-83V, etc)
+y no conocemos el rango que vamos a utilizar. Así que debemos ir al
+laboratorio a medirlo. Al darnos cuenta de esto les pedimos a Lucas
+y Lucía hacer una videollamada, les comentamos la situación y estuvieron
+de acuerdo. Les mostramos todos los precios cómo venían y nos pidieron
+que usemos termocuplas largas, frascos más largos, etc así que actualizamos
+eso para el lunes (ya que es feriado, semana santa). En la videollamada
+también discutimos qué sensor de CO2 usar, la idea es usar uno con
+arduino. Encontramos de opciones:
+\begin{itemize}
+\item SENSOR GAS MQ-135, que mide amoníaco, nitrógeno, benzeno, CO2 y humo.
+Sale cerca de \$300. Nos parece genial el precio, pero raro que mida
+tantas cosas, así que no nos parece confiable. Se nos hace que debe
+detectar si hay o no, pero no debe dar una cantidad
+\item SENSOR GAS CO2 MG-811 a \$10.000 . Este sí genera buena confianza,
+es un sensor específico para eso, además mide 2cmx2cm así que es excelente
+para las dimensiones de nuestro trabajo. La forma en la que trabaja
+es que cambia su resistencia según el CO2 analizado. El problema es
+que es muy caro.
+\item SENSOR DE CO2 Mh-z16 a \$6400. Funciona como NDIR, por infrarrojo,
+lo cual es más confiable. Tiene buen precio. El problema es que es
+grande (es un tubito de 10cm de largo y unos 3cm de diámetro) entonces
+su medición debe ser ambiental, no local, entonces debemos armarle
+un envase propio para que acumule y mida allí CO2.
+\end{itemize}
+Finalmente, los precios de los elementos necesarios fueron
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.4]{Imagenes/precios}
+\par\end{centering}
+\caption{Precios de los elementos}
+
+\end{figure}
+
+Y comparamos si conviene armar 3 sistemas o 4 sistemas. Esta comparación
+la hicimos teniendo en cuenta que tenemos una compra de base indivisible
+(aireador+arduino+cablecitos) por \$4353 y luego cada sistema (frasco+suncho+termocupla,
+etc) sale \$7411. Sumándole a cualquiera de los casos los \$6400 del
+sensor.
+
+Comparándolos, nos confirmaron que el presupuesto da para 4 sistemas
+de reactores. Así, entonces, el esquema experimental completo sería
+(sin la parte eléctrica para no hacer un enrollo):
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.3]{Imagenes/esquema_completo}
+\par\end{centering}
+\caption{Esquema mecánico de 4 sistemas, sin la parte termo-eléctrico.}
+\end{figure}
+
+Mientras que la parte termo - eléctrica sería:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.3]{Imagenes/esquema_calentamiento}
+\par\end{centering}
+\caption{Esquema termo - eléctrico. Se muestra para dos sistemas, para los
+otros dos es análogo compartiendo el mismo arduino.}
+
+\end{figure}
+
+
+\paragraph{Semana del 05/04}
+
+Durante toda la semana estuvimos pidiéndoles a los proveedores facturas
+y los datos para realizar la transferencia. Llevó toda la semana ya
+que fueron unos 8 proveedores y algunos tardaban bastante en contestar,
+no pasaban todos los datos, etc.
+
+Los datos que les teníamos que pedir era CBU, Titular (nombre del
+titular), CUIL o CUIT (aclarar cuál), Banco, Sucursal, Nº de Cuenta,
+Tipo de cuenta, Mail. Y la mayoría no enviaba la sucursal e incluso
+uno ni la sabían, esto demoró bastante la comunicación.
+
+Las facturas se las pasamos a Lucía y luego ella los carga en el sistema
+junto a los datos bancarios. En los siguientes días el subsidio lo
+revisaba y aprobaba, y ellos realizaban la transferencia. Esto era
+así en las facturas que fueran superiores a \$3000. Las que eran menores
+había que juntarlas hasta que lleguen a \$3000, y tuvimos el problema
+de que las únicas tres facturas menores, juntas llegaban a \$2950
+y tuvimos que buscar algo más de \$50 para poder llegar a los \$3000.
+Le queríamos pedir un envase pero el proveedor nos dijo que solo por
+uno no nos hacía factura... así que buscamos alguna otra cosa que
+le sirva al laboratorio. Terminamos comprando pipetas pasteur.
+
+\paragraph*{Semana del 20/04}
+
+Una vez que el subsidio hizo las transferencias fuimos a buscar los
+materiales, nos distribuimos según cercanía. Fede fue a buscar los
+pintados en violeta y Caro los pintados en azul
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.4]{Imagenes/mapa}
+\par\end{centering}
+\caption{Mapa de la mercadería que retiramos}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[scale=0.4]{Imagenes/compras}
+
+\caption{Compras realizadas}
+\end{figure}
+
+
+\paragraph{Viernes 07/05}
+
+Fuimos al laboratorio a llevar toda la mercadería. Usamos un variac
+conectado a un suncho para ver cuánto voltaje sería necesario para
+que, en su interior, se tenga una temperatura de 52°C. Observamos
+que con 50V llega y supera los 50°C. Por lo tanto, para la realización
+del PID pensamos movernos entre 50V y 75V. Para ello, necesitaremos
+una fuente variable digital o un potenciómetro digital, para poder
+controlarla con arduino.
+
+\paragraph*{Miércoles 12/05}
+
+Hablamos con Matías, el técnico de laboratorio, y nos recomendó hacer
+un PID pero simplemente con on/off, sin fuente variable. Nos contó
+que los controladores PID que ellos tienen en el labo no tienen fuentes
+variables, son on/off pero con la programación de un PID, enviando
+muchos pulsos que aparentan fuentes variables. Por lo tanto, nos queda
+conseguir relays para realizar el PID.
+
+Además, medimos la resistencia del suncho (R=142.6$\Omega$, Potencia=350W)
+y llevamos tierra (compost orgánico) para analizar cuánta inercia
+tenemos. La tierra la mojamos con agua y la escurrimos para sacar
+el exceso, para que resulte humeda. Tomamos un frasco de vidrio, un
+suncho y 3 termocuplas cuyas ubicaciones fueron una externa pegada
+a la resistencia (Llamada T$_{suncho})$, la siguiente a la mitad
+del centro (llamada T$_{costado}$) y la otra en el centro (llamada
+T$_{centro}$). Alimentamos al suncho con un variac a 60V y tomamos
+mediciones de las 3 temperaturas, cada un minuto. Los resultados fueron:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.5]{Imagenes/calentamiento}
+\par\end{centering}
+\caption{Calentamiento a potencia constante.}
+
+\end{figure}
+
+(el gap se debe a una interrupción)
+
+Observamos que se mantiene casi constante una diferencia de 40°C entre
+la temperatura del suncho y la del centro, dando como una primera
+impresión mucha inercia térmica, lo cual era esperado dado que la
+tierra es básicamente aislante (a veces se lo utiliza con ese fin).
+Además, se puede observar que el tiempo de respuesta al centro es
+alrededor de 15 minutos. Manteniendo a 60V constantemente, luego de
+dos horas el suncho ha llegado casi a los 90°C y el centro ha llegado
+a los 52°C, que es la temperatura deseada. Ninguna de las dos temperaturas
+se estabilizaron, no hemos medido cuándo se estabilizará la temperatura,
+pero creemos que tardaría mucho más.
+
+El suncho es nuestro parámetro de control, y será el que utilizaremos
+para el PID. Dada este gráfico, podemos observar que a 60V mantiene
+un rango lineal luego de los 65°C. Si hacemos un PID con 60V con el
+objetivo de que la temperatura fuera cerca de 55°C, estaríamos moviéndonos
+en el rango exponencial de la curva, lo cual estaría apagándose y
+prendiéndose de manera muy frecuente. Creemos que, sería más conveniente
+movernos en un rango lineal. Por dicha razón, deberíamos entonces
+tener un voltaje de 50V o incluso menos (a diferencia de 60V) para
+así tener un rango lineal cerca de los 55°C.
+
+Probamos, por curiosidad, fittear la medición con la función error:
+\begin{center}
+$T(x,t)=2\frac{F_{0}}{K}\left[\sqrt{\frac{\kappa t}{\pi}}\exp\PARENTHESES{\frac{x^{2}}{4\kappa t}}-\frac{x}{2}\text{erf}\PARENTHESES{\frac{x}{2\sqrt{\kappa t}}}\right]$
+\par\end{center}
+
+con F0 el flujo de calor, K la conductividad, $\kappa$ la difusividad
+y x la distancia respecto a la fuente de calor.
+
+dejando como parámetros libres $\kappa$ , llamando A a la amplitud
+y sumándole un B. Con todo eso no funcionó, así que lo ploteamos con
+solo la parte de erf() y lo hizo excelente:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.5]{Imagenes/calentamiento_fit}
+\par\end{centering}
+\caption{Calentamiento de la tierra, fitteado con la función error.}
+\end{figure}
+
+El resultado de esto, dio un kappa de ........ analizar
+
+Luego de estas dos horas de medición, vimos que el centro llego a
+los 52°C, nuestro objetivo, y claro que iba a ir subiendo la temperatura
+ya que el exterior tenía alrededor de 90°C. En ese momento, apagamos
+el variac y medimos. Las mediciones se encuentran a continuación:
+
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.5]{Imagenes/enfriamiento}
+\par\end{centering}
+\caption{Enfriamiento}
+\end{figure}
+
+Por falta de tiempo, pudimos medir sólo hasta ahí, pero observamos
+el típico caracter con decaimiento exponencial. Además, la curva de
+T$_{costado}$ deja de crecer luego de unos minutos, mientras que
+T$_{centro}$ , pasando cerca de 10 minutos aun no se ha enterado
+del cambio.
+
+Una pena no haber podido realizar las siguientes mediciones.
+
+La próxima estaría bueno improvisar de manera que el suncho mantenga
+siempre una temperatura de \textasciitilde 55°C (haciendo un on/off
+manualmente) para analizar si el centro efectivamente llega a los
+52°C.
+\end{document}

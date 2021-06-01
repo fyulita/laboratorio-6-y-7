@@ -29,7 +29,7 @@
 \use_microtype false
 \use_dash_ligatures true
 \graphics default
-\default_output_format default
+\default_output_format pdf2
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -99,7 +99,7 @@
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./Material Adicional/alf+fede/alf+fede_physics_macros.lyx"
+filename "alf+fede_physics_macros.lyx"
 
 \end_inset
 
@@ -1185,7 +1185,7 @@ IDEA: programadores de riego
 \end_layout
 
 \begin_layout Section*
-AUTOMATIZAR EL SISTEMA
+Automatizar el Sistema
 \end_layout
 
 \begin_layout Standard
@@ -1409,59 +1409,8 @@ literal "false"
  en nuestras habilidades, ya que esto tiene que quedar bien bien bien hermético
 \end_layout
 
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Kale"
-literal "false"
-
-\end_inset
-
-G.
- Kale, R.
- Auras, S.
- P.
- Singh, R.
- Narayan - 
-\emph on
-Biodegradability of polylactic bottles in real and simulated composting
- conditions
-\emph default
-.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Castro-Aguirre"
-literal "false"
-
-\end_inset
-
-E.
- Castro-Aguirre, R.
- Auras, S.
- Selke, M.
- Rubino, T.
- Marsh - 
-\emph on
-Insights on the aerobic biodegradation of polymers by analysis of evolved
- carbon dioxide in simulated composting conditions.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 2021
-\end_layout
-
-\begin_layout Paragraph
-Lunes 22/03/21
 \end_layout
 
 \begin_layout Standard
@@ -1471,13 +1420,8 @@ Quedamos en realizar el laboratorio 6 de manera presencial.
  elementos y una vez que tengamos todo ir al laboratorio a ensamblar.
 \end_layout
 
-\begin_layout Standard
-Hoy lunes 22 de marzo tuvimos una primer reunión en el laboratorio para
- que Lucas nos muestre algunas partes del experimento, para poder tomar
- medidas y tener mejor noción para buscar productos.
- La idea es buscar los productos y según el presupuesto total que lleva
- ver si hacer sistema de 3 reactores, 4 o los que se puedan.
- El esquema para un sistema sería:
+\begin_layout Paragraph
+Lunes 22/03/21
 \end_layout
 
 \begin_layout Standard
@@ -1502,6 +1446,14 @@ status open
 
 \begin_layout Plain Layout
 Esquema experimental para un sistema
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-experimental"
+
+\end_inset
+
+.
+ Azul: manguera/tubo donde pasa el aire, rojo: termocupla, negro:cables.
 \end_layout
 
 \end_inset
@@ -1511,15 +1463,27 @@ Esquema experimental para un sistema
 
 \end_inset
 
+Hoy tuvimos una primer reunión en el laboratorio para que Lucas nos muestre
+ algunas partes del experimento, para poder tomar medidas y tener mejor
+ noción para buscar productos.
+ La idea es buscar los productos y según el presupuesto total que lleva
+ ver si hacer sistema de 3 reactores, 4 o los que se puedan.
+ En la 
+\series bold
+Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-experimental"
+plural "false"
+caps "false"
+noprefix "false"
 
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Azul: manguera/tubo donde pasa el aire, rojo: termocupla, negro:cables.
-\end_layout
 
-\begin_layout Standard
-Luego veríamos, según lo que de el presupuesto, qué cantidad armar de estos.
+\series default
+ puede verse el esquema experimental para un sistema.
+ Luego veríamos, según lo que dé el presupuesto, qué cantidad armar de estos.
 \end_layout
 
 \begin_layout Standard
@@ -1704,8 +1668,36 @@ Y comparamos si conviene armar 3 sistemas o 4 sistemas.
 \begin_layout Standard
 Comparándolos, nos confirmaron que el presupuesto da para 4 sistemas de
  reactores.
- Así, entonces, el esquema experimental completo sería (sin la parte eléctrica
- para no hacer un enrollo):
+ Así, entonces, el esquema experimental completo sería el que se ve en la
+ 
+\series bold
+Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-mecánico"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\series default
+ y 
+\series bold
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-termoeléctrico"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\series default
+ (sin la parte eléctrica para no hacer un enrollo).
 \end_layout
 
 \begin_layout Standard
@@ -1730,7 +1722,9 @@ status open
 
 \begin_layout Plain Layout
 Esquema mecánico de 4 sistemas, sin la parte termo-eléctrico.
-\end_layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-mecánico"
 
 \end_inset
 
@@ -1742,8 +1736,9 @@ Esquema mecánico de 4 sistemas, sin la parte termo-eléctrico.
 
 \end_layout
 
-\begin_layout Standard
-Mientras que la parte termo - eléctrica sería:
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1767,9 +1762,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Esquema termo - eléctrico.
+Esquema termoeléctrico.
  Se muestra para dos sistemas, para los otros dos es análogo compartiendo
  el mismo arduino.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-termoeléctrico"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1827,7 +1829,37 @@ Semana del 20/04
 \begin_layout Standard
 Una vez que el subsidio hizo las transferencias fuimos a buscar los materiales,
  nos distribuimos según cercanía.
- Fede fue a buscar los pintados en violeta y Caro los pintados en azul
+ Fede fue a buscar los pintados en violeta y Caro los pintados en azul,
+ según lo que se ve en la 
+\series bold
+Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mapa-de-la-mercadería-que-retiramos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\series default
+.
+ En la 
+\series bold
+Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Compras-realizadas"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\series default
+ puede verse un a cuadrilla que detalla las compras realizadas y los costos.
 \end_layout
 
 \begin_layout Standard
@@ -1851,7 +1883,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Mapa de la mercadería que retiramos
+Mapa de la mercadería que retiramos.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mapa-de-la-mercadería-que-retiramos"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1884,7 +1923,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Compras realizadas
+Compras realizadas.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Compras-realizadas"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1926,40 +1972,37 @@ Hablamos con Matías, el técnico de laboratorio, y nos recomendó hacer un
 \end_layout
 
 \begin_layout Standard
-Además, medimos la resistencia del suncho (R=142.6
-\begin_inset Formula $\Omega$
+Además, medimos la resistencia del suncho (
+\begin_inset Formula $R=142.6\Omega$
 \end_inset
 
-, Potencia=350W) y llevamos tierra (compost orgánico) para analizar cuánta
- inercia tenemos.
+, 
+\begin_inset Formula $P=350W$
+\end_inset
+
+) y llevamos tierra (compost orgánico) para analizar cuánta inercia tenemos.
  La tierra la mojamos con agua y la escurrimos para sacar el exceso, para
  que resulte humeda.
  Tomamos un frasco de vidrio, un suncho y 3 termocuplas cuyas ubicaciones
- fueron una externa pegada a la resistencia (Llamada T
-\begin_inset Formula $_{suncho})$
+ fueron una externa pegada a la resistencia (Llamada 
+\begin_inset Formula $T_{suncho})$
 \end_inset
 
-, la siguiente a la mitad del centro (llamada T
-\begin_inset Formula $_{costado}$
+, la siguiente a la mitad del centro (llamada 
+\begin_inset Formula $T_{costado}$
 \end_inset
 
-) y la otra en el centro (llamada T
-\begin_inset Formula $_{centro}$
+) y la otra en el centro (llamada 
+\begin_inset Formula $T_{centro}$
 \end_inset
 
 ).
  Alimentamos al suncho con un variac a 60V y tomamos mediciones de las 3
  temperaturas, cada un minuto.
- Los resultados fueron:
+ Los resultados fueron (el gap se debe a una interrupción):
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/calentamiento.png
@@ -1968,31 +2011,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Calentamiento a potencia constante.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-(el gap se debe a una interrupción)
 \end_layout
 
 \begin_layout Standard
@@ -2024,63 +2042,60 @@ El suncho es nuestro parámetro de control, y será el que utilizaremos para
 \end_layout
 
 \begin_layout Standard
-Probamos, por curiosidad, fittear la medición con la función error
+Probamos, por curiosidad, fittear la medición con la función error:
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Formula $T(x,t)=2\frac{F_{0}}{K}\left[\sqrt{\frac{\kappa t}{\pi}}e^{\frac{x^{2}}{4\kappa t}}-\frac{x}{2}erf(\frac{x}{2\sqrt{\kappa t}})\right]$
+\begin_inset Formula $T(x,t)=2\frac{F_{0}}{K}\left[\sqrt{\frac{\kappa t}{\pi}}\exp\PARENTHESES{\frac{x^{2}}{4\kappa t}}-\frac{x}{2}\text{erf}\PARENTHESES{\frac{x}{2\sqrt{\kappa t}}}\right]$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-con F0 el flujo de calor, K la conductividad, 
+con 
+\begin_inset Formula $F_{0}$
+\end_inset
+
+ el flujo de calor, 
+\begin_inset Formula $K$
+\end_inset
+
+ la conductividad, 
 \begin_inset Formula $\kappa$
 \end_inset
 
- la difusividad y x la distancia respecto a la fuente de calor.
+ la difusividad y 
+\begin_inset Formula $x$
+\end_inset
+
+ la distancia respecto a la fuente de calor.
 \end_layout
 
 \begin_layout Standard
-dejando como parámetros libres 
+Dejando como parámetros libres 
 \begin_inset Formula $\kappa$
 \end_inset
 
- , llamando A a la amplitud y sumándole un B.
+ , llamando 
+\begin_inset Formula $A$
+\end_inset
+
+ a la amplitud y sumándole un 
+\begin_inset Formula $B$
+\end_inset
+
+.
  Con todo eso no funcionó, así que lo ploteamos con solo la parte de erf()
  y lo hizo excelente:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/calentamiento_fit.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Calentamiento de la tierra, fitteado con la función error.
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -2101,12 +2116,6 @@ Luego de estas dos horas de medición, vimos que el centro llego a los 52°C,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/enfriamiento.png
@@ -2117,32 +2126,15 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Enfriamiento
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 Por falta de tiempo, pudimos medir sólo hasta ahí, pero observamos el típico
  caracter con decaimiento exponencial.
- Además, la curva de T
-\begin_inset Formula $_{costado}$
+ Además, la curva de 
+\begin_inset Formula $T_{costado}$
 \end_inset
 
- deja de crecer luego de unos minutos, mientras que T
-\begin_inset Formula $_{centro}$
+ deja de crecer luego de unos minutos, mientras que 
+\begin_inset Formula $T_{centro}$
 \end_inset
 
  , pasando cerca de 10 minutos aun no se ha enterado del cambio.
@@ -2154,8 +2146,52 @@ Una pena no haber podido realizar las siguientes mediciones.
 
 \begin_layout Standard
 La próxima estaría bueno improvisar de manera que el suncho mantenga siempre
- una temperatura de ~55°C (haciendo un on/off manualmente) para analizar
- si el centro efectivamente llega a los 52°C.
+ una temperatura de 
+\begin_inset Formula $\sim55°\text{C}$
+\end_inset
+
+ (haciendo un on/off manualmente) para analizar si el centro efectivamente
+ llega a los 52°C.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Kale"
+literal "false"
+
+\end_inset
+
+G.
+ Kale, R.
+ Auras, S.
+ P.
+ Singh, R.
+ Narayan - 
+\emph on
+Biodegradability of polylactic bottles in real and simulated composting
+ conditions
+\emph default
+.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Castro-Aguirre"
+literal "false"
+
+\end_inset
+
+E.
+ Castro-Aguirre, R.
+ Auras, S.
+ Selke, M.
+ Rubino, T.
+ Marsh - 
+\emph on
+Insights on the aerobic biodegradation of polymers by analysis of evolved
+ carbon dioxide in simulated composting conditions.
 \end_layout
 
 \end_body
