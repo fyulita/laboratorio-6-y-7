@@ -13,8 +13,8 @@ const double Ki = 0;
 const double Kd = 1;
 
 // Pins
-const int ledPin = 9;  
-const int sensorPin = 0;
+const int ledPin = 3;  
+const int sensorPin = 2;
 
 // Signals
 const int r = 72;
@@ -41,7 +41,6 @@ void loop() {
   lightLevel = analogRead(sensorPin); // Photoresistor, integer value between 0 and 1023.
   lightLevel = map(lightLevel, 0, 1023, 0, 255);
 
-  lightLevel = callibration(a, b, lightLevel);
 
   Serial.println(F("Light level"));
   Serial.println(lightLevel);
@@ -57,9 +56,4 @@ void loop() {
   Serial.println(F("\n"));
 
   delay(1000);
-}
-
-int callibration(a, b, x) {
-  int y = a + b * x;
-  return y;
 }

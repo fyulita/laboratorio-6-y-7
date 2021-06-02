@@ -2092,33 +2092,10 @@ Dejando como parámetros libres
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/calentamiento_fit.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Calentamiento de la tierra, fitteado con la función error.
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -2139,33 +2116,10 @@ Luego de estas dos horas de medición, vimos que el centro llego a los 52°C,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/enfriamiento.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Enfriamiento
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -2198,6 +2152,153 @@ La próxima estaría bueno improvisar de manera que el suncho mantenga siempre
 
  (haciendo un on/off manualmente) para analizar si el centro efectivamente
  llega a los 52°C.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, nos dimos cuenta que las termocuplas que adquirimos no podemos
+ utilizarlas para arduino.
+ Para que arduino pueda leer el oden de mV que trabaja la termocupla, deberíamos
+ poner un amplificador que sale más caro que la misma termocupla (cerca
+ de $2000, cada una).
+ Vimos que, hay sensores de temperatura fabricados y diseñados para arduino,
+ donde salen $300; así que decidimos comprar estos que son más baratos.
+\end_layout
+
+\begin_layout Standard
+Los compramos y pasamos a retirar el jueves 17/05 para así el 18/05 los
+ probamos.
+\end_layout
+
+\begin_layout Paragraph*
+Viernes 18/05
+\end_layout
+
+\begin_layout Standard
+Lucas y yo fuimos al labo a empezar a armar el equipo y probar estos nuevos
+ sensores de temperatura.
+ Los sensores funcionan, pero por alguna razón del arduino mide dos veces
+ y deja de medir.
+ Esto pasó también en casa, pero moviendo los cables de alguna manera luego
+ midió seguidamente.
+ Tenemos que arreglar eso.
+\end_layout
+
+\begin_layout Standard
+Sobre el equipo; empezamos uniendo dos frascos (uno de plástico y uno de
+ vidrio) para observar la posible pérdida de aire.
+ Vimos que el segundo reactor no burbujeaba mucho, que le llegaba poco aire,
+ lo que quería decir mucha pérdida previamente.
+ Primero culpamos los conectores; se podría estar perdiendo aire a través
+ de ellos, por lo tanto los quitamos.
+ La perdida seguía, habiendo más perdidas entre los de plástico que entre
+ los de vidrio, por lo que culpamos a que los de plástico no cerraban de
+ manera muy hermética.
+ Colocamos detergente por sobre los prensacables y observamos muchísimas
+ burbujas, que justamente indicaban que estábamos teniendo muchas perdidas
+ allí; en la unión a las mangueras.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Imagenes/equipo3.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los prenscables disponían un o-ring que colocamos en la parte inferior de
+ la tapa.
+ Probamos quitarle los o-rings a los otros prensacables para poner doble
+ o-ring (por abajo y arriba de la tapa) y allí vimos menos burbujas (menos
+ pérdida), como se ve en el primer reactor que está el detergente pero casi
+ sin burbujas; y el segundo menos burbujas también:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/equipo2.png
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por lo tanto, la pérdida estaba claramente en los prensacables.
+ Armamos entonces la primer tanda de reactor (donde el último debería ser
+ de plástico pero colocamos de vidrio para poder ver si llega aire) todos
+ con doble o-ring y vimos que el aire llegó bien al último reactor:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/equipo.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El siguiente problema sería al hacer la segunda tanda de frascos, ya que
+ la idea original es usar un aireador con una T; pero si una tanda de frascos
+ tiene más/menos pérdida de la otra tira de frascos, llegará menos/más aire
+ y por tanto tendrán distinto flujo.
+ Esto problema así se observó:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/equipo4.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lo que vimos fue que, en el último frasco, burbujeaba menos que el último
+ frasco de la otra tanda.
+\end_layout
+
+\begin_layout Standard
+Ubicando la tanda de frascos de las dos salidas del aireador esto no pasaba,
+ llegaba igual.
+ Por lo tanto, es claro que al compartir la salida de aire a través de la
+ T, el aire elige cual de los dos caminos tomar según las pérdidas que tiene.
+ Esto nos va a traer problemas con el flujo de aire.
+\end_layout
+
+\begin_layout Standard
+Para solucionar esto se nos ocurrió: 
+\end_layout
+
+\begin_layout Enumerate
+Intentar nuevamente hacer lo más herméticos posibles, colocando fastix o
+ algo para que no haya nada de pérdidas y así sean idénticos.
+\end_layout
+
+\begin_layout Enumerate
+Comprar otro aireador idéntico para que cada salida sea para una tanda de
+ reactores y así todos tienen el mismo flujo (descontando las posibles pérdidas,
+ pero que la pérdida de una tanda no influya a la pérdida/ganancia del otro)
+\end_layout
+
+\begin_layout Enumerate
+Comprar y colocar válvulas agujas e ir regulándolo.
+\end_layout
+
+\begin_layout Standard
+Creemos que en este orden es lo más económico y mejor a intentar.
 \end_layout
 
 \begin_layout Bibliography
