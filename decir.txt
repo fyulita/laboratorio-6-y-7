@@ -1,0 +1,5 @@
+- Costeamos el setup.
+- Mostrar setup y detalles.
+- Preparamos el codigo del PID.
+- Calibramos el suncho.
+- Queda pendiente ver como medir el CO2.

@@ -2199,6 +2199,7 @@ Sobre el equipo; empezamos uniendo dos frascos (uno de plástico y uno de
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename Imagenes/equipo3.png
 	scale 30
@@ -2221,7 +2222,7 @@ Los prenscables disponían un o-ring que colocamos en la parte inferior de
 \align center
 \begin_inset Graphics
 	filename Imagenes/equipo2.png
-	scale 20
+	scale 50
 
 \end_inset
 
@@ -2275,7 +2276,8 @@ Ubicando la tanda de frascos de las dos salidas del aireador esto no pasaba,
  llegaba igual.
  Por lo tanto, es claro que al compartir la salida de aire a través de la
  T, el aire elige cual de los dos caminos tomar según las pérdidas que tiene.
- Esto nos va a traer problemas con el flujo de aire.
+ Esto nos va a traer problemas, ya que las tandas deberían estar en iguales
+ condiciones y por tanto necesitamos el mismo flujo de aire.
 \end_layout
 
 \begin_layout Standard
