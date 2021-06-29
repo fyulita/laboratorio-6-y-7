@@ -1,4 +1,5 @@
 import serial
+import os
 from datetime import datetime
 
 
@@ -8,16 +9,16 @@ baud = 9600 #arduino uno runs at 9600 baud
 ser = serial.Serial(arduino_port, baud)
 print(f"Connected to Arduino port {arduino_port}")
 
-# name_offset = int(input("Start naming from: "))
-name_offset = 0
-
 now = datetime.now()
-folderName = f"measurements_{now.strftime('%d/%m/%Y_%H:%M:%S')}"
+folder_name = f"measurements_{now.strftime('%d/%m/%Y_%H:%M:%S')}"
+
+os.makedirs(f"./measurements/{folder_name}")
+print(f"Created folder {folder_name}")
 
 measurement = 0 #start at 0 because our header is 0 (not real data)
 while True:
     if measurement % 100 == 0:
-        fileName = f"./measurements/{folderName}/data_{int(measurement / 100 + name_offset)}.csv"
+        fileName = f"./measurements/{folder_name}/data_{int(measurement / 100)}.csv"
         print(f"{fileName} created")
         file = open(fileName, "w")
         file.write("Date_Time,Temp_Compost,Temp_Suncho,Estado\n")

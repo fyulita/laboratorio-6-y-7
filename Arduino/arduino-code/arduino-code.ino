@@ -29,7 +29,7 @@ void loop() {
     Serial.print(",");
 
 
-    if(sensorDS18B20.getTempCByIndex(1) <= 50){
+    if(sensorDS18B20.getTempCByIndex(1) <= 55){
       digitalWrite(pinRelay, HIGH); //turn relay ON
       Serial.println("Prendido");
     }
