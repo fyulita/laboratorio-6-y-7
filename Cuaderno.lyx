@@ -2174,8 +2174,8 @@ Viernes 18/05
 \end_layout
 
 \begin_layout Standard
-Lucas y yo fuimos al labo a empezar a armar el equipo y probar estos nuevos
- sensores de temperatura.
+Lucas y yo (Caro) fuimos al labo a empezar a armar el equipo y probar estos
+ nuevos sensores de temperatura.
  Los sensores funcionan, pero por alguna razón del arduino mide dos veces
  y deja de medir.
  Esto pasó también en casa, pero moviendo los cables de alguna manera luego
@@ -2301,6 +2301,470 @@ Comprar y colocar válvulas agujas e ir regulándol
 
 \begin_layout Standard
 Creemos que en este orden es lo más económico y mejor a intentar.
+\end_layout
+
+\begin_layout Paragraph*
+03/06
+\end_layout
+
+\begin_layout Standard
+Tuvimos la reunión con Silvia Ledesema, todo bien!
+\end_layout
+
+\begin_layout Paragraph*
+desde 07/06 hasta 20 y pico de junio
+\end_layout
+
+\begin_layout Standard
+Fuimos al labo, con nuevos o'rings y mejoramos las pérdidas.
+ Dejamos una computadora con TeamViewer para poder tener un control de temperatu
+ra desde casa.
+ Al código de Arduino, le agregamos uno de python para poder guardar los
+ datos de la temperatura, que Arduino por si solo no lo hace.
+ Dejamos el variac a 55V alimentando un suncho rodeando un frasco con tierra
+ y le medimos la temperatura en dos posiciones: entre el suncho y el vidrio,
+ y otra dentro de la tierra; todo controlado desde arduino + un relay que
+ se iba apagando/prendiendo oscilando alrededor de una temperatura deseada.
+ Lo dejamos así enchufado hasta el día siguiente y levantamos los datos
+ con TeamViewer.
+ Vimos:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/temperatura.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde en una parte hay mediciones que se perdieron, no sabemos cómo o por
+ qué.
+ Vimos que poniendo una temperatura de 55ºC en el suncho, la tierra se mantenía
+ a 52º+-1ºC .
+\end_layout
+
+\begin_layout Standard
+Estas mediciones duraron un día.
+ Lamentablemente al día siguiente no pudimos acceder a TeamViewer, lo que
+ querría decir que se cortó la luz o el internet.
+ Entonces le pedimos a un técnico que nos cuente qué veía, y dijo que la
+ computadora estaba encendida.
+ Paralelamente, Lucía nos contó que se le actualizó windows durante la noche,
+ por lo que seguramente se actualizó y reinició.
+ Por lo tanto, fuimos otro día para cambiar la configuración de la computadora
+ y que si se reinicia, automaticamente abra el TeamViewer y corra el archivo
+ de python para levantar las mediciones de temperatura (el arduino por default
+ le queda el programa guardado).
+ Pensamos en cambiar la configuracion de la computadora cosa de que si se
+ corta la luz, se prenda sola, lo cual vimos en internet que es posible
+ accediendo desde la BIOS.
+ Lamentablemente esta computadora no tiene esa opción, por lo tanto será
+ un problema.
+ La batería le dura poco, unos 10 minutos, por lo que si hay microcortes
+ no es terrible, la batería resistirá; pero ante un corte de luz superior
+ a 10 minutos si o si tendremos que ir o pedirle a alguien que prenda la
+ computadora.
+ Esto podría afectar a las mediciones el cuatrimestre que viene, por lo
+ que pensamos que podríamos dejar el arduino conectado a la compu los días
+ de semana e ir si detectamos desde nuestras casas que no podemos conectarnos
+ (y simplemente encender la compu) y los findes dejar el arduino conectado
+ a la pared, cosa de que si se corta la luz apenas vuelva se vuelve a encender;
+ y la desventaja es que no podremos controlar la temperatura desde nuestras
+ casas ni saber tampoco si se cortó la luz en algun momento; pero es mejor
+ eso a arriesgarse a que quede todo apagado todo el finde, dado que no podemos
+ entrar a la facu los findes a encender todo.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, Lucas nos enseñó a titular y cuestiones de química.
+\end_layout
+
+\begin_layout Standard
+Primero armamos el NaOH.
+ Tienen unos frascos con NaOH macizo en pequeños pedacitos, también en forma
+ tipo polvo.
+ Los frascos de PE que es donde vamos a guardar el NaOH y donde se hace
+ la capturación, son de 1L pero vamos a llenarlo hasta 0.75L.
+ Entonces, para hacer una solución de NaOH de 0.5M se debe utilizar 20g de
+ NaOH por litro; entonces usamos 15g (del puro), para hacer una solución
+ de NaOH de 1M se debe utilizar 40g por litro, entonces usamos 30g.
+ Esto se debe realizar en una matraz, pero como no tenemos en el labo de
+ 750mL, hacemos 3 veces de 250mL que es la que tenemos disponible.
+\end_layout
+
+\begin_layout Standard
+Con una balanza de precisión, pesamos 5g de NaOH en un vasito y le agregamos
+ un poco de agua destilada y agitamos para ir disolviendo.
+ El vasito levanta mucha temperatura.
+ Cuano se terminó de disolver lo metemos en la matraz de 250mL y allí agregamos
+ más agua destilada hasta la boca de la matraz, y mezclamos bien hasta que
+ se vea bien transparente.
+ Luego llenamos hasta la marquita de la matraz.
+ Luego lo pasamos al frasco de PE.
+ Repetimos 3 veces, así 3x250mL=750mL.
+\end_layout
+
+\begin_layout Standard
+Repetimos el proceso pero para la de 1M: pesando 10g de NaOH en un vasito...
+ y repitiendo.
+\end_layout
+
+\begin_layout Standard
+Para medir el CO2 se debe titular:
+\end_layout
+
+\begin_layout Standard
+La trampa de NaOH a la salida del reactor captura el CO2, entonces lo que
+ se tiene es la siguiente reacción
+\begin_inset Formula 
+\[
+NaOH+CO_{2}\leftrightarrows NaHCO_{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+constantemente, dependiendo del pH está mas a la derecha o mas a la izquierda.
+ Además,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Na_{2}CO_{3}+HCl\rightarrow Na_{2}CO_{3}+H_{2}O
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resulta que al agregar ácido, se transforman así:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Na_{2}CO_{3}+HCl\rightarrow NaHCO_{3}+NaCl
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+NaHCO_{3}+HCl\rightarrow NaCl+H_{2}O+CO_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A la salida del reactor y lo que apenas captura el NaOH el pH es alto, entonces
+ con fenolftaleina que es de color rosa cuantificamos cuánto HCl hay que
+ echarle hasta que se ponga transparente, allí el pH es 7; ello lo realizamos
+ con una bureta de 20mL.
+ En ese momento, el Na2CO3 es convertido en NaHCO3+NaCL.
+ Luego, con unas gotas de naranja de metilo se pone naranja y se le vuelve
+ a echar HCl hasta que se ponga rojo, allí el pH=4 y hace que el NaHCO3
+ se forme en NaCl+H2O+CO2.
+\end_layout
+
+\begin_layout Standard
+Luego, encontramos los gramos de CO2 como
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+gCO_{2}=\frac{V_{HCl}C_{HCl}0.75L44g/mol}{V_{muestra}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde se utiliza 0.75L porque es la trampa.
+\end_layout
+
+\begin_layout Standard
+El procedimiento es tomar una pequeña muestra del NaOH, de 5mL (tomado con
+ una pipeta y propipeta), colocarla en un vasito, tirar fenolftaleina y
+ hacer el procedimiento anteriormente explicado.
+ En nuestra primer prueba, vimos que en la primer titulación se requirió
+ de 4.5mL para la solución O.5M y 8.7mL para la solución 1M.
+\end_layout
+
+\begin_layout Standard
+Paralelamente, Lucas preparó una solución de bicarbonato para simular que
+ es la tierra.
+ El bicarbonato junto a HCl se convierte en CO2, entonces vamos a usar eso
+ para probar cuánto CO2 captura el NaOH.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, movimos unos cables y le quitamos sin querer una patita al
+ sensor de temperatura.
+ Perdimos bastante tiempo intentando arreglarlo con una soldadora hasta
+ uqe nos rendimos, era demasiado chiquita.
+ Días después compramos otros 2.
+\end_layout
+
+\begin_layout Paragraph*
+28/06
+\end_layout
+
+\begin_layout Standard
+Fuimos al labo, Lucas no pudo entrar porque justo no estaba inscripto para
+ ese día, pero desde la puerta del pab1 nos dijo qué hacer.
+ Apenas llegamos medimos el bicarbonato si tenía CO2, y vimos que tenía
+ 0.3mL.
+ Luego le echamos HCl al bicarbonato y lo dejamos burbujear dos horas para
+ que emita CO2 y el NaOH lo capture.
+ Nos dijo que debeía hacer una efervescencia, que no vimos.
+ Luego de las 2h hicimos la titulación pero nos encontramos que pasó directament
+e al rojo: no capturó nada.
+ No sabemos qué pudo haber sido, quizás el bicarbonato se puso viejo después
+ de tantos días.
+\end_layout
+
+\begin_layout Paragraph*
+07/07
+\end_layout
+
+\begin_layout Standard
+Fuimos al labo, Lucas hizo nuevamente el bicarbonato.
+ Como 
+\begin_inset Formula 
+\[
+\frac{V_{HCl}C_{HCl}}{V_{muestra}}=C_{CO_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0.4x0.5/5mL=0.04=C_{CO_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+multiplicado por 84, que corresponde al bicarbonato, queda 0.04,84=3.36g de
+ NaHCO3 para 1L, así que preparamos eso para luego en dos poner en dos frascos
+ de 0.5L.
+ Se utiliza una matraz de 1L.
+ Así, entonces queda que (ecuación de gramos de CO2 ) se esperaría que emita
+ 1.166g de CO2.
+\end_layout
+
+\begin_layout Standard
+(tengo anotado en el cuaderno V2=0.45mL=1.05gCO2; no se de qué)
+\end_layout
+
+\begin_layout Standard
+Primero medimos el NaOH apenas llegamos, para la de 0.5M y 1M ni capturaron.
+ Luego de tirarle HCl al bicarbonato, y esperando una hora a que burbujee,
+ medimos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frasco 0.5M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frasco 1M
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por lo tanto, capturó 0.4
+\end_layout
+
+\begin_layout Standard
+Usando la ecuación de gramos de CO2, queda que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+gCO_{2}=\frac{0.4x0.53x0.75Lx44g/mol}{5mL}=1.399g
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, Lucas nos enseñó a preparar HCl porque luego nos vamos a
+ quedar sin:
+\end_layout
+
+\begin_layout Standard
+Para saber la concentración de una solución se debe usar algún patrón primario,
+ en este caso para saber el de NaOH se usa biftalato 0.1M.
+ Tomamos 10mL de biftalato + fenolftaleina y vemos cuánto HCl consume hasta
+ ponerse rosa (en este caso, V=2.05mL) entonces
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{10mL0.1}{2}=0.5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El HCl de fábrica tiene SCinicial: 37.25gHCl/100gSC
+\end_layout
+
+\begin_layout Standard
+Queremos SCfinal 0.5moles/Lsc
+\end_layout
+
+\begin_layout Standard
+1ro) V=m/densidad=100g/1.19g/mol = 84.03mL
+\end_layout
+
+\begin_layout Standard
+2do) Si tenemos 37.25g de HCl, entonces Mr=g/mol entonces mol=37.25g/36.5g/mol=1.02m
+oles
+\end_layout
+
+\begin_layout Standard
+3ro) Si 84.03mL –> 1.02moles, entonces 1000mL—>12.4M
+\end_layout
+
+\begin_layout Standard
+4to) CiVi=CfVf entonces Vi=0.5M x 250mL / 12.14M = 10.3mL
+\end_layout
+
+\begin_layout Standard
+En una matraz de 250mL le colocamos agua destilada hasta mitad aprox, agregamos
+ los 10.3mL de HCl súper concentrado.
+ Mezclamos bien, llenamos hasta la boca y mezclamos con el tampón puesto.
+ Tomamos muestra de 5mL + 2 fotas fenolftaleina, si se hizo bien hay que
+ hastar alredededor de 5mL para que cambie a rosa.
+ Vimos que llevó 5.3mL
+\end_layout
+
+\begin_layout Standard
+Entonces 5,3 x 0.5 / 5 = 0.53
+\end_layout
+
+\begin_layout Standard
+Por lo tanto, la concentración es 0.53M.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, cortamos en forma circular unos mosquiteros y lo pusimos
+ debajo de todo del frasco para que airee mejor.
+ A la manguera le hicimos varios agujeros para que airee en todo el frasco.
+ Le pusimos algunos pastitos que cortamos de afuera y lo dejamos todo encendido
+ hasta el día siguiente, para hacer la primer medición de captura de CO2
+ (esta vez con pasto)
+\end_layout
+
+\begin_layout Paragraph*
+08/07
+\end_layout
+
+\begin_layout Standard
+Lucas y Fede fueron al labo.
+ Midieron que 0.6mL fue capturado, como el día anterior había sido 0.4mL,
+ entonces en menos de 24hs capturó 0.2mL!
 \end_layout
 
 \begin_layout Bibliography
