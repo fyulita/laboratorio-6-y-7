@@ -26,7 +26,6 @@ void loop() {
     int CO2;
     CO2 = myMHZ19.getCO2();                             // Request CO2 (as ppm)
     
-    Serial.print("CO2 (ppm): ");
     Serial.println(CO2);
     
     delay(2000);
