@@ -8,8 +8,8 @@
 #define baudrate 9600
 #define pinDatosDQ 2
 #define pinRelayTemp 7
-#define pinRelayValvulaCO2 8
-#define pinRelayValvulaCompost 9
+#define pinRelayValvulaCO2 4
+#define pinRelayValvulaCompost 5
 #define pinRx 10
 #define pinTx 11
 
@@ -22,9 +22,9 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 
 // Time intervals
-const unsigned int compostTime = 600000;
-const unsigned int co2Time = 600000;
-const unsigned int loopTime = 5000;
+#define compostTime 120000 // 2 mins.
+#define co2Time 120000 // 2 mins.
+const int loopTime = 5000;
 unsigned long currentTime = 0;
 unsigned long previousTime = 0;
 
@@ -38,6 +38,7 @@ const unsigned int cutoffTemp = 55;
 
 
 void setup() {
+    // Serials
     Serial.begin(baudrate);
     mySerial.begin(baudrate);
 
@@ -49,8 +50,14 @@ void setup() {
     pinMode(pinRelayValvulaCO2, OUTPUT);
     pinMode(pinRelayValvulaCompost, OUTPUT);
 
+    // Calibrate CO2 sensor
     myMHZ19.autoCalibration();
+
+    // Initialize valves
+    digitalWrite(pinRelayValvulaCO2, HIGH);
+    digitalWrite(pinRelayValvulaCompost, LOW);
 }
+
  
 void loop() {
     // CO2 sensor
@@ -101,14 +108,13 @@ void loop() {
     Serial.print(sensorDS18B20.getTempCByIndex(1));
     Serial.print(",");
 
-
     if (sensorDS18B20.getTempCByIndex(1) <= cutoffTemp) {
         // Turn relay on
-        digitalWrite(pinRelayTemp, HIGH);
+        digitalWrite(pinRelayTemp, LOW);
         Serial.println("Prendido");
     } else {
         // Turn relay off
-        digitalWrite(pinRelayTemp, LOW);
+        digitalWrite(pinRelayTemp, HIGH);
         Serial.println("Apagado");
     }
     

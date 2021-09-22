@@ -10,7 +10,7 @@ ser = serial.Serial(arduino_port, baud)
 print(f"Connected to Arduino port {arduino_port}")
 
 now = datetime.now()
-folder_name = now.strftime('%d-%m-%Y_%H-%M-%S')
+folder_name = now.strftime('%Y-%m-%d_%H-%M-%S')
 
 os.makedirs(f"./measurements/CO2/{folder_name}")
 print(f"Created folder {folder_name}")
