@@ -10,15 +10,15 @@ ser = serial.Serial(arduino_port, baud)
 print(f"Connected to Arduino port {arduino_port}")
 
 now = datetime.now()
-folder_name = f"measurements_{now.strftime('%d/%m/%Y_%H:%M:%S')}"
+folder_name = now.strftime('%d-%m-%Y_%H-%M-%S')
 
-os.makedirs(f"./measurements/{folder_name}")
+os.makedirs(f"./measurements/temp/{folder_name}")
 print(f"Created folder {folder_name}")
 
 measurement = 0 #start at 0 because our header is 0 (not real data)
 while True:
     if measurement % 100 == 0:
-        fileName = f"./measurements/{folder_name}/data_{int(measurement / 100)}.csv"
+        fileName = f"./measurements/temp/{folder_name}/data_{int(measurement / 100)}.csv"
         print(f"{fileName} created")
         file = open(fileName, "w")
         file.write("Date_Time,Temp_Compost,Temp_Suncho,Estado\n")
