@@ -22,15 +22,19 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 
 // Time intervals
-const unsigned int compostTime = 10 * 60 * 1000;
-const unsigned int co2Time = 10 * 60 * 1000;
-const unsigned int loopTime = 5 * 1000;
+const unsigned int compostTime = 600000;
+const unsigned int co2Time = 600000;
+const unsigned int loopTime = 5000;
 unsigned long currentTime = 0;
 unsigned long previousTime = 0;
 
 
 // Whether the CO2 sensor is being used.
-int useSensor = 0;
+bool useSensor = false;
+
+
+// Cutoff temperature for the compost
+const unsigned int cutoffTemp = 55;
 
 
 void setup() {
@@ -50,42 +54,43 @@ void setup() {
  
 void loop() {
     // CO2 sensor
-    Serial.println(myMHZ19.getCO2());
+    Serial.print(myMHZ19.getCO2());
     Serial.print(",");
 
+    // millis() can run without an overflow for up to 5 months
     currentTime = millis();
 
-    if (useSensor == 0) {
+    if (useSensor) {
         // CO2 valve
-        Serial.println("Prendido");
+        Serial.print("Prendido");
         Serial.print(",");
         // Compost valve
-        Serial.println("Apagado");
+        Serial.print("Apagado");
         Serial.print(",");
 
-        if (currentTime - previousTime >= compostTime) {
-            useSensor = 1;
+        if (currentTime - previousTime >= co2Time) {
+            useSensor = false;
             previousTime = currentTime;
 
-            // Turn CO2 valve on                       
-            digitalWrite(pinRelayValvulaCO2, HIGH);
-            digitalWrite(pinRelayValvulaCompost, LOW);
+            // Turn CO2 valve off                       
+            digitalWrite(pinRelayValvulaCompost, HIGH);
+            digitalWrite(pinRelayValvulaCO2, LOW);
         }
     } else {
         // CO2 valve
-        Serial.println("Apagado");
+        Serial.print("Apagado");
         Serial.print(",");
         // Compost valve
-        Serial.println("Prendido");
+        Serial.print("Prendido");
         Serial.print(",");
                                                          
-        if (currentTime - previousTime >= co2Time) {
-            useSensor = 0;
+        if (currentTime - previousTime >= compostTime) {
+            useSensor = true;
             previousTime = currentTime;
                                                          
             // Turn CO2 valve on                       
-            digitalWrite(pinRelayValvulaCompost, HIGH);
-            digitalWrite(pinRelayValvulaCO2, LOW);
+            digitalWrite(pinRelayValvulaCO2, HIGH);
+            digitalWrite(pinRelayValvulaCompost, LOW);
         }
     }
 
@@ -97,13 +102,13 @@ void loop() {
     Serial.print(",");
 
 
-    if (sensorDS18B20.getTempCByIndex(1) <= 55) {
+    if (sensorDS18B20.getTempCByIndex(1) <= cutoffTemp) {
         // Turn relay on
-        digitalWrite(pinRelay, HIGH);
+        digitalWrite(pinRelayTemp, HIGH);
         Serial.println("Prendido");
     } else {
         // Turn relay off
-        digitalWrite(pinRelay, LOW);
+        digitalWrite(pinRelayTemp, LOW);
         Serial.println("Apagado");
     }
     
