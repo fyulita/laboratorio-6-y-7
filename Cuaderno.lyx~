@@ -2327,10 +2327,30 @@ ra desde casa.
  se iba apagando/prendiendo oscilando alrededor de una temperatura deseada.
  Lo dejamos así enchufado hasta el día siguiente y levantamos los datos
  con TeamViewer.
+ Vimos:
 \end_layout
 
 \begin_layout Standard
-Lamentablemente al día siguiente no pudimos acceder a TeamViewer, lo que
+\align center
+\begin_inset Graphics
+	filename Imagenes/temperatura.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde en una parte hay mediciones que se perdieron, no sabemos cómo o por
+ qué.
+ Vimos que poniendo una temperatura de 55ºC en el suncho, la tierra se mantenía
+ a 52º+-1ºC .
+\end_layout
+
+\begin_layout Standard
+Estas mediciones duraron un día.
+ Lamentablemente al día siguiente no pudimos acceder a TeamViewer, lo que
  querría decir que se cortó la luz o el internet.
  Entonces le pedimos a un técnico que nos cuente qué veía, y dijo que la
  computadora estaba encendida.
@@ -2745,6 +2765,144 @@ Por otro lado, cortamos en forma circular unos mosquiteros y lo pusimos
 Lucas y Fede fueron al labo.
  Midieron que 0.6mL fue capturado, como el día anterior había sido 0.4mL,
  entonces en menos de 24hs capturó 0.2mL!
+\end_layout
+
+\begin_layout Section
+2do cuatri - LABO 7
+\end_layout
+
+\begin_layout Standard
+Bueno empezamos el cuatri con Caro con covid...
+ por lo que no pudimos ir las primeras dos semanas al labo.
+ Mientras, averiguamos de comprar un sensor CO2 para arduino y electroválvulas.
+\end_layout
+
+\begin_layout Standard
+Compramos el sensor MH-Z19 compatible con arduino, a buen precio, $7600.
+ Su rango de medición es 0-5000ppm.
+\end_layout
+
+\begin_layout Standard
+Compramos una electroválvula 
+\begin_inset Quotes eld
+\end_inset
+
+5/2
+\begin_inset Quotes erd
+\end_inset
+
+ (1 entrada, dos salidas, y hace un switch cuando le llega corriente) para
+ probar, pero lamentablemente no funcionó.
+ Con o sin corriente, siempre salía el aire por la misma salida.
+ Esto sucedió debido a que requería de una presión mínima.
+ Debíamos comprar las válvulas que son 'acción directa' pero lamentablemente
+ no existen así, sino una entrada y una salida.
+ Nos dieron dos para probar y funcionaron perfectamente, por lo tanto efectuamos
+ la compra de 8 electroválvulas así.
+ Además, compramos un relay x8, y la idea es ponerlos en paralelo:
+\end_layout
+
+\begin_layout Standard
+Así, la idea es que hayan dos válvulas por serie.
+ En cada serie, la válvula que redirige el gas al frasco con NaOH que captura
+ CO2 se mantendrá siempre abierta.
+ Luego, cada 6h, se cierra esta válvula y se abre la que abre el paso al
+ sensor durante un cierto tiempo (a determinar).
+ Una vez medido el CO2, se cierra esta válvula y se abre la que redirige
+ el gas al frasco con NaOH.
+ Esto, cuadruplicado.
+ Entonces, 4 válvulas se mantendrán encendidas para que estén normalmente
+ abiertas (las del NaOH) y luego, cada 6h, se van cerrando y abriendo la
+ válvula que redirige al sensor, una a la vez.
+\end_layout
+
+\begin_layout Paragraph*
+Preparación de muestras
+\end_layout
+
+\begin_layout Standard
+Paralelamente, preparamos las muestras de lo que vamos a medir su biodegradabili
+dad.
+ Hicimos una mezla de 60-20-20 de almidón-agua-glicerol y otra de lo mismo
+ pero adicionándole nanopartículas de TiO2 (cuánta...?).
+ Se prepararon mezclas de 400g.
+\end_layout
+
+\begin_layout Standard
+Para la del almidón, simplemente se mezclaron primero el glicerol con el
+ agua (con ayuda de un agitador magnético) y luego se lo adicionó a una
+ fuente con el almidón y se mezcló con las manos.
+ Costaba, dado que por momentos presentaba fases de fluido no newtoniano,
+ siendo muy difícil de manejar y mezclar.
+ Finalmente, quedó todo hecho granos.
+ Y lo pasamos por un tamiz para que quede como polvo.
+\end_layout
+
+\begin_layout Standard
+Para la del almidón+np de TiO2, mezclamos el glicerol con el agua por un
+ lado y preparamos el almidón por otro.
+ Luego, tomamos una pequeña porción del líquido (glicerol+agua) en un vasito
+ y le introdujimos las NP.
+ Luego, utilizamos un sonicador de punta para disolver las NP.
+\end_layout
+
+\begin_layout Standard
+Hicimos otra muestra más de almidón-glicerol-agua solo para después quemar
+ en la extrusora.
+\end_layout
+
+\begin_layout Standard
+Las mzclas las dejamos reposar 24h.
+\end_layout
+
+\begin_layout Standard
+Al día siguiente, 24h después, extrudamos.
+\end_layout
+
+\begin_layout Standard
+Utilizamos como perfil de temperatura 60-100-110-120-130-140-140-140-140-120
+ y a 120 rpm, que resulta ser distinto a lo que acostumbran (sobre todo
+ en rpm), y a mayor emperatura justamente porque a mayor rpm más rápido
+ pasa por la camisa de la extrusora, y así el material está menos tiempo
+ dentro.
+ La extrusora demoró como una hora alcanzar estos parámetros.
+ Con un ventilador y todo, costó que el primero sea a una temperatura de
+ 60ºC, dado que el de al lado tiene una temperatura de 100ºC.
+ Llegó a 80ºC y decidimos dejarlo así.
+ IMPORTANTE: controlar la presión, que no debe superar los 10 ...
+ (unidad que no recuerdo).
+ A la extrusora primero se le tira una primera tanda de polietileno para
+ limpiarla.
+ Si quedan restos, el polietileno lo arrastra (¿con qué perfil de T? colgué)
+ Luego, se utilizó la muestra para quemar.
+ Se le va echando muy de a poco sobre la boquilla, apretando con un palito
+ de silicona bastante duro para que los tornillos se lleven los grumos.
+ A la salida, sale toda una cosa que parece vomitada (el PE derretido),
+ donde luego se le puso como un 'filtro' para con un agujero medio grande
+ como para que salga en forma de 'chorizo'.
+ Luego del PE, se le echa el almidón para quemar.
+ Esto, para arrastrar el PE.
+ Finalmente, se ponen las muestras que hicimos.
+ Primero solamente la de almidón, que resultó a la salida un color mas o
+ menos marrón, un poco duro y resistente ante esfuerzos.
+ Luego, le introdujimos el de almidón+NP, donde a la salida se observó de
+ un color blanco, y mucho mas flexible y manejable.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/extrusion.jpeg
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Bibliography

@@ -2767,6 +2767,208 @@ Lucas y Fede fueron al labo.
  entonces en menos de 24hs capturó 0.2mL!
 \end_layout
 
+\begin_layout Section
+2do cuatri - LABO 7
+\end_layout
+
+\begin_layout Standard
+Bueno empezamos el cuatri con Caro con covid...
+ por lo que no pudimos ir las primeras dos semanas al labo.
+ Mientras, averiguamos de comprar un sensor CO2 para arduino y electroválvulas.
+\end_layout
+
+\begin_layout Standard
+Compramos el sensor MH-Z19 compatible con arduino, a buen precio, $7600.
+ Su rango de medición es 0-5000ppm.
+\end_layout
+
+\begin_layout Standard
+Compramos una electroválvula 
+\begin_inset Quotes eld
+\end_inset
+
+5/2
+\begin_inset Quotes erd
+\end_inset
+
+ (1 entrada, dos salidas, y hace un switch cuando le llega corriente) para
+ probar, pero lamentablemente no funcionó.
+ Con o sin corriente, siempre salía el aire por la misma salida.
+ Esto sucedió debido a que requería de una presión mínima.
+ Debíamos comprar las válvulas que son 'acción directa' pero lamentablemente
+ no existen así, sino una entrada y una salida.
+ Nos dieron dos para probar y funcionaron perfectamente, por lo tanto efectuamos
+ la compra de 8 electroválvulas así.
+ Además, compramos un relay x8, y la idea es ponerlos en paralelo:
+\end_layout
+
+\begin_layout Standard
+Así, la idea es que hayan dos válvulas por serie.
+ En cada serie, la válvula que redirige el gas al frasco con NaOH que captura
+ CO2 se mantendrá siempre abierta.
+ Luego, cada 6h, se cierra esta válvula y se abre la que abre el paso al
+ sensor durante un cierto tiempo (a determinar).
+ Una vez medido el CO2, se cierra esta válvula y se abre la que redirige
+ el gas al frasco con NaOH.
+ Esto, cuadruplicado.
+ Entonces, 4 válvulas se mantendrán encendidas para que estén normalmente
+ abiertas (las del NaOH) y luego, cada 6h, se van cerrando y abriendo la
+ válvula que redirige al sensor, una a la vez.
+\end_layout
+
+\begin_layout Paragraph*
+Preparación de muestras
+\end_layout
+
+\begin_layout Standard
+Paralelamente, preparamos las muestras de lo que vamos a medir su biodegradabili
+dad.
+ Hicimos una mezla de 60-20-20 de almidón-agua-glicerol y otra de lo mismo
+ pero adicionándole nanopartículas de TiO2 (cuánta...?).
+ Se prepararon mezclas de 400g.
+\end_layout
+
+\begin_layout Standard
+Para la del almidón, simplemente se mezclaron primero el glicerol con el
+ agua (con ayuda de un agitador magnético) y luego se lo adicionó a una
+ fuente con el almidón y se mezcló con las manos.
+ Costaba, dado que por momentos presentaba fases de fluido no newtoniano,
+ siendo muy difícil de manejar y mezclar.
+ Finalmente, quedó todo hecho granos.
+ Y lo pasamos por un tamiz para que quede como polvo.
+\end_layout
+
+\begin_layout Standard
+Para la del almidón+np de TiO2, mezclamos el glicerol con el agua por un
+ lado y preparamos el almidón por otro.
+ Luego, tomamos una pequeña porción del líquido (glicerol+agua) en un vasito
+ y le introdujimos las NP.
+ Luego, utilizamos un sonicador de punta para disolver las NP.
+\end_layout
+
+\begin_layout Standard
+Hicimos otra muestra más de almidón-glicerol-agua solo para después quemar
+ en la extrusora.
+\end_layout
+
+\begin_layout Standard
+Las mzclas las dejamos reposar 24h.
+\end_layout
+
+\begin_layout Standard
+Al día siguiente, 24h después, extrudamos.
+\end_layout
+
+\begin_layout Standard
+Utilizamos como perfil de temperatura 60-100-110-120-130-140-140-140-140-120
+ y a 120 rpm, que resulta ser distinto a lo que acostumbran (sobre todo
+ en rpm), y a mayor emperatura justamente porque a mayor rpm más rápido
+ pasa por la camisa de la extrusora, y así el material está menos tiempo
+ dentro.
+ La extrusora demoró como una hora alcanzar estos parámetros.
+ Con un ventilador y todo, costó que el primero sea a una temperatura de
+ 60ºC, dado que el de al lado tiene una temperatura de 100ºC.
+ Llegó a 80ºC y decidimos dejarlo así.
+ IMPORTANTE: controlar la presión, que no debe superar los 10 ...
+ (unidad que no recuerdo).
+ A la extrusora primero se le tira una primera tanda de polietileno para
+ limpiarla.
+ Si quedan restos, el polietileno lo arrastra (¿con qué perfil de T? colgué)
+ Luego, se utilizó la muestra para quemar.
+ Se le va echando muy de a poco sobre la boquilla, apretando con un palito
+ de silicona bastante duro para que los tornillos se lleven los grumos.
+ A la salida, sale toda una cosa que parece vomitada (el PE derretido),
+ donde luego se le puso como un 'filtro' para con un agujero medio grande
+ como para que salga en forma de 'chorizo'.
+ Luego del PE, se le echa el almidón para quemar.
+ Esto, para arrastrar el PE.
+ Finalmente, se ponen las muestras que hicimos.
+ Primero solamente la de almidón, que resultó a la salida un color mas o
+ menos marrón, un poco duro y resistente ante esfuerzos.
+ Luego, le introdujimos el de almidón+NP, donde a la salida se observó de
+ un color blanco, y mucho mas flexible y manejable.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/extrusion.jpeg
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego, de estos 'chorizos' hacemos films con una prensa hidraulica.
+ Cortamos pequeños pedazos de 4g y las colocamos sobre dos láminas de teflón
+ tipo haciendo un sanguchito, y luego dos láminas metálicas (también en
+ sanguchito) como para poner en la prensa.
+ Comprimimos un poco, de manera que quede un contacto completo entre la
+ lámina y la prens, y calentamos a 130ºC con un PID.
+ Alcanzada la temperatura de 130ºC, lo dejamos un rato más hasta tocar la
+ lámina metálica y esté realmente caliente.
+ Luego, presionamos a 1 (...
+ unidad de presión? bar?) y lo dejamos por 15 minutos.
+ Cada tanto revisamos porque la presión baja, así que volvemos a presionar
+ para que quede a 1 (...unidad).
+ Pasados los 15 minutos, lo llevamos a una presión de 5 (...unidad?) durante
+ otros 15 minutos, siempre chequeando cada tanto de que siempre esté a tal
+ presión.
+ Luego, ponemos el PID en 0ºC y colocamos un ventilador apuntando a la prensa
+ para que se enfríe más rápido.
+ También, controlando que esté siempre a 5 (unidad?) de presión.
+ Cuando la temperatura llega a 38ºC - 40ºC, liberamos la presión y quitamos
+ el film cuidadosamente.
+ Luego, colocamos los films en un colocador en forma de resorte, tipo tender.
+\end_layout
+
+\begin_layout Standard
+Los films se colocan en un contenedor a humedad controlada, puesto a que
+ las propiedades del almidón cambian según las condiciones tanto de fabricación
+ como de procesos.
+ Al contenedor, con ayuda de una bomba, lo ponemos en vacío.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/films.jpg
+	lyxscale 10
+	scale 5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Calibración del sensor CO2
+\end_layout
+
+\begin_layout Standard
+Colocamos el sensor en un pequeño contenedor sellado con dos orificios:
+ uno con la manguera entrante, con el aire en interés de medir, y otra con
+ la salida de los cables y además salida del aire.
+\end_layout
+
+\begin_layout Standard
+Para calibrar el sensor, como no tenemos gases de CO2, se buscó lo contrario:
+ que mida cero.
+ Para ello, se preparó una solución 10M de NaOH para que capture el CO2
+ del ambiente y luego se pasó tal aire, libre de CO2, por el contenedor.
+\end_layout
+
+\begin_layout Standard
+En las primeras pruebas, sucedió que al prenderlo subió el valor del CO2
+ en ppm, y luego bajó hasta estabilizarse.
+ Lamentablemente, llegaba hasta unos 260ppm, nunca cerca de 0 (o más bien
+ cerca de 50, que es el error del sensor).
+ Lo intentamos varias veces y vimos el mismo fenómeno
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
