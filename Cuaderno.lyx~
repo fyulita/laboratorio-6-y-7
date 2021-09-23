@@ -2803,6 +2803,18 @@ Compramos una electroválvula
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/config_electrovalvulas.jpg
+	lyxscale 15
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Así, la idea es que hayan dos válvulas por serie.
  En cada serie, la válvula que redirige el gas al frasco con NaOH que captura
  CO2 se mantendrá siempre abierta.
@@ -2810,13 +2822,29 @@ Así, la idea es que hayan dos válvulas por serie.
  sensor durante un cierto tiempo (a determinar).
  Una vez medido el CO2, se cierra esta válvula y se abre la que redirige
  el gas al frasco con NaOH.
- Esto, cuadruplicado.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/config_electrovalvulas2.jpg
+	lyxscale 15
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esto, cuadruplicado.
  Entonces, 4 válvulas se mantendrán encendidas para que estén normalmente
  abiertas (las del NaOH) y luego, cada 6h, se van cerrando y abriendo la
  válvula que redirige al sensor, una a la vez.
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsection*
 Preparación de muestras
 \end_layout
 
@@ -2893,8 +2921,8 @@ Utilizamos como perfil de temperatura 60-100-110-120-130-140-140-140-140-120
 \align center
 \begin_inset Graphics
 	filename Imagenes/extrusion.jpeg
-	lyxscale 60
-	scale 60
+	lyxscale 50
+	scale 30
 
 \end_inset
 
@@ -2902,7 +2930,238 @@ Utilizamos como perfil de temperatura 60-100-110-120-130-140-140-140-140-120
 \end_layout
 
 \begin_layout Standard
+Luego, de estos 'chorizos' hacemos films con una prensa hidraulica.
+ Cortamos pequeños pedazos de 4g y las colocamos sobre dos láminas de teflón
+ tipo haciendo un sanguchito, y luego dos láminas metálicas (también en
+ sanguchito) como para poner en la prensa.
+ Comprimimos un poco, de manera que quede un contacto completo entre la
+ lámina y la prens, y calentamos a 130ºC con un PID.
+ Alcanzada la temperatura de 130ºC, lo dejamos un rato más hasta tocar la
+ lámina metálica y esté realmente caliente.
+ Luego, presionamos a 1 (...
+ unidad de presión? bar?) y lo dejamos por 15 minutos.
+ Cada tanto revisamos porque la presión baja, así que volvemos a presionar
+ para que quede a 1 (...unidad).
+ Pasados los 15 minutos, lo llevamos a una presión de 5 (...unidad?) durante
+ otros 15 minutos, siempre chequeando cada tanto de que siempre esté a tal
+ presión.
+ Luego, ponemos el PID en 0ºC y colocamos un ventilador apuntando a la prensa
+ para que se enfríe más rápido.
+ También, controlando que esté siempre a 5 (unidad?) de presión.
+ Cuando la temperatura llega a 38ºC - 40ºC, liberamos la presión y quitamos
+ el film cuidadosamente.
+ Luego, colocamos los films en un colocador en forma de resorte, tipo tender.
+\end_layout
 
+\begin_layout Standard
+Los films se colocan en un contenedor a humedad controlada, puesto a que
+ las propiedades del almidón cambian según las condiciones tanto de fabricación
+ como de procesos.
+ Al contenedor, con ayuda de una bomba, lo ponemos en vacío.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/films.jpg
+	lyxscale 10
+	scale 5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Calibración del sensor CO2
+\end_layout
+
+\begin_layout Standard
+Colocamos el sensor en un pequeño contenedor sellado con dos orificios:
+ uno con la manguera entrante, con el aire en interés de medir, y otra con
+ la salida de los cables y además salida del aire.
+\end_layout
+
+\begin_layout Standard
+Para calibrar el sensor, como no tenemos gases de CO2, se buscó lo contrario:
+ que mida cero.
+ Para ello, se preparó una solución 10M de NaOH para que capture el CO2
+ del ambiente y luego se pasó tal aire, libre de CO2, por el contenedor.
+\end_layout
+
+\begin_layout Standard
+En las primeras pruebas, sucedió que al prenderlo subió el valor del CO2
+ en ppm, y luego bajó hasta estabilizarse.
+ Lamentablemente, llegaba hasta unos 260ppm, nunca cerca de 0 (o más bien
+ cerca de 50, que es el error del sensor).
+ Lo intentamos varias veces y vimos el mismo fenómeno.
+ Lo llamativo es que, al abrir el frasco de NaOH ahí sí la medición de CO2
+ se desplomaba y se iba a 60ppm, lo que realmente queríamos medir.
+ Lo intentamos 4 veces y en todas pasó lo mismo: al conectarlo, se estabiliza
+ cerca de 270ppm y luego al abrir el frasco/desconectar la manguera de entrada,
+ baja con todo los ppm y luego sube para estabilizarse hasta el de la atmósfera.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/medicion_0.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Creemos que una posible explicación sea que el contenedor no estaba bien
+ sellado, y como el caudal y la presión de la manguera entrante es tan baja,
+ entonces podría estar entrando aire a través del orificio de salida, el
+ de los cables.
+ Luego, al quitar la manguera, quizás todo el aire tiende a escaparse del
+ contenedor produciendo un 'vacío' y por tanto, el sensor midiendo cerca
+ de 0ppm; pues casi no habría aire.
+ Claro que, esto duraría poco ya que luego volvería a entrar el aire hasta
+ normalizarse con la atmósfera.
+ Es una posible explicación.
+\end_layout
+
+\begin_layout Standard
+Otra opción es ¿podría estar la solución de NaOH mala? Ya que la habíamos
+ hecho unos días anteriores.
+ Para poner esta hipótesis a prueba, el lunes 20/09 probamos dos cosas.
+ Por un lado, hacer una analogía a como en verdad lo tendríamos: conectar
+ a primero NaOH y luego agua.
+ Esto no funcionó, seguía estancándose en los 270ppm.
+ Por otro lado, culpando que la solución posiblemente esté mala, hicimos
+ otra solución 5M y las pusimos en paralelo: primero que capture el de 10M
+ y luego el de 5M.
+ Haciendo ello, vimos que bajó hasta 220ppm, cosa que anteriormente no había
+ llegado.
+ No sabemos si fue coincidencia o si estaba un poco mala la de 10M.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/medicion_1.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ante la inseguridad y con tal de obtener una mejor medición, sellamos muy
+ bien el contenedor; reduciendo la salida de los cables a la mínima posible.
+ (esto realizado el lunes 20/09)
+\end_layout
+
+\begin_layout Standard
+El miércoles 22/09 volvimos al laboratorio con la intención de medir el
+ CO2 a la salida del NaOH, ahora bien sellado.
+ Al hacer esto, fue un gran éxito: ha medido entre 80 y 100 ppm!!! Lo que
+ esperábamos!
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/medicion_2.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Así que evidentemente era un problema de que no estaba bien sellado.
+ Ahora sí.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, compramos 100 O'Rings planos para mejorar el sellado de los
+ frascos, dado que algunos seguían perdiendo.
+ Además, compramos elementos como para armar 6 sistemas más: 6 frascos más,
+ 6 sunchos más, más aireadores y más prenscables.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hasta ahora veníamos armando y haciendo pruebas del sistema de a pedazos:
+ por un lado la temperatura, por otro las válvulas y por otro el sensor.
+ Llegó el momento de juntar todos los sistemas.
+\end_layout
+
+\begin_layout Standard
+Tras pelear un rato con arduino porque al pedirle que haga un intercambio
+ de válvulas cada 10 minutos y en vez de eso lo hacía cada 15 segundos,
+ pudimos empalmar todas las cosas y que salgan de forma exitosa.
+\end_layout
+
+\begin_layout Standard
+Con arduino le pedimos las tres cosas en simultáneo: que controle la temperatura
+ on/off, que abra o cierre las válvulas cada cierto tiempo y que mida siempre,
+ constantemente, el CO2.
+ Con python, le pedimos que extraiga los datos y los ponga en tablas en
+ el siguiente orden: primero la hora, luego la medición de CO2, luego el
+ estado de la válvula que redirige al sensor de CO2, luego el estado de
+ la válvula que redirige a la trampa de NaOH, luego la temperatura del compost
+ (la que se encuentra dentro de la tierra), luego la temperatura del suncho
+ (y de la cual se controla el on/off) y por último el estado del relay del
+ suncho.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/tipo_de_medicion.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se toman mediciones cada 5 segundos y se guardan 100 datos en un .csv, luego
+ se arma un nuevo .csv con 100 datos y así.
+ Esto por si, en algún momento se corta la luz o algo falla, solo perdemos
+ las últimas 100 mediciones y no todo.
+ Además, así, podemos eliminar los datos que no nos interesen.
+\end_layout
+
+\begin_layout Standard
+Al momento de analizar datos, se elige la columna que se desea medir.
+ En general, siempre se querrá analizar lal columna de CO2, pero nos sirve
+ tener guardado por las dudas las temperaturas del compost, ya que si algo
+ falla es bueno saber de que la temperatura se ha mantenido siempre correctament
+e.
 \end_layout
 
 \begin_layout Bibliography
