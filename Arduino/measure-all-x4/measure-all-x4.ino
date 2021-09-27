@@ -9,12 +9,12 @@
 #define pinDatosDQ 2
 #define pinRelayTemp 3
 #define pinRelayValvulaCO2_1 4
-#define pinRelayValvulaCO2_2 5
-#define pinRelayValvulaCO2_3 6
-#define pinRelayValvulaCO2_4 7
-#define pinRelayValvulaCompost_1 8
-#define pinRelayValvulaCompost_2 9
-#define pinRelayValvulaCompost_3 10
+#define pinRelayValvulaCO2_2 6
+#define pinRelayValvulaCO2_3 8
+#define pinRelayValvulaCO2_4 10
+#define pinRelayValvulaCompost_1 5
+#define pinRelayValvulaCompost_2 7
+#define pinRelayValvulaCompost_3 9
 #define pinRelayValvulaCompost_4 11
 #define pinRx 12
 #define pinTx 13
@@ -28,8 +28,8 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 
 // Time intervals
-#define compostTime 120000 // 2 mins.
-#define co2Time 120000 // 2 mins.
+#define compostTime 60000 // 1 min.
+#define co2Time 10000 // 10 secs.
 const int loopTime = 5000;
 unsigned long currentTime = 0;
 unsigned long previousTime = 0;
@@ -66,14 +66,14 @@ void setup() {
     myMHZ19.autoCalibration();
 
     // Initialize valves
-    digitalWrite(pinRelayValvulaCO2_1, HIGH);
-    digitalWrite(pinRelayValvulaCO2_2, HIGH);
-    digitalWrite(pinRelayValvulaCO2_3, HIGH);
-    digitalWrite(pinRelayValvulaCO2_4, HIGH);
-    digitalWrite(pinRelayValvulaCompost_1, LOW);
-    digitalWrite(pinRelayValvulaCompost_2, LOW);
-    digitalWrite(pinRelayValvulaCompost_3, LOW);
-    digitalWrite(pinRelayValvulaCompost_4, LOW);
+    digitalWrite(pinRelayValvulaCO2_1, LOW);
+    digitalWrite(pinRelayValvulaCO2_2, LOW);
+    digitalWrite(pinRelayValvulaCO2_3, LOW);
+    digitalWrite(pinRelayValvulaCO2_4, LOW);
+    digitalWrite(pinRelayValvulaCompost_1, HIGH);
+    digitalWrite(pinRelayValvulaCompost_2, HIGH);
+    digitalWrite(pinRelayValvulaCompost_3, HIGH);
+    digitalWrite(pinRelayValvulaCompost_4, HIGH);
 }
 
  

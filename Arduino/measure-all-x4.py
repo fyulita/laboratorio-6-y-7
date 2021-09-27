@@ -12,7 +12,7 @@ print(f"Connected to Arduino port {arduino_port}")
 now = datetime.now()
 folder_name = now.strftime('%Y-%m-%d_%H-%M-%S')
 
-os.makedirs(f"./measurements/full/{folder_name}")
+os.makedirs(f"./measurements/full-x4/{folder_name}")
 print(f"Created folder {folder_name}")
 
 measurement = 0 #start at 0 because our header is 0 (not real data)
