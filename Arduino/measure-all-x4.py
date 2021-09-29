@@ -21,7 +21,7 @@ while True:
         fileName = f"./measurements/full/{folder_name}/data_{int(measurement / 100)}.csv"
         print(f"{fileName} created")
         file = open(fileName, "w")
-        file.write("Date_Time,CO2,Estado_Valvula_CO2_1,Estado_Valvula_Compost_1,Estado_Valvula_CO2_2,Estado_Valvula_Compost_2,Estado_Valvula_CO2_3,Estado_Valvula_Compost_3,Estado_Valvula_CO2_4,Estado_Valvula_Compost_4,Temp_Compost,Temp_Suncho,Estado_Suncho\n")
+        file.write("Date_Time,CO2,Estado_Valvula_CO2_1,Estado_Valvula_Compost_1,Estado_Valvula_CO2_2,Estado_Valvula_Compost_2,Estado_Valvula_CO2_3,Estado_Valvula_Compost_3,Estado_Valvula_CO2_4,Estado_Valvula_Compost_4,Temp_Compost_1,Temp_Compost_2,Temp_Compost_3,Temp_Compost_4,Temp_Suncho,Estado_Suncho\n")
 
     data = str(ser.readline())
     now = datetime.now()
