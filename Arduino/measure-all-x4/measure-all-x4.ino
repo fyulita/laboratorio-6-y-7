@@ -9,12 +9,12 @@
 #define pinDatosDQ 2
 #define pinRelayTemp 3
 #define pinRelayValvulaCO2_1 4
-#define pinRelayValvulaCO2_2 5
-#define pinRelayValvulaCO2_3 6
-#define pinRelayValvulaCO2_4 7
-#define pinRelayValvulaCompost_1 8
-#define pinRelayValvulaCompost_2 9
-#define pinRelayValvulaCompost_3 10
+#define pinRelayValvulaCO2_2 6
+#define pinRelayValvulaCO2_3 8
+#define pinRelayValvulaCO2_4 10
+#define pinRelayValvulaCompost_1 5
+#define pinRelayValvulaCompost_2 7
+#define pinRelayValvulaCompost_3 9
 #define pinRelayValvulaCompost_4 11
 #define pinRx 12
 #define pinTx 13
@@ -28,8 +28,8 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 
 // Time intervals
-#define compostTime 120000 // 2 mins.
-#define co2Time 120000 // 2 mins.
+#define compostTime 20000 // 2 mins.
+#define co2Time 20000 // 2 mins.
 const int loopTime = 5000;
 unsigned long currentTime = 0;
 unsigned long previousTime = 0;
@@ -108,6 +108,7 @@ void loop() {
             previousTime = currentTime;
             
             if (useSensor == 1) {
+                Serial.print("((useSensor = 1))");
                 // Turn CO2 valve 1 off
                 digitalWrite(pinRelayValvulaCompost_1, HIGH);
                 digitalWrite(pinRelayValvulaCO2_1, LOW);
@@ -117,6 +118,7 @@ void loop() {
                 
                 useSensor = 2;
             } else if (useSensor == 2) {
+                Serial.print("((useSensor = 2))");
                 // Turn CO2 valve 2 off
                 digitalWrite(pinRelayValvulaCompost_2, HIGH);
                 digitalWrite(pinRelayValvulaCO2_2, LOW);
@@ -126,6 +128,7 @@ void loop() {
                 
                 useSensor = 3;
             } else if (useSensor == 3) {
+                Serial.print("((useSensor = 3))");
                 // Turn CO2 valve 3 off
                 digitalWrite(pinRelayValvulaCompost_3, HIGH);
                 digitalWrite(pinRelayValvulaCO2_3, LOW);
@@ -135,6 +138,7 @@ void loop() {
                 
                 useSensor = 4;
             } else {
+                Serial.print("((useSensor = 4))");
                 // Turn CO2 valve 4 off
                 digitalWrite(pinRelayValvulaCompost_4, HIGH);
                 digitalWrite(pinRelayValvulaCO2_4, LOW);
@@ -154,6 +158,8 @@ void loop() {
                                                          
         if (currentTime - previousTime >= compostTime) {
             previousTime = currentTime;
+
+            Serial.print("((useSensor = 0))");
                                                          
             // Turn CO2 valve 1 on                       
             digitalWrite(pinRelayValvulaCO2_1, HIGH);
