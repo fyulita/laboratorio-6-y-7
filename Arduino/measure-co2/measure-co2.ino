@@ -25,5 +25,5 @@ void loop() {
     usual documented command with getCO2(false) */
     Serial.println(myMHZ19.getCO2());
     
-    delay(2000);
+    delay(120000);
 }

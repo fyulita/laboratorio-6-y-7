@@ -28,8 +28,13 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 
 // Time intervals
+<<<<<<< HEAD
 #define compostTime 20000 // 2 mins.
 #define co2Time 20000 // 2 mins.
+=======
+#define compostTime 60000 // 1 min.
+#define co2Time 10000 // 10 secs.
+>>>>>>> 75f343770634127526da9fc33794cf48908b5def
 const int loopTime = 5000;
 unsigned long currentTime = 0;
 unsigned long previousTime = 0;
@@ -66,14 +71,14 @@ void setup() {
     myMHZ19.autoCalibration();
 
     // Initialize valves
-    digitalWrite(pinRelayValvulaCO2_1, HIGH);
-    digitalWrite(pinRelayValvulaCO2_2, HIGH);
-    digitalWrite(pinRelayValvulaCO2_3, HIGH);
-    digitalWrite(pinRelayValvulaCO2_4, HIGH);
-    digitalWrite(pinRelayValvulaCompost_1, LOW);
-    digitalWrite(pinRelayValvulaCompost_2, LOW);
-    digitalWrite(pinRelayValvulaCompost_3, LOW);
-    digitalWrite(pinRelayValvulaCompost_4, LOW);
+    digitalWrite(pinRelayValvulaCO2_1, LOW);
+    digitalWrite(pinRelayValvulaCO2_2, LOW);
+    digitalWrite(pinRelayValvulaCO2_3, LOW);
+    digitalWrite(pinRelayValvulaCO2_4, LOW);
+    digitalWrite(pinRelayValvulaCompost_1, HIGH);
+    digitalWrite(pinRelayValvulaCompost_2, HIGH);
+    digitalWrite(pinRelayValvulaCompost_3, HIGH);
+    digitalWrite(pinRelayValvulaCompost_4, HIGH);
 }
 
  
@@ -174,6 +179,12 @@ void loop() {
     Serial.print(sensorDS18B20.getTempCByIndex(0));
     Serial.print(",");
     Serial.print(sensorDS18B20.getTempCByIndex(1));
+    Serial.print(",");
+    Serial.print(sensorDS18B20.getTempCByIndex(2));
+    Serial.print(",");
+    Serial.print(sensorDS18B20.getTempCByIndex(3));
+    Serial.print(",");
+    Serial.print(sensorDS18B20.getTempCByIndex(4));
     Serial.print(",");
 
     if (sensorDS18B20.getTempCByIndex(1) <= cutoffTemp) {
