@@ -2972,6 +2972,12 @@ Los films se colocan en un contenedor a humedad controlada, puesto a que
 
 \end_layout
 
+\begin_layout Standard
+La extrusión la hicimos el viernes 10/09.
+ Durante la semana del lunes 13/09 y la siguiente, 20/09, estuvimos haciendo
+ 8 films de almidón y otros 8 films de TiO2.
+\end_layout
+
 \begin_layout Subsection*
 Calibración del sensor CO2
 \end_layout
@@ -3086,6 +3092,25 @@ Así que evidentemente era un problema de que no estaba bien sellado.
 \end_layout
 
 \begin_layout Standard
+En este gráfico se puede notar los primeros 2 minutos necesarios para que
+ el sensor se encienda, los aproximadamente 4 minutos en total desde que
+ se enciende para que se estabilice a las condiciones ambientales, y luego
+ el tiempo de estabilización ante una atmósfera muy distinta y cómo se plancha.
+ La medición total presentada ha sido de 17 minutos (observando la hora
+ de los .csv; 17x60=1020 seg).
+ Desde que conectamos la manguera, cuando subió con todo y luego empezó
+ a bajar, se trata de 12 minutos.
+\end_layout
+
+\begin_layout Standard
+Lo que es llamativo, es que la medición de CO2 baja y luego sube un poquitito.
+ Esto pasó en todas las mediciones.
+ Podría ser que tenga una cierta inercia.
+ Debemos definir qué hacer, más que nada para ver el tiempo de medición
+ entre una y otra.
+\end_layout
+
+\begin_layout Standard
 \begin_inset space ~
 \end_inset
 
@@ -3142,6 +3167,7 @@ Con arduino le pedimos las tres cosas en simultáneo: que controle la temperatur
 \align center
 \begin_inset Graphics
 	filename Imagenes/tipo_de_medicion.png
+	scale 50
 
 \end_inset
 
@@ -3162,6 +3188,24 @@ Al momento de analizar datos, se elige la columna que se desea medir.
  tener guardado por las dudas las temperaturas del compost, ya que si algo
  falla es bueno saber de que la temperatura se ha mantenido siempre correctament
 e.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Semana del 18/09
+\end_layout
+
+\begin_layout Standard
+Ya con las electrovalvulas en mano, probamos el sistema.
+ Con el circuito de las 8electrovalvulas + un relay x8, colocamos 8 frascos
+ con agua para chequear que el sistema cambie de un frasco a otro de manera
+ correcta.
 \end_layout
 
 \begin_layout Bibliography

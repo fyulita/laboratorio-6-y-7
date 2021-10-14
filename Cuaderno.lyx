@@ -2972,6 +2972,12 @@ Los films se colocan en un contenedor a humedad controlada, puesto a que
 
 \end_layout
 
+\begin_layout Standard
+La extrusión la hicimos el viernes 10/09.
+ Durante la semana del lunes 13/09 y la siguiente, 20/09, estuvimos haciendo
+ 8 films de almidón y otros 8 films de TiO2.
+\end_layout
+
 \begin_layout Subsection*
 Calibración del sensor CO2
 \end_layout
@@ -3182,6 +3188,351 @@ Al momento de analizar datos, se elige la columna que se desea medir.
  tener guardado por las dudas las temperaturas del compost, ya que si algo
  falla es bueno saber de que la temperatura se ha mantenido siempre correctament
 e.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Desde 18/09 hasta fin de mes
+\end_layout
+
+\begin_layout Standard
+Ya con las electrovalvulas en mano, probamos el sistema.
+ Con el circuito de las 8electrovalvulas + un relay x8, colocamos 8 frascos
+ con agua para chequear que el sistema cambie de un frasco a otro de manera
+ correcta, y así ha sido.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/prueba.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego de esta prueba y asegurarnos que el sistema de switcheo anda bien,
+ procedimos a realizar el armado del equipo finalmente:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/equipo.jpeg
+	lyxscale 20
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+También cambiamos todos los O'Rings por O'Rings planos que hemos comprado
+ aparte, para tener un mejor sellado, y comprobamos que efectivamente funcionaba
+n mejor: el cuarto frasco burbujeaba casi sin pérdidas.
+\end_layout
+
+\begin_layout Standard
+Mientras tanto, también, seguíamos haciendo algunos films que quedaron pendiente
+s.
+\end_layout
+
+\begin_layout Paragraph*
+Principios de octubre hasta 12/10
+\end_layout
+
+\begin_layout Standard
+Hacemos peso seco: dado que los materiales tienen humedad, se deben pesar
+ en condiciones secas.
+ Para ello, se coloca en una estufa a 100ºC.
+\end_layout
+
+\begin_layout Standard
+Primero hicimos peso seco de las muestras, tanto de almidón como de TiO2
+ por duplicado.
+ Medimos el peso de 4 vasitos y los colocamos en la estufa durante 1h a
+ 100ºC, luego los quitamos y pesamos (muy poca diferencia de peso, ya estaban
+ secos).
+ Luego, colocamos 0.5g de muestra en cada vasito, cortando los films.
+ Lo colocamos nuevamente en la estufa a 100ºC durante, al menos, una noche
+ (lo dejamos todo el finde).
+ Al volver, lo pesamos.
+ Las mediciones son:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso vasito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7481
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.2163
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.8463
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7337
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso film
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5046
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5053
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso vasito seco
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7377
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.2087
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.8387
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7272
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso vasito con film, seco
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.1357
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.6093
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.2344
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.1290
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por lo tanto, el peso seco de los films de 0.5g ha sido
+\end_layout
+
+\begin_layout Standard
+Lucas compró más compost y NaOH sólido, para no tener que lidiar con el
+ NaOH líquido que era bastante hincha (oxidó los sunchos sin contacto, solo
+ con el aire.
+ Muy de a poco se iba comiendo capas de la mesa y del plástico que colocamos
+ para proteger la mesa...
+ y sin contacto directo, solo con el aire).
 \end_layout
 
 \begin_layout Bibliography
