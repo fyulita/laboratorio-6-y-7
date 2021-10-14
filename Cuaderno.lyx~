@@ -3198,14 +3198,692 @@ e.
 \end_layout
 
 \begin_layout Paragraph*
-Semana del 18/09
+Desde 18/09 hasta fin de mes
 \end_layout
 
 \begin_layout Standard
 Ya con las electrovalvulas en mano, probamos el sistema.
  Con el circuito de las 8electrovalvulas + un relay x8, colocamos 8 frascos
  con agua para chequear que el sistema cambie de un frasco a otro de manera
- correcta.
+ correcta, y así ha sido.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/prueba.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego de esta prueba y asegurarnos que el sistema de switcheo anda bien,
+ procedimos a realizar el armado del equipo finalmente:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/equipo.jpeg
+	lyxscale 20
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+También cambiamos todos los O'Rings por O'Rings planos que hemos comprado
+ aparte, para tener un mejor sellado, y comprobamos que efectivamente funcionaba
+n mejor: el cuarto frasco burbujeaba casi sin pérdidas.
+\end_layout
+
+\begin_layout Standard
+Mientras tanto, también, seguíamos haciendo algunos films que quedaron pendiente
+s.
+\end_layout
+
+\begin_layout Paragraph*
+Principios de octubre hasta 12/10
+\end_layout
+
+\begin_layout Standard
+Hacemos peso seco: dado que los materiales tienen humedad, se deben pesar
+ en condiciones secas.
+ Para ello, se coloca en una estufa a 100ºC.
+\end_layout
+
+\begin_layout Standard
+Primero hicimos peso seco de las muestras, tanto de almidón como de TiO2
+ por duplicado.
+ Medimos el peso de 4 vasitos y los colocamos en la estufa durante 1h a
+ 100ºC, luego los quitamos y pesamos (muy poca diferencia de peso, ya estaban
+ secos).
+ Luego, colocamos 0.5g de muestra en cada vasito, cortando los films.
+ Lo colocamos nuevamente en la estufa a 100ºC durante, al menos, una noche
+ (lo dejamos todo el finde).
+ Al volver, lo pesamos.
+ Las mediciones son:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso vasito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7481
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.2163
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.8463
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7337
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso film
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5046
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.5053
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso vasito seco
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7377
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.2087
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.8387
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.7272
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso vasito con film, seco
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.1357
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.6093
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.2344
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.1290
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por lo tanto, el peso seco de los films de 0.5g ha sido...
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+SEGUIR ESCRIBIENDO DESPUÉS
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Cal Sodada
+\end_layout
+
+\begin_layout Standard
+Lucas compró más compost y NaOH sólido (cal sodada), para no tener que lidiar
+ con el NaOH líquido que era bastante hincha (oxidó los sunchos sin contacto,
+ solo con el aire.
+ Muy de a poco se iba comiendo capas de la mesa y del plástico que colocamos
+ para proteger la mesa...
+ y sin contacto directo, solo con el aire).
+ El mismo viene en forma como de granos de arroz.
+ Para ver qué tan bien atrapa el CO2, lo distribuimos en 3 frascos: uno
+ con 200g, otro con 300g y otro con 500g, y probamos con el sensor a ver
+ qué tan bien captura (esperamos que a la salida mida muy poco)
+\end_layout
+
+\begin_layout Subparagraph*
+Cal sodada - 200g:
+\end_layout
+
+\begin_layout Standard
+Se colocaron 200g en un frasco de polietileno.
+ No se colocó menos que ello dado que sino no puede tapar a la manguera
+ de entrada.
+ Con el aireador de entrada, la manguera al fondo y tapada con la cal sodada,
+ y a la salida conectado al sensor CO2; medimos la evolución del CO2:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/cal-sodada_200g/CO2.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/cal-sodada_200g/CO2_cortada.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se observa que el sensor estaba midiendo los 600ppm del ambiente y al conectar
+ el aireador sube (como hace siempre) y luego baja, hasta llegar a valores
+ cercanos a 100ppm (como antes también) (segunda imagen con zoom)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Cal sodada 300g:
+\end_layout
+
+\begin_layout Standard
+Igual que antes, pero se colocó en otro frasco 300g.
+ Por alguna razón que aun no entiendo, cuando se desconectó el frasco anterior
+ con 200g el sensor marcó 5000ppm en todo momento...
+ con o sin entrada de aire, y no se tocaron los cables ni nada.
+ Estuvo a 5000ppm un buen rato (más de 15min) y se conectó igual el de cal
+ sodada 300g a ver si pasaba algo, y empezó a disminuir; hasta alcanzar
+ lo esperado: los 100ppm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/cal-sodada_300g/CO2.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/cal-sodada_300g/CO2_cortada.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego de esta medición, me tenía que ir y no llegaba a medir el de 500g,
+ pero se me ocurrió dejarlo toda la noche para ver si el de 300g se saturaba
+ en algún momento, esta vez en vez de pedir mediciones cada 2 segundos pedí
+ cada 2 minutos.
+ Pasó algo raro: en primer lugar, la última medición anterior que era cerca
+ de 90ppm no coincide con la primera de esta medición, alrededor de 50ppm.
+ Todos estos valores están en el rango de error (50ppm) así que no son confiable
+s, pero es interesante el caracter decreciente.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/cal-sodada_300g/CO2_noche.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esta medición fue de 3h y media, y fue lo único que se midió durante la
+ noche porque la computadora se actualizó sola y luego no siguió levantando
+ datos (una re pena).
+ Sin embargo, el aireador y el sensor seguirían funcionando, solo que no
+ se levantaron esos datos.
+ A la mañana siguiente, con teamviewer, me di cuenta de esto y puse el código
+ de python para que lea los datos y me llevé con una sorpresa: todos los
+ datos marcaban 0ppm.
+ Desde las 10hs hasta las 13hs que siguió levantando datos cada 2 minutos,
+ todos todos todos los datos marcaban 0ppm.
+ Pensando que pudo haber sido un error de python, lo volví a correr a las
+ 13.15hs y nuevamente: siempre marcaba 0ppm.
+ (los datos quedaron guardados en las carpetas con nombre '2021-10-13_10-04-04'
+ y '2021-10-13_15-12-53' ...
+ ni hace falta gráfico, los archivos .csv marca en todas las filas un valor
+ de 0)
+\end_layout
+
+\begin_layout Standard
+Fui a la facultad y desconecté el frasco del sensor, y empecé a medir continuame
+nte hasta irme (carpeta 2021-10-13_16-23-39 ; a las 16.23hs), tomando datos
+ cada 5 segundos.
+ Al llegar, seguía midiendo cero, así que lo soplé a ver qué hacía.
+ Efectivamente subió y fue disminuyendo lentamente hasta equilibrarse el
+ sensor.
+ Bien, me indicaba de que el sensor por lo pronto no se arruinó
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ya establizado, alrededor de los 600ppm que es lo que esperamos por el ambiente,
+ vuelvo a conectar el frasco con 300g de cal sodada (a las 16.32hs).
+ El frasco desde los 600ppm subió como le pasa siempre que hay viento y
+ luego se fue directo al cero (segunda foto con zoom):
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_2.1.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_2.2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Podría ser que bueno, se saturó.
+\end_layout
+
+\begin_layout Standard
+Pruebo la de 500g, que me había quedado pendiente del día anterior.
+ Si bien el frasco lo había armado el día anterior, lo dejé sellado con
+ las tapas totalmente cubiertas (no las que tienen agujeros) para que no
+ capture nada, no vaya a ser que se sature durante la noche.
+ Como la última medición era de 0ppm, al sacar el de 300g lo soplé para
+ que vuelva un poco a la atmósfera, y se fue hasta 5000ppm, luego fue bajando
+ hasta estabilizarse alrededor de 500ppm.
+ Allí, le conecto los 300g de cal sodada y esto se observó: (segunda foto
+ con zoom en la bajada, que es con la cal sodada)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_3.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_3.2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Otra vez se fue a cero! Y el de 500g! Que no debería estar saturado...
+ o salvo que se haya saturado en los 10minutos que pude haber tardado en
+ hacer que el frasco de polietileno llegue a 500g, lo cual no creo.
+\end_layout
+
+\begin_layout Standard
+Le desenchufé la manguera de los 500g y dejé que mida el ambiente ¿cuánto
+ tardará en estabilizarse, sin un 'envión'? (sin soplarlo o ponerle el aireador
+ directo).
+ Bueno...
+ a paso sumamente tortuga, luego de 25 minutos llegó a 370ppm
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_4.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ok...
+ tarda MUCHO en estabilizarse.
+ ¿puede ser un tema de presión?
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vuelvo a probar la de 200g, que el día anterior había salido 10 puntos...
+ se fue en dos minutos a cero también.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_5.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+LPM!!! Ayer estaba bien!! Qué pasó ahora!? Si apenas después de medir la
+ cerré con su tapa, no se pudo haber saturado.
+\end_layout
+
+\begin_layout Standard
+¿estarán posta mal la cal sodada? Pruebo las soluciones viejas, la de 10M
+ de NaOH.
+\end_layout
+
+\begin_layout Standard
+Primero, como se quedó midiendo 0ppm por la cal sodada, le conecto el aireador
+ para que le tire aire del ambiente y lo dejo estabilizarse unos 10minutos,
+ donde llegó hasta 460ppm de manera estabilizada; allí conecto entonces
+ el frasco 10M de NaOH y mido a ver si sigue buena la solución...
+ Lo dejé como casi una hora, y esto fue su evolución:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_6.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sumamente lento...
+ se me hace que la solución está mala después de tanto tiempo.
+ O esta solución 10M estaba mala o el sensor realmente está midiendo mal
+ a la salida de capturadores de CO2...
+ Para sacarme esa duda, preparé una nueva solución 1M NaOH; y esto midió:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_7.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde al principio hace la típica subida al sentir viento, y luego bajó
+ a 100ppm y subió hasta 150 ppm aprox.
+ Esto se midió durante 20 minutos aprox.
+\end_layout
+
+\begin_layout Standard
+Luego ya me tenía que ir...
+ así que pensé en dejar conectada la cal sodada de 200g.
+ Enseguida se fue a cero de nuevo...
+ y midió cero toda la noche.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Arduino/measurements/CO2/2021-10-13_16-23-39/figuras/medicion_8.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Bibliography
