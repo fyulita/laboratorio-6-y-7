@@ -3,7 +3,7 @@
 
 // Pin donde se conecta el bus 1-Wire
 const int pinDatosDQ = 2;
-const int pinRelay = 7;
+const int pinRelay = 3;
 
 // Instancia a las clases OneWire y DallasTemperature
 OneWire oneWireObjeto(pinDatosDQ);
@@ -27,9 +27,14 @@ void loop() {
     Serial.print(",");
     Serial.print(sensorDS18B20.getTempCByIndex(1));
     Serial.print(",");
+    Serial.print(sensorDS18B20.getTempCByIndex(2));
+    Serial.print(",");
+    Serial.print(sensorDS18B20.getTempCByIndex(3));
+    Serial.print(",");
+    Serial.print(sensorDS18B20.getTempCByIndex(4));
+    Serial.print(",");
 
-
-    if(sensorDS18B20.getTempCByIndex(1) <= 55){
+    if(sensorDS18B20.getTempCByIndex(1) <= 60){
       digitalWrite(pinRelay, HIGH); //turn relay ON
       Serial.println("Prendido");
     }
