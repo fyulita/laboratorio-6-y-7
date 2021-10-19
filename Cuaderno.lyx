@@ -4178,6 +4178,81 @@ Luego ya me tenía que ir...
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al final, estaba perfecto esto.
+ Lo que sucedió fue que al principio medía cerca de 100ppm (al igual que
+ los NaOH) porque era casi cero y un poco de CO2 que quedó en la cámara.
+ Luego, como se ve en el gráfico que se dejó en la noche, lentamente la
+ concentración fue bajando: la cal sodada fue absorbiendo el CO2 de la cámara;
+ hasta que finalmente absorbió todo, y por lo tanto el sensor midió 0ppm.
+ Lo cual es correcto, la cal sodada es por excelencia el mejor absorbedor
+ de CO2.
+ Lo llamativo es que el sensor mida 0ppm...
+ que no fluctúe alrededor de ese valor, sino que de 0 directamente, pero
+ bueno.
+\end_layout
+
+\begin_layout Paragraph*
+WVP - Water vapour permeability
+\end_layout
+
+\begin_layout Standard
+Medimos cuánto vapor permite permear el film.
+ Para ello, colocamos en una celda hasta la mitad aprox cloruro de calcio,
+ que el mismo absorbe humedad.
+ Luego en la parte superior colocamos un film cortadito, midiéndole previamente
+ el grosor en varios lugares con un micrómetro, y sellado con grasa de vacío
+ y apretado con mariposas.
+ Se midió para 4 films, dos de almidón y dos de almidón + NP TiO2, y por
+ duplicado.
+ Es decir, cada film tenía dos pruebas de WVP (excepto el 6-7-8 que comparten)
+ y tanto almidón como TiO2 queda una medición x4.
+ Estas celdas se ubicaron en un aparato de humedad controlada.
+ Básicamente, una esfera que en la parte inferior tiene una solución de
+ cloruro de sodio saturada.
+ Entonces, la idea es que la humedad de ese ambiente atraviese los films
+ y lo capture el cloruro de calcio, así, midiendo la ganancia en peso de
+ la celda (lo que captura de humedad) se mide cuánto vapor el film permea
+ (WVP).
+ Se deben tomar mediciones todos los días de las celdas, y luego graficar
+ la masa en función de los días.
+ Finalmente, el WVP es:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $WVP=\frac{G.e.}{A\Delta P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where G (g/s) is the slope of plotted curve, e (m) the film thickness, ΔP
+ (Pa) the saturation vapor pressure of water at ambient temperature and
+ A (m 2 ) the exposed area.
+ (el denominador tiene un valor de 2238.56)
+\end_layout
+
+\begin_layout Standard
+Colgamos los datos en un archivo .ipynb en la carpeta 
+\begin_inset Quotes eld
+\end_inset
+
+WVP
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
