@@ -32,7 +32,8 @@ SoftwareSerial mySerial(pinRx, pinTx);
 //#define compostTime 20000 // 2 mins.
 //#define co2Time 20000 // 2 mins.
 
-#define compostTime 21600000 // 6h=360min=21600s
+//#define compostTime 21600000 // 6h=360min=21600s
+#define compostTime 7200000 //prueba de 2h
 #define co2Time 600000 // 10min=600seg
 
 const int loopTime = 5000;
@@ -45,7 +46,7 @@ int useSensor = 0;
 
 
 // Cutoff temperature for the compost
-const unsigned int cutoffTemp = 55;
+const unsigned int cutoffTemp = 58;
 
 
 void setup() {
@@ -186,7 +187,7 @@ void loop() {
     Serial.print(sensorDS18B20.getTempCByIndex(4));
     Serial.print(",");
 
-    if (sensorDS18B20.getTempCByIndex(3) <= cutoffTemp) {
+    if (sensorDS18B20.getTempCByIndex(5) <= cutoffTemp) {
         // Turn relay on
         digitalWrite(pinRelayTemp, LOW);
         Serial.println("Prendido");
