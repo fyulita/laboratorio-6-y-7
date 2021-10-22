@@ -187,7 +187,7 @@ void loop() {
     Serial.print(sensorDS18B20.getTempCByIndex(4));
     Serial.print(",");
 
-    if (sensorDS18B20.getTempCByIndex(5) <= cutoffTemp) {
+    if (sensorDS18B20.getTempCByIndex(3) <= cutoffTemp) {
         // Turn relay on
         digitalWrite(pinRelayTemp, LOW);
         Serial.println("Prendido");
