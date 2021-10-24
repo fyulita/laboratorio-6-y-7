@@ -7,11 +7,11 @@
 
 #define baudrate 9600
 #define pinDatosDQ 2
-#define pinRelayTemp 7
-#define pinRelayValvulaCO2 4
-#define pinRelayValvulaCompost 5
-#define pinRx 10
-#define pinTx 11
+#define pinRelayTemp 3
+#define pinRelayValvulaCO2 10
+#define pinRelayValvulaCompost 11
+#define pinRx 12
+#define pinTx 13
 
 
 // Constructors
@@ -22,8 +22,8 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 
 // Time intervals
-#define compostTime 120000 // 2 mins.
-#define co2Time 120000 // 2 mins.
+#define compostTime 300000 // 5min
+#define co2Time 120000 // 2min
 const int loopTime = 5000;
 unsigned long currentTime = 0;
 unsigned long previousTime = 0;
