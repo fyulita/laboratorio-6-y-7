@@ -4242,12 +4242,47 @@ Where G (g/s) is the slope of plotted curve, e (m) the film thickness, ΔP
 \end_layout
 
 \begin_layout Standard
-Colgamos los datos en un archivo .ipynb en la carpeta 
+Colgamos los datos en un archivo .csv en la carpeta 
 \begin_inset Quotes eld
 \end_inset
 
 WVP
 \begin_inset Quotes erd
+\end_inset
+
+, y con un notebook los analizamos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
 \end_inset
 
 
