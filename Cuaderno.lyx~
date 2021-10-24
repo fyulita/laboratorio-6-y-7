@@ -4238,7 +4238,19 @@ Medimos cuánto vapor permite permear el film.
 Where G (g/s) is the slope of plotted curve, e (m) the film thickness, ΔP
  (Pa) the saturation vapor pressure of water at ambient temperature and
  A (m 2 ) the exposed area.
- (el denominador tiene un valor de ...)
+ (el denominador tiene un valor de 2238.56)
+\end_layout
+
+\begin_layout Standard
+Colgamos los datos en un archivo .ipynb en la carpeta 
+\begin_inset Quotes eld
+\end_inset
+
+WVP
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Bibliography
