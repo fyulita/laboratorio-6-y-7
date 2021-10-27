@@ -29,12 +29,9 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 // Time intervals
 
-//#define compostTime 20000 // 2 mins.
-//#define co2Time 20000 // 2 mins.
-
-//#define compostTime 21600000 // 6h=360min=21600s
-#define compostTime 7200000 //prueba de 2h
-#define co2Time 600000 // 10min=600seg
+//#define compostTime 19200000 // 5h 20 mins.
+#define compostTime 4800000 //1h20min
+#define co2Time 1200000 // 20 mins.
 
 const int loopTime = 5000;
 unsigned long currentTime = 0;
@@ -46,7 +43,7 @@ int useSensor = 0;
 
 
 // Cutoff temperature for the compost
-const unsigned int cutoffTemp = 58;
+const unsigned int cutoffTemp = 52;
 
 
 void setup() {
