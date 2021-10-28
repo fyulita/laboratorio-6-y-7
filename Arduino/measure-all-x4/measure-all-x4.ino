@@ -30,8 +30,8 @@ SoftwareSerial mySerial(pinRx, pinTx);
 // Time intervals
 
 //#define compostTime 19200000 // 5h 20 mins.
-#define compostTime 4800000 //1h20min
-#define co2Time 1200000 // 20 mins.
+#define compostTime 14400000 // 4h
+#define co2Time 1800000 // 30 mins.
 
 const int loopTime = 5000;
 unsigned long currentTime = 0;
