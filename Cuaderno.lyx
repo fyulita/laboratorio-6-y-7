@@ -4265,6 +4265,30 @@ WVP
 \end_inset
 
 
+\begin_inset Graphics
+	filename WVP/resumen_curva_pares.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename WVP/resumen_curva_impares.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
