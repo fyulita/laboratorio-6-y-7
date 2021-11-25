@@ -7,7 +7,7 @@ path = "./measurements/full-x4/"
 
 # Carpetas con mediciones "oficiales"
 # Es importante que esten en orden
-folders_list = ["2021-11-03_17-49-11/", "2021-11-05_16-07-41/", "2021-11-05_18-09-50/"]
+folders_list = ["2021-11-03_17-49-11/", "2021-11-05_16-07-41/", "2021-11-05_18-09-50/", "2021-11-08_14-59-55/", "2021-11-08_15-57-42/", "2021-11-08_18-00-42/"]
 
 # Creamos una carpeta para todas las mediciones "oficiales" llamada `official-run/`
 if not os.path.isdir(f"{path}/official-run"):
