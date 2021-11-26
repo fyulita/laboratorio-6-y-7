@@ -1,4 +1,4 @@
-# Laboratorio VI y VII (2020)
+# Laboratorio VI y VII
 
 ## Estudiantes
 - Carolina Adriana Iacovone (LU: 120/17): caro_iacovone@hotmail.com
