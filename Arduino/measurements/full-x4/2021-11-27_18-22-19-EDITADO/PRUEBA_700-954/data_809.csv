@@ -1,0 +1,101 @@
+Date_Time,CO2,Estado_Valvula_CO2_1,Estado_Valvula_Compost_1,Estado_Valvula_CO2_2,Estado_Valvula_Compost_2,Estado_Valvula_CO2_3,Estado_Valvula_Compost_3,Estado_Valvula_CO2_4,Estado_Valvula_Compost_4,Temp_Compost_1,Temp_Compost_2,Temp_Compost_3,Temp_Compost_4,Temp_Suncho,Estado_Suncho
+02/12/2021_19:30:38,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.69,50.31,53.38,59.75,52.88,Prendido
+02/12/2021_19:30:43,!Error: Timed out waiting for response
+02/12/2021_19:30:44,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,59.75,52.88,Prendido
+02/12/2021_19:30:50,!Error: Timed out waiting for response
+02/12/2021_19:30:50,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.69,50.38,53.38,59.69,52.88,Prendido
+02/12/2021_19:30:56,!Error: Timed out waiting for response
+02/12/2021_19:30:57,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,59.63,52.88,Prendido
+02/12/2021_19:31:02,!Error: Timed out waiting for response
+02/12/2021_19:31:03,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.63,52.88,Prendido
+02/12/2021_19:31:09,!Error: Timed out waiting for response
+02/12/2021_19:31:10,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.69,52.88,Prendido
+02/12/2021_19:31:15,!Error: Timed out waiting for response
+02/12/2021_19:31:16,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,59.81,52.88,Prendido
+02/12/2021_19:31:22,!Error: Timed out waiting for response
+02/12/2021_19:31:22,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.75,52.81,Prendido
+02/12/2021_19:31:28,!Error: Timed out waiting for response
+02/12/2021_19:31:29,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,59.88,52.88,Prendido
+02/12/2021_19:31:34,!Error: Timed out waiting for response
+02/12/2021_19:31:35,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.88,52.88,Prendido
+02/12/2021_19:31:41,!Error: Timed out waiting for response
+02/12/2021_19:31:42,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.88,52.88,Prendido
+02/12/2021_19:31:47,!Error: Timed out waiting for response
+02/12/2021_19:31:48,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.44,60.00,52.88,Prendido
+02/12/2021_19:31:53,!Error: Timed out waiting for response
+02/12/2021_19:31:54,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,60.00,52.88,Prendido
+02/12/2021_19:32:00,!Error: Timed out waiting for response
+02/12/2021_19:32:01,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,60.06,52.88,Apagado
+02/12/2021_19:32:06,!Error: Timed out waiting for response
+02/12/2021_19:32:07,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,60.13,52.94,Apagado
+02/12/2021_19:32:13,!Error: Timed out waiting for response
+02/12/2021_19:32:14,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,60.00,52.88,Prendido
+02/12/2021_19:32:19,!Error: Timed out waiting for response
+02/12/2021_19:32:20,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.44,59.81,52.88,Prendido
+02/12/2021_19:32:25,!Error: Timed out waiting for response
+02/12/2021_19:32:26,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.44,59.75,52.88,Prendido
+02/12/2021_19:32:32,!Error: Timed out waiting for response
+02/12/2021_19:32:33,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.63,52.88,Prendido
+02/12/2021_19:32:38,!Error: Timed out waiting for response
+02/12/2021_19:32:39,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.56,52.88,Prendido
+02/12/2021_19:32:45,!Error: Timed out waiting for response
+02/12/2021_19:32:45,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.56,52.94,Prendido
+02/12/2021_19:32:51,!Error: Timed out waiting for response
+02/12/2021_19:32:52,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.63,52.94,Prendido
+02/12/2021_19:32:57,!Error: Timed out waiting for response
+02/12/2021_19:32:58,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.63,52.88,Prendido
+02/12/2021_19:33:04,!Error: Timed out waiting for response
+02/12/2021_19:33:05,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.38,53.38,59.63,52.94,Prendido
+02/12/2021_19:33:10,!Error: Timed out waiting for response
+02/12/2021_19:33:11,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.63,52.88,Prendido
+02/12/2021_19:33:17,!Error: Timed out waiting for response
+02/12/2021_19:33:17,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.63,50.31,53.38,59.63,52.88,Prendido
+02/12/2021_19:33:23,!Error: Timed out waiting for response
+02/12/2021_19:33:24,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.75,52.94,Prendido
+02/12/2021_19:33:29,!Error: Timed out waiting for response
+02/12/2021_19:33:30,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.81,52.94,Prendido
+02/12/2021_19:33:36,!Error: Timed out waiting for response
+02/12/2021_19:33:37,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.31,53.31,59.88,52.94,Prendido
+02/12/2021_19:33:42,!Error: Timed out waiting for response
+02/12/2021_19:33:43,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.31,53.44,59.94,52.94,Prendido
+02/12/2021_19:33:49,!Error: Timed out waiting for response
+02/12/2021_19:33:49,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,60.06,52.94,Apagado
+02/12/2021_19:33:55,!Error: Timed out waiting for response
+02/12/2021_19:33:56,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,60.13,52.94,Apagado
+02/12/2021_19:34:01,!Error: Timed out waiting for response
+02/12/2021_19:34:02,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.31,53.38,59.88,52.94,Prendido
+02/12/2021_19:34:08,!Error: Timed out waiting for response
+02/12/2021_19:34:09,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.63,52.94,Prendido
+02/12/2021_19:34:14,!Error: Timed out waiting for response
+02/12/2021_19:34:15,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.63,52.94,Prendido
+02/12/2021_19:34:21,!Error: Timed out waiting for response
+02/12/2021_19:34:21,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.63,52.94,Prendido
+02/12/2021_19:34:27,!Error: Timed out waiting for response
+02/12/2021_19:34:28,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.31,59.69,52.94,Prendido
+02/12/2021_19:34:33,!Error: Timed out waiting for response
+02/12/2021_19:34:34,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.69,52.88,Prendido
+02/12/2021_19:34:40,!Error: Timed out waiting for response
+02/12/2021_19:34:41,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.69,52.94,Prendido
+02/12/2021_19:34:46,!Error: Timed out waiting for response
+02/12/2021_19:34:47,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.31,53.38,59.56,53.00,Prendido
+02/12/2021_19:34:52,!Error: Timed out waiting for response
+02/12/2021_19:34:53,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.31,59.63,52.94,Prendido
+02/12/2021_19:34:59,!Error: Timed out waiting for response
+02/12/2021_19:35:00,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.63,52.94,Prendido
+02/12/2021_19:35:05,!Error: Timed out waiting for response
+02/12/2021_19:35:06,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.69,52.94,Prendido
+02/12/2021_19:35:12,!Error: Timed out waiting for response
+02/12/2021_19:35:12,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,59.75,52.94,Prendido
+02/12/2021_19:35:18,!Error: Timed out waiting for response
+02/12/2021_19:35:19,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.31,59.88,52.94,Prendido
+02/12/2021_19:35:24,!Error: Timed out waiting for response
+02/12/2021_19:35:25,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.31,59.94,52.94,Prendido
+02/12/2021_19:35:31,!Error: Timed out waiting for response
+02/12/2021_19:35:32,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.31,53.31,60.00,52.94,Prendido
+02/12/2021_19:35:37,!Error: Timed out waiting for response
+02/12/2021_19:35:38,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.50,50.38,53.31,60.00,52.94,Prendido
+02/12/2021_19:35:44,!Error: Timed out waiting for response
+02/12/2021_19:35:44,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.38,60.06,52.94,Apagado
+02/12/2021_19:35:50,!Error: Timed out waiting for response
+02/12/2021_19:35:51,0,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,49.56,50.38,53.31,60.19,53.00,Apagado
+02/12/2021_19:35:56,!Error: Timed out waiting for response
