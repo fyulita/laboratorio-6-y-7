@@ -8,14 +8,10 @@
 #define baudrate 9600
 #define pinDatosDQ 2
 #define pinRelayTemp 3
-#define pinRelayValvulaCO2_1 4
-#define pinRelayValvulaCO2_2 6
-#define pinRelayValvulaCO2_3 8
-#define pinRelayValvulaCO2_4 10
-#define pinRelayValvulaCompost_1 5
-#define pinRelayValvulaCompost_2 7
-#define pinRelayValvulaCompost_3 9
-#define pinRelayValvulaCompost_4 11
+#define pinRelayValvula_1 4
+#define pinRelayValvula_2 5
+#define pinRelayValvula_3 6
+#define pinRelayValvula_4 7
 #define pinRx 12
 #define pinTx 13
 
@@ -29,8 +25,8 @@ SoftwareSerial mySerial(pinRx, pinTx);
 
 // Time intervals
 
-#define compostTime 14400000 // 4h
-#define co2Time 1800000 // 30 mins.
+//#define co2Time 1800000 // 30 mins.
+#define co2Time 300000    // 30 mins.
 
 const int loopTime = 5000;
 unsigned long currentTime = 0;
@@ -38,7 +34,7 @@ unsigned long previousTime = 0;
 
 
 // Which CO2 sensor is being used. 0 means the sensor isn't being used.
-int useSensor = 0;
+int useSensor = 1;
 
 
 // Cutoff temperature for the compost
@@ -55,27 +51,19 @@ void setup() {
 
     // Relay pins
     pinMode(pinRelayTemp, OUTPUT);
-    pinMode(pinRelayValvulaCO2_1, OUTPUT);
-    pinMode(pinRelayValvulaCO2_2, OUTPUT);
-    pinMode(pinRelayValvulaCO2_3, OUTPUT);
-    pinMode(pinRelayValvulaCO2_4, OUTPUT);
-    pinMode(pinRelayValvulaCompost_1, OUTPUT);
-    pinMode(pinRelayValvulaCompost_2, OUTPUT);
-    pinMode(pinRelayValvulaCompost_3, OUTPUT);
-    pinMode(pinRelayValvulaCompost_4, OUTPUT);
+    pinMode(pinRelayValvula_1, OUTPUT);
+    pinMode(pinRelayValvula_2, OUTPUT);
+    pinMode(pinRelayValvula_3, OUTPUT);
+    pinMode(pinRelayValvula_4, OUTPUT);
 
     // Calibrate CO2 sensor
     myMHZ19.autoCalibration();
 
     // Initialize valves
-    digitalWrite(pinRelayValvulaCO2_1, LOW);
-    digitalWrite(pinRelayValvulaCO2_2, LOW);
-    digitalWrite(pinRelayValvulaCO2_3, LOW);
-    digitalWrite(pinRelayValvulaCO2_4, LOW);
-    digitalWrite(pinRelayValvulaCompost_1, HIGH);
-    digitalWrite(pinRelayValvulaCompost_2, HIGH);
-    digitalWrite(pinRelayValvulaCompost_3, HIGH);
-    digitalWrite(pinRelayValvulaCompost_4, HIGH);
+    digitalWrite(pinRelayValvula_1, HIGH);
+    digitalWrite(pinRelayValvula_2, LOW);
+    digitalWrite(pinRelayValvula_3, LOW);
+    digitalWrite(pinRelayValvula_4, LOW);
 }
 
  
@@ -87,84 +75,47 @@ void loop() {
     // millis() can run without an overflow for up to 5 months
     currentTime = millis();
 
-    if (useSensor != 0) {
-        for (int i = 1; i <= 4; i++) {
-            if (i == useSensor) {
-                // CO2 valve
-                Serial.print("Prendido");
-                Serial.print(",");
-                // Compost valve
-                Serial.print("Apagado");
-                Serial.print(",");
-            } else {
-                // CO2 valve
-                Serial.print("Apagado");
-                Serial.print(",");
-                // Compost valve
-                Serial.print("Prendido");
-                Serial.print(",");
-            }
-        }
-
-        if (currentTime - previousTime >= co2Time) {
-            previousTime = currentTime;
-            
-            if (useSensor == 1) {
-                //Serial.print("((useSensor = 1))");
-                // Turn CO2 valve 1 off
-                digitalWrite(pinRelayValvulaCompost_1, HIGH);
-                digitalWrite(pinRelayValvulaCO2_1, LOW);
-                // Turn CO2 valve 2 on
-                digitalWrite(pinRelayValvulaCO2_2, HIGH);
-                digitalWrite(pinRelayValvulaCompost_2, LOW);
-                
-                useSensor = 2;
-            } else if (useSensor == 2) {
-                //Serial.print("((useSensor = 2))");
-                // Turn CO2 valve 2 off
-                digitalWrite(pinRelayValvulaCompost_2, HIGH);
-                digitalWrite(pinRelayValvulaCO2_2, LOW);
-                // Turn CO2 valve 3 on
-                digitalWrite(pinRelayValvulaCO2_3, HIGH);
-                digitalWrite(pinRelayValvulaCompost_3, LOW);
-                
-                useSensor = 3;
-            } else if (useSensor == 3) {
-                //Serial.print("((useSensor = 3))");
-                // Turn CO2 valve 3 off
-                digitalWrite(pinRelayValvulaCompost_3, HIGH);
-                digitalWrite(pinRelayValvulaCO2_3, LOW);
-                // Turn CO2 valve 4 on
-                digitalWrite(pinRelayValvulaCO2_4, HIGH);
-                digitalWrite(pinRelayValvulaCompost_4, LOW);
-                
-                useSensor = 4;
-            } else {
-                //Serial.print("((useSensor = 4))");
-                // Turn CO2 valve 4 off
-                digitalWrite(pinRelayValvulaCompost_4, HIGH);
-                digitalWrite(pinRelayValvulaCO2_4, LOW);
-
-                useSensor = 0;
-            }
-        }
-    } else { // useSensor = 0
-        for (int i = 1; i <= 4; i++) {
+    for (int i = 1; i <= 4; i++) {
+        if (i == useSensor) {
+            // CO2 valve
+            Serial.print("Prendido");
+            Serial.print(",");
+        } else {
             // CO2 valve
             Serial.print("Apagado");
             Serial.print(",");
-            // Compost valve
-            Serial.print("Prendido");
-            Serial.print(",");
         }
-                                                         
-        if (currentTime - previousTime >= compostTime) {
-            previousTime = currentTime;
+    }
 
-            //Serial.print("((useSensor = 0))");                                           
-            // Turn CO2 valve 1 on                       
-            digitalWrite(pinRelayValvulaCO2_1, HIGH);
-            digitalWrite(pinRelayValvulaCompost_1, LOW);
+    if (currentTime - previousTime >= co2Time) {
+        previousTime = currentTime;
+        
+        if (useSensor == 1) {
+            // Turn CO2 valve 1 off
+            digitalWrite(pinRelayValvula_1, LOW);
+            // Turn CO2 valve 2 on
+            digitalWrite(pinRelayValvula_2, HIGH);
+            
+            useSensor = 2;
+        } else if (useSensor == 2) {
+            // Turn CO2 valve 2 off
+            digitalWrite(pinRelayValvula_2, LOW);
+            // Turn CO2 valve 3 on
+            digitalWrite(pinRelayValvula_3, HIGH);
+            
+            useSensor = 3;
+        } else if (useSensor == 3) {
+            // Turn CO2 valve 3 off
+            digitalWrite(pinRelayValvula_3, LOW);
+            // Turn CO2 valve 4 on
+            digitalWrite(pinRelayValvula_4, HIGH);
+            
+            useSensor = 4;
+        } else {
+            // Turn CO2 valve 4 off
+            digitalWrite(pinRelayValvula_4, LOW);
+            // Turn CO2 valve 1 on
+            digitalWrite(pinRelayValvula_1, HIGH);
 
             useSensor = 1;
         }
