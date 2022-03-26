@@ -1,0 +1,2 @@
+-En esta carpeta tiene Warning 111,244,48
+-La primera, tercera, cuarta danza y promedios bien. La segunda por alguna razón le pone comillas a justo donde comienza las posiciones de danza, entonces lo que hice fue separar la 3ra y 4ta danza en una carpeta aparte (llamada 3-4) y correr el notebook para que calcule los promedios, para la 1ra también ya lo había hecho aparte, y la 2da calculé sus promedios "a mano". Junté todo en el archivo correspondiente llamado promedio, pero en verdad tuve que meter mano, no lo hizo todo solo.
