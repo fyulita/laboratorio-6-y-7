@@ -1,0 +1,46 @@
+Date_Time,CO2,Estado_Valvula_CO2,Estado_Valvula_Compost,Temp_Compost,Temp_Suncho,Estado_Suncho
+10/03/2022_17:59:20,\x
+10/03/2022_17:59:23,!Error: Timed out waiting for response
+10/03/2022_17:59:23,!ERROR: Failed to verify connection(1) to sensor.
+10/03/2022_17:59:23,!ERROR: Initial communication errorCode recieved
+10/03/2022_17:59:23,!Error: Timed out waiting for response
+10/03/2022_17:59:24,!Error: Timed out waiting for response
+10/03/2022_17:59:24,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_17:59:30,!Error: Timed out waiting for response
+10/03/2022_17:59:30,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_17:59:36,!Error: Timed out waiting for response
+10/03/2022_17:59:36,0,Apagado,Prendido,24.87,24.50,Prendido
+10/03/2022_17:59:42,!Error: Timed out waiting for response
+10/03/2022_17:59:42,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_17:59:48,!Error: Timed out waiting for response
+10/03/2022_17:59:49,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_17:59:54,!Error: Timed out waiting for response
+10/03/2022_17:59:55,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:00,!Error: Timed out waiting for response
+10/03/2022_18:00:01,0,Apagado,Prendido,24.87,24.56,Prendido
+10/03/2022_18:00:06,!Error: Timed out waiting for response
+10/03/2022_18:00:07,0,Apagado,Prendido,24.87,24.50,Prendido
+10/03/2022_18:00:12,!Error: Timed out waiting for response
+10/03/2022_18:00:13,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:19,!Error: Timed out waiting for response
+10/03/2022_18:00:19,0,Apagado,Prendido,24.81,24.56,Prendido
+10/03/2022_18:00:25,!Error: Timed out waiting for response
+10/03/2022_18:00:25,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:31,!Error: Timed out waiting for response
+10/03/2022_18:00:31,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:37,!Error: Timed out waiting for response
+10/03/2022_18:00:37,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:43,!Error: Timed out waiting for response
+10/03/2022_18:00:44,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:49,!Error: Timed out waiting for response
+10/03/2022_18:00:50,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:00:55,!Error: Timed out waiting for response
+10/03/2022_18:00:56,0,Apagado,Prendido,24.81,24.56,Prendido
+10/03/2022_18:01:01,!Error: Timed out waiting for response
+10/03/2022_18:01:02,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:01:07,!Error: Timed out waiting for response
+10/03/2022_18:01:08,0,Apagado,Prendido,24.87,24.50,Prendido
+10/03/2022_18:01:13,!Error: Timed out waiting for response
+10/03/2022_18:01:14,0,Apagado,Prendido,24.81,24.50,Prendido
+10/03/2022_18:01:20,!Error: Timed out waiting for response
+10/03/2022_18:01:20,0,Apagado,Prendido,24.87,24.50,Prendido

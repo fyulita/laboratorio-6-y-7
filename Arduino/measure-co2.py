@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 
-arduino_port = "COM3"   # Serial port of Arduino
+arduino_port = "/dev/ttyUSB0"   # Serial port of Arduino
 baud = 9600 # Arduino UNO runs at 9600 baud
 
 ser = serial.Serial(arduino_port, baud)

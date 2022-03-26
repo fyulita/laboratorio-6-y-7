@@ -2,8 +2,8 @@
 #include <MHZ19.h>                                        
 #include <SoftwareSerial.h>                                // Remove if using HardwareSerial
 
-#define RX_PIN 12                                        // Rx pin which the MHZ19 Tx pin is attached to
-#define TX_PIN 13                                          // Tx pin which the MHZ19 Rx pin is attached to
+#define RX_PIN 8                                           // Rx pin which the MHZ19 Tx pin is attached to
+#define TX_PIN 9                                           // Tx pin which the MHZ19 Rx pin is attached to
 #define BAUDRATE 9600                                      // Device to MH-Z19 Serial baudrate (should not be changed)
 
 MHZ19 myMHZ19;                                             // Constructor for library
