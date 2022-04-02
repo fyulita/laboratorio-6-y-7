@@ -42,7 +42,7 @@ int useSensor = 0;
 
 
 // Cutoff temperature for the compost
-const unsigned int cutoffTemp = 60;
+const unsigned int cutoffTemp = 55;
 
 
 void setup() {
