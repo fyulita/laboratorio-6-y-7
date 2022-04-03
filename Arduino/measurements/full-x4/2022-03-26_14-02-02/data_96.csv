@@ -1,4 +1,4 @@
-Date_Time,CO2,Estado_Valvula_1,Estado_Valvula_2,Estado_Valvula_3,Estado_Valvula_4,Temp_Compost_1,Temp_Compost_2,Temp_Compost_3,Temp_Compost_4,Temp_Suncho,Estado_Suncho
+Date_Time,CO2,Estado_Valvula_CO2_1,Estado_Valvula_Compost_1,Estado_Valvula_CO2_2,Estado_Valvula_Compost_2,Estado_Valvula_CO2_3,Estado_Valvula_Compost_3,Estado_Valvula_CO2_4,Estado_Valvula_Compost_4,Temp_Compost_1,Temp_Compost_2,Temp_Compost_3,Temp_Compost_4,Temp_Suncho,Estado_Suncho
 27/03/2022_05:40:30,772,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,62.63,44.75,44.31,51.88,37.75,Prendido
 27/03/2022_05:40:36,773,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,62.56,44.69,44.31,51.81,37.75,Prendido
 27/03/2022_05:40:42,774,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,Apagado,Prendido,62.63,44.69,44.31,51.88,37.69,Prendido
