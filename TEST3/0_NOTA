@@ -1,13 +1,61 @@
 1) 22 DE MARZO correspondiente a carpeta '2022-03-22_19-59-55', una medición media mala a las 00 hs del 23 de marzo
+van una med
 2) 23 DE MARZO correspondiente a carpeta '2022-03-23_10-11-20', una medición media mala a las 11 hs del 23 de marzo
+van dos med
 3) 23 DE MARZO correspondiente a carpeta '2022-03-23_13-51-15', una medición buena a las 15 hs del 23 de marzo
+van 3 med
 4) 24 DE MARZO correspondiente a carpeta '2022-03-24_00-51-44', una medición buena a las 2 AM, sumada a mano la medición del 4to que se hizo luego que por alguna razón dio 0ppm (que sale de la carpeta '2022-03-24_04-46-10')
+van 4 med
 5) 24 DE MARZO correspondiente a carpeta '2022-03-24_05-33-24', una medición buena a las 6.30 AM
+van 5 med
+
 BREAK PARA REGAR Y SACAR FOTOS. En el medio se me apagó la compy y se perdió la medición
+
 6) 24 DE MARZO correspondiente a carpeta '2022-03-24_15-05-20', CUATRO mediciones buenas a las 17 hs, 21 hs, 1 AM, 5 AM
-7) 25 DE MARZO correspondiente a la carpeta '', SEIS mediciones buenas cada 4 hs, 10.30 AM ... Algunos archivos tienen /X medio raro... tuve que separar los archivos
-8) 26 DE MARZO correspondiente a la carpeta '2022-03-26_14-02-02', CINCO mediciones buenas cada 4 hs, 18 hs ... Algunos archivos tienen /X medio raro... tuve que separar los archivos
+van 9 med
+
+7) 25 DE MARZO correspondiente a la carpeta '2022-03-25_07-30-02', SEIS mediciones buenas a las 10.30, 15.30, 20.30, 01.30, 06.30, 11.30 ... Algunos archivos tienen /X medio raro... tuve que separar los archivos
+van 15 med
+
+8) 26 DE MARZO correspondiente a la carpeta '2022-03-26_14-02-02', CINCO mediciones buenas cada 4 hs, desde 18 hs, 00, 06, 18 ... Algunos archivos tienen /X medio raro... tuve que separar los archivos
+van 20 med
+
 2022-03-27_20-20-20 MEDICIÓN FALLÓ, MARCÓ 0ppm
+
 9) 28 DE MARZO '2022-03-28_07-19-09', una medición buena a las 8 AM
-10) 28 DE MARZO '2022-03-28_10-12-37', mediciones buenas cada 4 hs, a las 14 hs
-INCLUIDA HASTA LA NOVENA, porque después midió 0 ppm... algo pasó...
+van 21 med
+
+10) 28 DE MARZO '2022-03-28_10-12-37' 1-9 , NUEVE mediciones buenas cada 4 hs, desde las 14 hs
+INCLUIDA HASTA LA NOVENA, porque después (data_350.csv) midió 0 ppm... algo pasó... LPM
+Midió 0ppm desde data_350 hasta data_519, que corresponde a CINCO mediciones PERDIDAS (carpeta 'perdidas-10-14')
+
+van 30 med
+
+11) 01 DE ABRIL '2022-03-28_10-12-37', 15-, SEIS mediciones buenas cada 4hs, desde las 2 AM
+
+van 36 med
+
+12) 02 DE ABRIL '2022-04-02_16-17-47', una medición buena a las 16.30 hs
+
+van 37 med
+
+13) 02 DE ABRIL '2022-04-02_19-42-28', una medición buena a las 23.40 h. La que le correspondía, luego de 4h, dio 0ppm la cuarta línea, así que perdida
+
+van 3 med
+
+14) 03 de ABRIL '2022-04-03_12-28-33', una medición buena a las 13.30 hs. (se le tuvo que agregar aparte el de la 4ta línea porque medía 0)
+
+van 39 med
+
+15) 03 DE ABRIL '2022-04-03_17-24-39', TRES mediciones buenas a las 18.30, 21.30, 00.30, y la sig medición a las  03.30 midieron todos menos la 4ta que midió 0ppm (y la que le sigue, la quinta, también). Lo dejé igual para aprovechar los demás, elegir si sacar.
+
+van 43 med 
+
+Fallo:04 DE ABRIL '2022-04-04_09-22-33', la 3er línea midió 0ppm
+
+16) 04 DE ABRIL '2022-04-04_11-31-54', DIEZ mediciones buenas cada 3h, desde las 12.30, 15.30, 18.30, 21.30,00.30... 18.30. La número once la 4ta midió 0ppm, pero la dejé igual para aprovechar las demás, elegir si sacar.
+
+van 54 med
+
+17) 05 DE ABRIL '2022-04-05_22-21-39'
+
