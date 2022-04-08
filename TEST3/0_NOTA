@@ -28,34 +28,33 @@ van 21 med
 10) 28 DE MARZO '2022-03-28_10-12-37' 1-9 , NUEVE mediciones buenas cada 4 hs, desde las 14 hs
 INCLUIDA HASTA LA NOVENA, porque después (data_350.csv) midió 0 ppm... algo pasó... LPM
 Midió 0ppm desde data_350 hasta data_519, que corresponde a CINCO mediciones PERDIDAS (carpeta 'perdidas-10-14')
-
 van 30 med
 
 11) 01 DE ABRIL '2022-03-28_10-12-37', 15-, SEIS mediciones buenas cada 4hs, desde las 2 AM
-
 van 36 med
 
 12) 02 DE ABRIL '2022-04-02_16-17-47', una medición buena a las 16.30 hs
-
 van 37 med
 
 13) 02 DE ABRIL '2022-04-02_19-42-28', una medición buena a las 23.40 h. La que le correspondía, luego de 4h, dio 0ppm la cuarta línea, así que perdida
-
 van 3 med
 
 14) 03 de ABRIL '2022-04-03_12-28-33', una medición buena a las 13.30 hs. (se le tuvo que agregar aparte el de la 4ta línea porque medía 0)
-
 van 39 med
 
 15) 03 DE ABRIL '2022-04-03_17-24-39', TRES mediciones buenas a las 18.30, 21.30, 00.30, y la sig medición a las  03.30 midieron todos menos la 4ta que midió 0ppm (y la que le sigue, la quinta, también). Lo dejé igual para aprovechar los demás, elegir si sacar.
-
 van 43 med 
 
 Fallo:04 DE ABRIL '2022-04-04_09-22-33', la 3er línea midió 0ppm
 
 16) 04 DE ABRIL '2022-04-04_11-31-54', DIEZ mediciones buenas cada 3h, desde las 12.30, 15.30, 18.30, 21.30,00.30... 18.30. La número once la 4ta midió 0ppm, pero la dejé igual para aprovechar las demás, elegir si sacar.
-
 van 54 med
 
-17) 05 DE ABRIL '2022-04-05_22-21-39'
+17) 05 DE ABRIL '2022-04-05_22-21-39', QUINCE mediciones buenas cada 3h, desde las 23.30 h, 02.30 h, ... , 17.30 h del día 07 de abril. Se interrumpió el txt porque se cortó la luz, pero por suerte no se interrumpió ninguna medición y al minuto se volvió a correr el programa.
+van 69 med
+
+18) 07 DE ABRIL '2022-04-07_20-17-51', DOS mediciones buenas cada 3h, a las 21.30 h y 00.30, lamentablemente en la 3ra medición se cortó la luz y se perdieron algunas mediciones
+van 71 med
+
+19) 08 DE ABRIL '2022-04-08_10-23-42', 
 
